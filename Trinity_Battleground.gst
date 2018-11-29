@@ -1105,6 +1105,124 @@
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="60.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="64ad-5b48-f886-197a" name="L-K Junior Light Coilgun" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="36f0-5b9a-c0d7-6bde" name="L-K Junior Light Coilgun" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="4"/>
+                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="20"/>
+                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="44"/>
+                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="9"/>
+                  </characteristics>
+                </profile>
+                <profile id="44db-2caf-2484-a5ec" name="L-K Junior Light Coilgun" hidden="false" profileTypeId="5baf-05a0-0685-df3b" profileTypeName="Armor">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Armor Rating" characteristicTypeId="c78b-5abb-7b5a-9edb" value="1"/>
+                  </characteristics>
+                </profile>
+                <profile id="16a4-11c0-4cd0-bcc9" name="L-K Junior Light Coilgun" hidden="false" profileTypeId="143c-c300-69ac-1a28" profileTypeName="Area off Effect">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Template" characteristicTypeId="ec7e-dbb6-f299-0ba3" value="5-inch"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="100.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8c23-9d89-f2fc-6223" name="L-K Killjoy Missile Launcher" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="f8b9-3473-fa96-444b" name="L-K Killjoy Missile Launcher" book="" page="" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="4"/>
+                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="16"/>
+                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="40"/>
+                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="10"/>
+                  </characteristics>
+                </profile>
+                <profile id="3add-a301-59ae-a1e1" name="L-K Killjoy Missile Launcher" hidden="false" profileTypeId="143c-c300-69ac-1a28" profileTypeName="Area off Effect">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Template" characteristicTypeId="ec7e-dbb6-f299-0ba3" value="7-inch"/>
+                  </characteristics>
+                </profile>
+                <profile id="790f-7dc8-754c-85df" name="L-K Killjoy Missile Launcher" hidden="false" profileTypeId="5baf-05a0-0685-df3b" profileTypeName="Armor">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Armor Rating" characteristicTypeId="c78b-5abb-7b5a-9edb" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="125.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="2446-adf2-9935-73e8" name="Armor" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4451-762b-073d-b6af" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="6dea-5082-0e3c-ed6d" name="Armor Vest" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
