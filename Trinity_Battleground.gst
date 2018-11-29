@@ -58,9 +58,10 @@
     <profileType id="ca80-b611-54a5-fbf2" name="Ranged Weapon">
       <characteristicTypes>
         <characteristicType id="3c0a-fe11-d445-0c4f" name="APs"/>
-        <characteristicType id="ef03-c22a-d909-9299" name="Range"/>
-        <characteristicType id="Damage" name="Damage"/>
-        <characteristicType id="ab7d-c9c0-7823-81e8" name="Size"/>
+        <characteristicType id="ef03-c22a-d909-9299" name="Short Range"/>
+        <characteristicType id="8212-3e35-fc57-aeb7" name="Long Range"/>
+        <characteristicType id="c345-c828-2990-c666" name="Damage"/>
+        <characteristicType id="4097-eac9-7047-1c2a" name="Size"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -484,36 +485,62 @@
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="21e5-cfc0-032d-f027" name="Banji Cyclone" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
-      <profiles>
-        <profile id="8716-2edd-3b52-b3f9" name="Banji Cyclone" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="2"/>
-            <characteristic name="Range" characteristicTypeId="ef03-c22a-d909-9299" value="8/18"/>
-            <characteristic name="Damage" characteristicTypeId="Damage" value="3"/>
-            <characteristic name="Size" characteristicTypeId="ab7d-c9c0-7823-81e8" value="1"/>
-          </characteristics>
-        </profile>
-      </profiles>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="a59a-4017-c685-48c1" name="Equipment" book="Rulebook" page="69" hidden="false" collective="false">
+      <profiles/>
       <rules/>
       <infoLinks/>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="feac-0351-afa8-066a" name="Ranged Weapons" book="Rulebook" page="69" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="cd5d-8920-ce1b-3547" name="Banji Cyclone" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="8cb5-3892-5ec6-63fb" name="Banji Cyclone" book="Rulebook" page="69" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="2"/>
+                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="8"/>
+                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="18"/>
+                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="3"/>
+                    <characteristic name="Size" characteristicTypeId="4097-eac9-7047-1c2a" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
-      <costs>
-        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
-        <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-      </costs>
-    </selectionEntry>
-  </sharedSelectionEntries>
-  <sharedSelectionEntryGroups/>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="3e7a-7ab5-491b-9884" name="Command Radius" book="Rulebook" page="47" hidden="false">
       <profiles/>

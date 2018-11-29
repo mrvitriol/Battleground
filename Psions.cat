@@ -100,6 +100,7 @@
                 <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6709-9b4e-f639-473b" repeats="2" roundUp="false"/>
                 <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0af2-ba67-e6f8-021e" repeats="4" roundUp="false"/>
                 <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="35ae-33c4-35a7-bcf7" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="66a0-bcd2-bb82-f0c8" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -180,7 +181,7 @@
             </modifier>
             <modifier type="decrement" field="ee77-f6ba-eb39-b452" value="1">
               <repeats>
-                <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="67d5-9bd8-0707-bcf6" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cd5d-8920-ce1b-3547" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -950,31 +951,17 @@
           </selectionEntryGroups>
           <entryLinks/>
         </selectionEntryGroup>
-        <selectionEntryGroup id="bd97-015e-f4cd-0e43" name="Gear" book="Rulebook" page="69" hidden="false" collective="false">
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="0651-a9dd-3fd7-cc2e" name="Tier" book="Rulebook" page="75" hidden="false" targetId="e288-74d1-7217-70a2" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
           <categoryLinks/>
-          <selectionEntries/>
-          <selectionEntryGroups/>
-          <entryLinks>
-            <entryLink id="67d5-9bd8-0707-bcf6" name="Banji Cyclone" hidden="false" targetId="21e5-cfc0-032d-f027" type="selectionEntry">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9b44-3764-6813-465c" type="max"/>
-              </constraints>
-              <categoryLinks/>
-            </entryLink>
-          </entryLinks>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="0651-a9dd-3fd7-cc2e" name="Tier" hidden="false" targetId="e288-74d1-7217-70a2" type="selectionEntryGroup">
+        </entryLink>
+        <entryLink id="a4c5-3e1f-2cc7-f2ee" name="Equipment" hidden="false" targetId="a59a-4017-c685-48c1" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
