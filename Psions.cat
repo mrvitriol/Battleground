@@ -182,7 +182,7 @@
       </categoryLinks>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="dd85-1419-8aaa-baa9" name="Abilities" hidden="false" collective="false">
+        <selectionEntryGroup id="dd85-1419-8aaa-baa9" name="2 - Abilities" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -402,7 +402,7 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
-        <selectionEntryGroup id="8920-e1bb-557c-2731" name="Skills" book="Rulebook" page="62" hidden="false" collective="false">
+        <selectionEntryGroup id="8920-e1bb-557c-2731" name="3 - Skills" book="Rulebook" page="62" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -965,7 +965,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="e288-74d1-7217-70a2" name="Tier" hidden="false" collective="false" defaultSelectionEntryId="35ae-33c4-35a7-bcf7">
+    <selectionEntryGroup id="e288-74d1-7217-70a2" name="1 - Tier" hidden="false" collective="false" defaultSelectionEntryId="35ae-33c4-35a7-bcf7">
       <profiles/>
       <rules/>
       <infoLinks/>

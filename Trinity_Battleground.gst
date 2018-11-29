@@ -75,6 +75,15 @@
         <characteristicType id="ec7e-dbb6-f299-0ba3" name="Template"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="979b-aa11-d18f-36b7" name="Heavy Weapon">
+      <characteristicTypes>
+        <characteristicType id="12fc-aa59-5084-5b01" name="APs"/>
+        <characteristicType id="d06d-a4bb-d30c-869b" name="Short Range"/>
+        <characteristicType id="bcd4-800a-59dc-2e27" name="Long Range"/>
+        <characteristicType id="a18b-e1e3-8e32-52ea" name="Damge"/>
+        <characteristicType id="4974-8783-fd73-e809" name="Template"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="7db3-5516-f4fa-9d29" name="Individual" hidden="false">
@@ -683,7 +692,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="a59a-4017-c685-48c1" name="Equipment" book="Rulebook" page="69" hidden="false" collective="false">
+    <selectionEntryGroup id="a59a-4017-c685-48c1" name="4 - Equipment" book="Rulebook" page="69" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -692,7 +701,7 @@
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="feac-0351-afa8-066a" name="Ranged Weapons" book="Rulebook" page="69" hidden="false" collective="false">
+        <selectionEntryGroup id="feac-0351-afa8-066a" name="4.2 - Ranged Weapons" book="Rulebook" page="69" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -731,7 +740,7 @@
             </selectionEntry>
             <selectionEntry id="afa6-7efc-3359-8385" name="L-K Avanger" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
               <profiles>
-                <profile id="cd01-5661-2a77-1920" name="L-K Avanger" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                <profile id="cd01-5661-2a77-1920" name="L-K Avanger" book="Rulebook" page="69" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -760,7 +769,7 @@
             </selectionEntry>
             <selectionEntry id="9d0c-c49e-557e-bbec" name="Banji Thunder Shotgun" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
               <profiles>
-                <profile id="6722-4d15-7ea9-f3db" name="Banji Thunder Shotgun" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                <profile id="6722-4d15-7ea9-f3db" name="Banji Thunder Shotgun" book="Rulebook" page="69" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -789,7 +798,7 @@
             </selectionEntry>
             <selectionEntry id="1ff3-db72-9cb2-09a2" name="Voss 63K Laser" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
               <profiles>
-                <profile id="6a9a-17d9-108f-29eb" name="Voss 63K Laser" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                <profile id="6a9a-17d9-108f-29eb" name="Voss 63K Laser" book="Rulebook" page="69" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -818,7 +827,7 @@
             </selectionEntry>
             <selectionEntry id="3912-0245-8c86-f443" name="Las-Gauntlet" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
               <profiles>
-                <profile id="a6e5-9451-f9a9-0671" name="Las-Gauntlet" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                <profile id="a6e5-9451-f9a9-0671" name="Las-Gauntlet" book="Rulebook" page="69" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -847,7 +856,7 @@
             </selectionEntry>
             <selectionEntry id="bf6e-ab5b-15bc-67fa" name="Aris Sonic Carbine" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
               <profiles>
-                <profile id="a5f2-162a-1684-70ed" name="Aris Sonic Carbine" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                <profile id="a5f2-162a-1684-70ed" name="Aris Sonic Carbine" book="Rulebook" page="69" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -886,7 +895,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
-        <selectionEntryGroup id="ceaa-92f2-0c67-d7f0" name="Melee Weapons" book="Rulebook" page="69" hidden="false" collective="false">
+        <selectionEntryGroup id="ceaa-92f2-0c67-d7f0" name="4.4 - Melee Weapons" book="Rulebook" page="69" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -896,7 +905,7 @@
           <selectionEntries>
             <selectionEntry id="ab65-6282-0d47-51f7" name="Fighting Gloves" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
               <profiles>
-                <profile id="b3b7-1354-9adb-d814" name="Fighting Gloves" book="" hidden="false" profileTypeId="f0c1-28b4-93c2-eb79" profileTypeName="Melee Weapon">
+                <profile id="b3b7-1354-9adb-d814" name="Fighting Gloves" book="Rulebook" page="69" hidden="false" profileTypeId="f0c1-28b4-93c2-eb79" profileTypeName="Melee Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -923,7 +932,7 @@
             </selectionEntry>
             <selectionEntry id="9387-c691-ff26-12fc" name="Claws" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
               <profiles>
-                <profile id="e87b-0897-6c39-2592" name="Claws" hidden="false" profileTypeId="f0c1-28b4-93c2-eb79" profileTypeName="Melee Weapon">
+                <profile id="e87b-0897-6c39-2592" name="Claws" book="Rulebook" page="69" hidden="false" profileTypeId="f0c1-28b4-93c2-eb79" profileTypeName="Melee Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -950,7 +959,7 @@
             </selectionEntry>
             <selectionEntry id="7d14-6df4-96cb-d7fe" name="Vibro Sword" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
               <profiles>
-                <profile id="507f-6110-1a47-4217" name="Vibro Sword" hidden="false" profileTypeId="f0c1-28b4-93c2-eb79" profileTypeName="Melee Weapon">
+                <profile id="507f-6110-1a47-4217" name="Vibro Sword" book="Rulebook" page="69" hidden="false" profileTypeId="f0c1-28b4-93c2-eb79" profileTypeName="Melee Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -987,7 +996,7 @@
                     <characteristic name="Damage" characteristicTypeId="3715-e37a-341b-4ff5" value="7"/>
                   </characteristics>
                 </profile>
-                <profile id="70dd-0d95-07af-44a2" name="Spider Harness" hidden="false" profileTypeId="5baf-05a0-0685-df3b" profileTypeName="Armor">
+                <profile id="70dd-0d95-07af-44a2" name="Spider Harness" book="Rulebook" page="69" hidden="false" profileTypeId="5baf-05a0-0685-df3b" profileTypeName="Armor">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1015,7 +1024,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
-        <selectionEntryGroup id="1d09-59a2-f193-4d37" name="Heavy Weapons" book="Rulebook" page="70" hidden="false" collective="false">
+        <selectionEntryGroup id="1d09-59a2-f193-4d37" name="4.3 - Heavy Weapons" book="Rulebook" page="70" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1025,25 +1034,17 @@
           <selectionEntries>
             <selectionEntry id="85b4-aa87-ccde-039f" name="Grenade" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
               <profiles>
-                <profile id="3001-8ba8-0c32-6687" name="Grenade" hidden="false" profileTypeId="143c-c300-69ac-1a28" profileTypeName="Area off Effect">
+                <profile id="3001-8ba8-0c32-6687" name="Grenade" book="Rulebook" page="70" hidden="false" profileTypeId="979b-aa11-d18f-36b7" profileTypeName="Heavy Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Template" characteristicTypeId="ec7e-dbb6-f299-0ba3" value="5-inch"/>
-                  </characteristics>
-                </profile>
-                <profile id="9e42-cc33-ae27-988a" name="Grenade" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="3"/>
-                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="12"/>
-                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="0"/>
-                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="8"/>
+                    <characteristic name="APs" characteristicTypeId="12fc-aa59-5084-5b01" value="3"/>
+                    <characteristic name="Short Range" characteristicTypeId="d06d-a4bb-d30c-869b" value="12"/>
+                    <characteristic name="Long Range" characteristicTypeId="bcd4-800a-59dc-2e27" value="0"/>
+                    <characteristic name="Damge" characteristicTypeId="a18b-e1e3-8e32-52ea" value="8"/>
+                    <characteristic name="Template" characteristicTypeId="4974-8783-fd73-e809" value="5-inch"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1062,28 +1063,20 @@
             </selectionEntry>
             <selectionEntry id="cd8b-dbc6-1e4c-2375" name="Voss 88T Plasma Gun" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
               <profiles>
-                <profile id="c71c-1bf7-04a1-1930" name="Voss 88T Plasma Gun" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                <profile id="8a69-526b-83a6-8f29" name="Voss 88T Plasma Gun" book="Rulebook" page="70" hidden="false" profileTypeId="979b-aa11-d18f-36b7" profileTypeName="Heavy Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="4"/>
-                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="14"/>
-                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="30"/>
-                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="8"/>
+                    <characteristic name="APs" characteristicTypeId="12fc-aa59-5084-5b01" value="4"/>
+                    <characteristic name="Short Range" characteristicTypeId="d06d-a4bb-d30c-869b" value="14"/>
+                    <characteristic name="Long Range" characteristicTypeId="bcd4-800a-59dc-2e27" value="30"/>
+                    <characteristic name="Damge" characteristicTypeId="a18b-e1e3-8e32-52ea" value="8"/>
+                    <characteristic name="Template" characteristicTypeId="4974-8783-fd73-e809" value="3-inch"/>
                   </characteristics>
                 </profile>
-                <profile id="8a69-526b-83a6-8f29" name="Voss 88T Plasma Gun" hidden="false" profileTypeId="143c-c300-69ac-1a28" profileTypeName="Area off Effect">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Template" characteristicTypeId="ec7e-dbb6-f299-0ba3" value="3-inch"/>
-                  </characteristics>
-                </profile>
-                <profile id="d165-f3a2-83f8-973b" name="Voss 88T Plasma Gun" hidden="false" profileTypeId="5baf-05a0-0685-df3b" profileTypeName="Armor">
+                <profile id="d165-f3a2-83f8-973b" name="Voss 88T Plasma Gun" book="Rulebook" page="70" hidden="false" profileTypeId="5baf-05a0-0685-df3b" profileTypeName="Armor">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1107,19 +1100,7 @@
             </selectionEntry>
             <selectionEntry id="64ad-5b48-f886-197a" name="L-K Junior Light Coilgun" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
               <profiles>
-                <profile id="36f0-5b9a-c0d7-6bde" name="L-K Junior Light Coilgun" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="4"/>
-                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="20"/>
-                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="44"/>
-                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="9"/>
-                  </characteristics>
-                </profile>
-                <profile id="44db-2caf-2484-a5ec" name="L-K Junior Light Coilgun" hidden="false" profileTypeId="5baf-05a0-0685-df3b" profileTypeName="Armor">
+                <profile id="44db-2caf-2484-a5ec" name="L-K Junior Light Coilgun" book="Rulebook" page="70" hidden="false" profileTypeId="5baf-05a0-0685-df3b" profileTypeName="Armor">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1128,13 +1109,17 @@
                     <characteristic name="Armor Rating" characteristicTypeId="c78b-5abb-7b5a-9edb" value="1"/>
                   </characteristics>
                 </profile>
-                <profile id="16a4-11c0-4cd0-bcc9" name="L-K Junior Light Coilgun" hidden="false" profileTypeId="143c-c300-69ac-1a28" profileTypeName="Area off Effect">
+                <profile id="16a4-11c0-4cd0-bcc9" name="L-K Junior Light Coilgun" book="Rulebook" page="70" hidden="false" profileTypeId="979b-aa11-d18f-36b7" profileTypeName="Heavy Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="Template" characteristicTypeId="ec7e-dbb6-f299-0ba3" value="5-inch"/>
+                    <characteristic name="APs" characteristicTypeId="12fc-aa59-5084-5b01" value="4"/>
+                    <characteristic name="Short Range" characteristicTypeId="d06d-a4bb-d30c-869b" value="20"/>
+                    <characteristic name="Long Range" characteristicTypeId="bcd4-800a-59dc-2e27" value="44"/>
+                    <characteristic name="Damge" characteristicTypeId="a18b-e1e3-8e32-52ea" value="9"/>
+                    <characteristic name="Template" characteristicTypeId="4974-8783-fd73-e809" value="5-inch"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -1152,28 +1137,20 @@
             </selectionEntry>
             <selectionEntry id="8c23-9d89-f2fc-6223" name="L-K Killjoy Missile Launcher" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
               <profiles>
-                <profile id="f8b9-3473-fa96-444b" name="L-K Killjoy Missile Launcher" book="" page="" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                <profile id="3add-a301-59ae-a1e1" name="L-K Killjoy Missile Launcher" book="Rulebook" page="70" hidden="false" profileTypeId="979b-aa11-d18f-36b7" profileTypeName="Heavy Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
                   <characteristics>
-                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="4"/>
-                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="16"/>
-                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="40"/>
-                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="10"/>
+                    <characteristic name="APs" characteristicTypeId="12fc-aa59-5084-5b01" value="4"/>
+                    <characteristic name="Short Range" characteristicTypeId="d06d-a4bb-d30c-869b" value="16"/>
+                    <characteristic name="Long Range" characteristicTypeId="bcd4-800a-59dc-2e27" value="40"/>
+                    <characteristic name="Damge" characteristicTypeId="a18b-e1e3-8e32-52ea" value="10"/>
+                    <characteristic name="Template" characteristicTypeId="4974-8783-fd73-e809" value="7-inch"/>
                   </characteristics>
                 </profile>
-                <profile id="3add-a301-59ae-a1e1" name="L-K Killjoy Missile Launcher" hidden="false" profileTypeId="143c-c300-69ac-1a28" profileTypeName="Area off Effect">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Template" characteristicTypeId="ec7e-dbb6-f299-0ba3" value="7-inch"/>
-                  </characteristics>
-                </profile>
-                <profile id="790f-7dc8-754c-85df" name="L-K Killjoy Missile Launcher" hidden="false" profileTypeId="5baf-05a0-0685-df3b" profileTypeName="Armor">
+                <profile id="790f-7dc8-754c-85df" name="L-K Killjoy Missile Launcher" book="Rulebook" page="70" hidden="false" profileTypeId="5baf-05a0-0685-df3b" profileTypeName="Armor">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1199,7 +1176,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
-        <selectionEntryGroup id="2446-adf2-9935-73e8" name="Armor" hidden="false" collective="false">
+        <selectionEntryGroup id="2446-adf2-9935-73e8" name="4.1 - Armor" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1210,6 +1187,162 @@
           <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="6dea-5082-0e3c-ed6d" name="Armor Vest" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="f1ea-f9e8-eb7b-4fcd" name="Armor Vest" book="Rulebook" page="70" hidden="false" profileTypeId="5baf-05a0-0685-df3b" profileTypeName="Armor">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Armor Rating" characteristicTypeId="c78b-5abb-7b5a-9edb" value="2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4a52-8c5b-dd9e-7bf3" name="Field Suit" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="c9fb-a93a-ad39-761e" name="Field Suit" book="Rulebook" page="70" hidden="false" profileTypeId="5baf-05a0-0685-df3b" profileTypeName="Armor">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Armor Rating" characteristicTypeId="c78b-5abb-7b5a-9edb" value="3"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="77c7-ea71-20da-e7bd" name="Armor Carapace" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="73db-5ee2-e6e3-2241" name="Armor Carapace" book="Rulebook" page="70" hidden="false" profileTypeId="5baf-05a0-0685-df3b" profileTypeName="Armor">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Armor Rating" characteristicTypeId="c78b-5abb-7b5a-9edb" value="3"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8d4f-0558-bb84-1329" name="Bioweave Vest" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="dec4-9570-2a42-38f0" name="Bioweave Vest" book="Rulebook" page="70" hidden="false" profileTypeId="5baf-05a0-0685-df3b" profileTypeName="Armor">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Armor Rating" characteristicTypeId="c78b-5abb-7b5a-9edb" value="4"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="40.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8937-7f7a-ad9e-eda3" name="Combat Armor" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="73bf-b7b4-fa37-929c" name="Combat Armor" book="Rulebook" page="70" hidden="false" profileTypeId="5baf-05a0-0685-df3b" profileTypeName="Armor">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Armor Rating" characteristicTypeId="c78b-5abb-7b5a-9edb" value="5"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="55.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="65c7-76cb-8a03-8310" name="Light BioVARG" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="c4f9-b502-85cd-474c" name="Light BioVARG" book="Rulebook" page="70" hidden="false" profileTypeId="5baf-05a0-0685-df3b" profileTypeName="Armor">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Armor Rating" characteristicTypeId="c78b-5abb-7b5a-9edb" value="6"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="70.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="3db2-bd0f-a4b3-04db" name="4.5 - Special Equipment" book="Rulebook" page="70" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="6f26-9ed0-d920-b466" name="Medi-Pak" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
               <profiles/>
               <rules/>
               <infoLinks/>
