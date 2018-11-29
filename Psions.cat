@@ -94,6 +94,12 @@
             <modifier type="increment" field="b396-7827-5b33-4909" value="1">
               <repeats>
                 <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5a58-cbc1-6398-e59a" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4fb1-10f6-927c-2f30" repeats="6" roundUp="false"/>
+                <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a447-e017-d02d-f4a4" repeats="5" roundUp="false"/>
+                <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0c2a-0d98-fda5-95fb" repeats="3" roundUp="false"/>
+                <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6709-9b4e-f639-473b" repeats="2" roundUp="false"/>
+                <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0af2-ba67-e6f8-021e" repeats="4" roundUp="false"/>
+                <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="35ae-33c4-35a7-bcf7" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -111,7 +117,7 @@
             <characteristic name="Health" characteristicTypeId="4f50-7d5e-70d7-80cd" value="0"/>
             <characteristic name="Init" characteristicTypeId="69c7-93fe-5e59-76d7" value="0"/>
             <characteristic name="PSI/Taint" characteristicTypeId="76ba-63d0-814f-655f" value="0"/>
-            <characteristic name="APs" characteristicTypeId="b396-7827-5b33-4909" value="3"/>
+            <characteristic name="APs" characteristicTypeId="b396-7827-5b33-4909" value="2"/>
           </characteristics>
         </profile>
         <profile id="a206-ac0d-88e1-fc14" name="Combat Stats" book="Rulebook" page="76" hidden="false" profileTypeId="25de-1bf8-ab80-d7e5" profileTypeName="Combat Stats">
