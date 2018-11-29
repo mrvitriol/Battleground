@@ -701,9 +701,8 @@
         </entryLink>
       </entryLinks>
       <costs>
-        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="75.0"/>
-        <cost name="Attribute Points" costTypeId="03a8-d5bd-e00d-3707" value="0.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -730,9 +729,8 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
-            <cost name="Attribute Points" costTypeId="03a8-d5bd-e00d-3707" value="0.0"/>
-            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="100.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="-2.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="35ae-33c4-35a7-bcf7" name="1st Tier Psion" hidden="false" collective="false" type="upgrade">
@@ -746,9 +744,8 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
-            <cost name="Attribute Points" costTypeId="03a8-d5bd-e00d-3707" value="0.0"/>
-            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="5.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="-1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0c2a-0d98-fda5-95fb" name="3rd Tier Psion" hidden="false" collective="false" type="upgrade">
@@ -762,9 +759,8 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
-            <cost name="Attribute Points" costTypeId="03a8-d5bd-e00d-3707" value="0.0"/>
-            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="150.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="-3.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0af2-ba67-e6f8-021e" name="4th Tier Psion" hidden="false" collective="false" type="upgrade">
@@ -778,9 +774,8 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
-            <cost name="Attribute Points" costTypeId="03a8-d5bd-e00d-3707" value="0.0"/>
-            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="250.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="-4.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a447-e017-d02d-f4a4" name="5th Tier Psion" hidden="false" collective="false" type="upgrade">
@@ -794,9 +789,8 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
-            <cost name="Attribute Points" costTypeId="03a8-d5bd-e00d-3707" value="0.0"/>
-            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="400.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="-5.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4fb1-10f6-927c-2f30" name="6th Tier Psion" hidden="false" collective="false" type="upgrade">
@@ -810,9 +804,8 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
-            <cost name="Attribute Points" costTypeId="03a8-d5bd-e00d-3707" value="0.0"/>
-            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="625.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="-6.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
