@@ -84,6 +84,12 @@
         <characteristicType id="4974-8783-fd73-e809" name="Template"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="75c3-d3be-b93b-85d4" name="Special Eqipment">
+      <characteristicTypes>
+        <characteristicType id="2818-1f30-5991-7aaf" name="APs"/>
+        <characteristicType id="c5fe-a184-4b5b-e81d" name="Effect"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="7db3-5516-f4fa-9d29" name="Individual" hidden="false">
@@ -841,7 +847,14 @@
                 </profile>
               </profiles>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="b5c3-a5cd-e06f-ccff" name="Biotech Gear" hidden="false" targetId="7ea9-edf5-3ecf-45d9" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints/>
               <categoryLinks/>
@@ -944,7 +957,14 @@
                 </profile>
               </profiles>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="1a0d-a6f6-1359-2ac4" name="Biotech Gear" hidden="false" targetId="7ea9-edf5-3ecf-45d9" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints/>
               <categoryLinks/>
@@ -1007,7 +1027,14 @@
                 </profile>
               </profiles>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="f271-46f8-11b5-7fa1" name="Biotech Gear" hidden="false" targetId="7ea9-edf5-3ecf-45d9" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints/>
               <categoryLinks/>
@@ -1271,7 +1298,14 @@
                 </profile>
               </profiles>
               <rules/>
-              <infoLinks/>
+              <infoLinks>
+                <infoLink id="c388-f5dd-34a2-fed1" name="Biotech Gear" hidden="false" targetId="7ea9-edf5-3ecf-45d9" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints/>
               <categoryLinks/>
@@ -1343,7 +1377,112 @@
           <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="6f26-9ed0-d920-b466" name="Medi-Pak" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
-              <profiles/>
+              <profiles>
+                <profile id="ec18-a241-5161-a0d0" name="Medi-Pak" book="Rulebook" page="70" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="2"/>
+                    <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Restores one Health to the subject (single use)"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="6dde-8dba-b0ee-1d23" name="Single use" hidden="false" targetId="97d0-d6b8-99b4-be04" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9e5d-b56f-2a9e-f85c" name="Stim-Pak" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="c1fb-547f-bf09-89f1" name="Stim-Pak" book="Rulebook" page="70" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="0"/>
+                    <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Adds two APs for one turn when used (single use)"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="f702-dc4b-4745-0b77" name="Single use" hidden="false" targetId="97d0-d6b8-99b4-be04" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="aea7-e6da-8884-004e" name="Strength-Pak" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="f4c0-8752-8d35-4c2a" name="Strength-Pak" book="Rulebook" page="70" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="0"/>
+                    <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Adds two dice to Close Combat attack rolls for one turn (single use)"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="96ad-db8e-3f12-13fb" name="Single use" hidden="false" targetId="97d0-d6b8-99b4-be04" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+            <selectionEntry id="745d-8f4c-04a9-76cb" name="Laser Sight" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="651b-ecdd-91f8-3a39" name="Laser Sight" book="Rulebook" page="70" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="n/a"/>
+                    <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Adds one to user&apos;s Ranged Score. This item is considered permanent; it does not count as using your one green item per turn."/>
+                  </characteristics>
+                </profile>
+              </profiles>
               <rules/>
               <infoLinks/>
               <modifiers/>
@@ -1353,7 +1492,51 @@
               <selectionEntryGroups/>
               <entryLinks/>
               <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2dcf-932a-81a8-7bcc" name="Psi-Format" book="Rulebook" page="51" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="d91b-7836-26d4-47bc" name="Psi-Format" book="Rulebook" page="71" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="n/a"/>
+                    <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Spend Psi to improve the characteristic of the formated piece of equipment"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="92fb-00be-7a5a-897e" name="Psi-Format" book="Rulebook" page="71" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>A Psi-Format Counter grants a piece of bioware formatting bonuses. Psi-Format Counters cannot be transferred to other pieces of equipment or to other biotech owners.</description>
+                </rule>
+                <rule id="ee78-f33a-a8b8-da09" name="Formated Biotech Gear" book="Rulebook" page="51" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Anounce the spending of Psi before making any rolls with the piece of equipment. For every three points of Psi spent increase:
+- Red (Ranged) Items: Increase Ranged by one die
+- Orange (Heavy Weapons) Items: Reduce Deviation by one 
+- Purple (Close Combat) Items: Increse Close Combat by one die
+- Blue (Armor) Items: Adds one die to Soak</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1370,6 +1553,20 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
+    </rule>
+    <rule id="97d0-d6b8-99b4-be04" name="Single use" book="Rulebook" page="70" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>This item discards after use. It is replenished at the beginning of the next battle.</description>
+    </rule>
+    <rule id="7ea9-edf5-3ecf-45d9" name="Biotech Gear" book="Rulebook" page="51" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Biotech equipment may be formated to its user for various benefits (see Psi-Format under Special Equipment)</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>
