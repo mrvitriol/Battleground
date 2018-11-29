@@ -61,7 +61,22 @@
         <characteristicType id="ef03-c22a-d909-9299" name="Short Range"/>
         <characteristicType id="8212-3e35-fc57-aeb7" name="Long Range"/>
         <characteristicType id="c345-c828-2990-c666" name="Damage"/>
-        <characteristicType id="4097-eac9-7047-1c2a" name="Size"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="f0c1-28b4-93c2-eb79" name="Melee Weapon">
+      <characteristicTypes>
+        <characteristicType id="0013-245a-d523-d947" name="APs"/>
+        <characteristicType id="3715-e37a-341b-4ff5" name="Damage"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="5baf-05a0-0685-df3b" name="Armor">
+      <characteristicTypes>
+        <characteristicType id="c78b-5abb-7b5a-9edb" name="Armor Rating"/>
+      </characteristicTypes>
+    </profileType>
+    <profileType id="f0dc-eeb8-4c3a-d493" name="Size">
+      <characteristicTypes>
+        <characteristicType id="9d66-b259-4e22-7afb" name="Slots Used"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -676,7 +691,15 @@
                     <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="8"/>
                     <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="18"/>
                     <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="3"/>
-                    <characteristic name="Size" characteristicTypeId="4097-eac9-7047-1c2a" value="1"/>
+                  </characteristics>
+                </profile>
+                <profile id="222c-dd12-e165-adac" name="Banji Cyclone" hidden="false" profileTypeId="f0dc-eeb8-4c3a-d493" profileTypeName="Size">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Slots Used" characteristicTypeId="9d66-b259-4e22-7afb"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -692,6 +715,341 @@
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
                 <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
               </costs>
+            </selectionEntry>
+            <selectionEntry id="afa6-7efc-3359-8385" name="L-K Avanger" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="cd01-5661-2a77-1920" name="L-K Avanger" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="2"/>
+                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="10"/>
+                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="14"/>
+                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="6"/>
+                  </characteristics>
+                </profile>
+                <profile id="fdd0-5b71-cfeb-50cb" name="L-K Avanger" hidden="false" profileTypeId="f0dc-eeb8-4c3a-d493" profileTypeName="Size">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Slots Used" characteristicTypeId="9d66-b259-4e22-7afb"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+            <selectionEntry id="9d0c-c49e-557e-bbec" name="Banji Thunder Shotgun" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="6722-4d15-7ea9-f3db" name="Banji Thunder Shotgun" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="2"/>
+                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="10"/>
+                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="14"/>
+                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="6"/>
+                  </characteristics>
+                </profile>
+                <profile id="e458-bdd6-ac84-a3e3" name="Banji Thunder Shotgun" hidden="false" profileTypeId="f0dc-eeb8-4c3a-d493" profileTypeName="Size">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Slots Used" characteristicTypeId="9d66-b259-4e22-7afb"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="45.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="1ff3-db72-9cb2-09a2" name="Voss 63K Laser" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="6a9a-17d9-108f-29eb" name="Voss 63K Laser" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="3"/>
+                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="10"/>
+                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="30"/>
+                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="4"/>
+                  </characteristics>
+                </profile>
+                <profile id="3428-21c7-29a5-6eac" name="Voss 63K Laser" hidden="false" profileTypeId="f0dc-eeb8-4c3a-d493" profileTypeName="Size">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Slots Used" characteristicTypeId="9d66-b259-4e22-7afb"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+            <selectionEntry id="3912-0245-8c86-f443" name="Las-Gauntlet" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="a6e5-9451-f9a9-0671" name="Las-Gauntlet" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="3"/>
+                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="14"/>
+                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="22"/>
+                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="7"/>
+                  </characteristics>
+                </profile>
+                <profile id="aab9-247c-7e99-68f6" name="Las-Gauntlet" hidden="false" profileTypeId="f0dc-eeb8-4c3a-d493" profileTypeName="Size">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Slots Used" characteristicTypeId="9d66-b259-4e22-7afb"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="75.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bf6e-ab5b-15bc-67fa" name="Aris Sonic Carbine" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="a5f2-162a-1684-70ed" name="Aris Sonic Carbine" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="3"/>
+                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="10"/>
+                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="18"/>
+                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="4"/>
+                  </characteristics>
+                </profile>
+                <profile id="401e-4091-039d-6b94" name="Aris Sonic Carbine" hidden="false" profileTypeId="f0dc-eeb8-4c3a-d493" profileTypeName="Size">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Slots Used" characteristicTypeId="9d66-b259-4e22-7afb"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="55f1-b51c-9006-80b0" name="Aris Sonic Carbine" book="Rulebook" page="69" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Damage from the Aris Sonic Carbine is Soaked with STA only.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="ceaa-92f2-0c67-d7f0" name="Melee Weapons" book="Rulebook" page="69" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="ab65-6282-0d47-51f7" name="Fighting Gloves" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="b3b7-1354-9adb-d814" name="Fighting Gloves" book="" hidden="false" profileTypeId="f0c1-28b4-93c2-eb79" profileTypeName="Melee Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="0013-245a-d523-d947" value="2"/>
+                    <characteristic name="Damage" characteristicTypeId="3715-e37a-341b-4ff5" value="2"/>
+                  </characteristics>
+                </profile>
+                <profile id="9d26-fda9-a9d6-03ca" name="Fighting Gloves" hidden="false" profileTypeId="f0dc-eeb8-4c3a-d493" profileTypeName="Size">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Slots Used" characteristicTypeId="9d66-b259-4e22-7afb"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9387-c691-ff26-12fc" name="Claws" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="e87b-0897-6c39-2592" name="Claws" hidden="false" profileTypeId="f0c1-28b4-93c2-eb79" profileTypeName="Melee Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="0013-245a-d523-d947" value="3"/>
+                    <characteristic name="Damage" characteristicTypeId="3715-e37a-341b-4ff5" value="5"/>
+                  </characteristics>
+                </profile>
+                <profile id="5c92-a353-02a1-4446" name="Claws" hidden="false" profileTypeId="f0dc-eeb8-4c3a-d493" profileTypeName="Size">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Slots Used" characteristicTypeId="9d66-b259-4e22-7afb"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+            <selectionEntry id="7d14-6df4-96cb-d7fe" name="Vibro Sword" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="507f-6110-1a47-4217" name="Vibro Sword" hidden="false" profileTypeId="f0c1-28b4-93c2-eb79" profileTypeName="Melee Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="0013-245a-d523-d947" value="3"/>
+                    <characteristic name="Damage" characteristicTypeId="3715-e37a-341b-4ff5" value="6"/>
+                  </characteristics>
+                </profile>
+                <profile id="ecaf-1d6a-9c27-3187" name="Vibro Sword" hidden="false" profileTypeId="f0dc-eeb8-4c3a-d493" profileTypeName="Size">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Slots Used" characteristicTypeId="9d66-b259-4e22-7afb"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d51a-c3a3-7494-fb5f" name="Spider Harness" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="90c0-87c7-f598-4a53" name="Spider Harness" hidden="false" profileTypeId="f0c1-28b4-93c2-eb79" profileTypeName="Melee Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="0013-245a-d523-d947" value="3"/>
+                    <characteristic name="Damage" characteristicTypeId="3715-e37a-341b-4ff5" value="7"/>
+                  </characteristics>
+                </profile>
+                <profile id="70dd-0d95-07af-44a2" name="Spider Harness" hidden="false" profileTypeId="5baf-05a0-0685-df3b" profileTypeName="Armor">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Armor Rating" characteristicTypeId="c78b-5abb-7b5a-9edb" value="1"/>
+                  </characteristics>
+                </profile>
+                <profile id="6b1e-4463-b006-2700" name="Spider Harness" hidden="false" profileTypeId="f0dc-eeb8-4c3a-d493" profileTypeName="Size">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Slots Used" characteristicTypeId="9d66-b259-4e22-7afb"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
