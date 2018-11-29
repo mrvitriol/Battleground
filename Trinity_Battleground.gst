@@ -70,6 +70,11 @@
         <characteristicType id="c78b-5abb-7b5a-9edb" name="Armor Rating"/>
       </characteristicTypes>
     </profileType>
+    <profileType id="143c-c300-69ac-1a28" name="Area off Effect">
+      <characteristicTypes>
+        <characteristicType id="ec7e-dbb6-f299-0ba3" name="Template"/>
+      </characteristicTypes>
+    </profileType>
   </profileTypes>
   <categoryEntries>
     <categoryEntry id="7db3-5516-f4fa-9d29" name="Individual" hidden="false">
@@ -1004,6 +1009,100 @@
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
                 <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
                 <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="1d09-59a2-f193-4d37" name="Heavy Weapons" book="Rulebook" page="70" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="85b4-aa87-ccde-039f" name="Grenade" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="3001-8ba8-0c32-6687" name="Grenade" hidden="false" profileTypeId="143c-c300-69ac-1a28" profileTypeName="Area off Effect">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Template" characteristicTypeId="ec7e-dbb6-f299-0ba3" value="5-inch"/>
+                  </characteristics>
+                </profile>
+                <profile id="9e42-cc33-ae27-988a" name="Grenade" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="3"/>
+                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="12"/>
+                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="0"/>
+                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="8"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="30.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cd8b-dbc6-1e4c-2375" name="Voss 88T Plasma Gun" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="c71c-1bf7-04a1-1930" name="Voss 88T Plasma Gun" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="4"/>
+                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="14"/>
+                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="30"/>
+                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="8"/>
+                  </characteristics>
+                </profile>
+                <profile id="8a69-526b-83a6-8f29" name="Voss 88T Plasma Gun" hidden="false" profileTypeId="143c-c300-69ac-1a28" profileTypeName="Area off Effect">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Template" characteristicTypeId="ec7e-dbb6-f299-0ba3" value="3-inch"/>
+                  </characteristics>
+                </profile>
+                <profile id="d165-f3a2-83f8-973b" name="Voss 88T Plasma Gun" hidden="false" profileTypeId="5baf-05a0-0685-df3b" profileTypeName="Armor">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="Armor Rating" characteristicTypeId="c78b-5abb-7b5a-9edb" value="1"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="60.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
