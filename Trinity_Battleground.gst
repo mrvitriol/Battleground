@@ -1468,7 +1468,9 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="745d-8f4c-04a9-76cb" name="Laser Sight" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
               <profiles>
