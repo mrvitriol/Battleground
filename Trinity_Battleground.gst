@@ -187,7 +187,15 @@
     </selectionEntry>
     <selectionEntry id="110f-aae0-3c35-183a" name="Athletics" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="3677-ee78-f8d9-a858" name="Athletics" book="Rulebook" page="63" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>General fitness, training, acrobatics and running keep soldiers in top shape. Whether firing with quick reflexes or running acros fire-swept ground, the character gains extra APs equal to his Athletics rating (allready figured in).</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
@@ -202,7 +210,15 @@
     </selectionEntry>
     <selectionEntry id="30d1-8e56-8098-2eeb" name="Firearms" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="e1d1-15f6-a072-f712" name="Firearms" book="Rulebook" page="63" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Basic Ranged weapon training improves accuracy with most small arms. No soldier should be without Firearms. Skill rating is added to Ranged score when attacking with light weapons such as pistols and rifles (already figured in). </description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
@@ -217,7 +233,15 @@
     </selectionEntry>
     <selectionEntry id="a1da-4e46-18f6-e341" name="Heavy Weapons" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="2d24-eda4-ae36-ce51" name="Heavy Weapons" book="Rulebook" page="63" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Most Legion squads bring along a support weapon capable of leveling buildings and annoying Aberrants. Heavy Weapons Skill adds to attack rolls with mobile support weapons, such as coilguns and rocket launchers, and reduces deviation with such arms (allready figured in).</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
@@ -232,7 +256,15 @@
     </selectionEntry>
     <selectionEntry id="fe92-7b2c-45e4-a4d8" name="Leadership" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="6734-8f6c-ed0c-25d9" name="Leadership" book="Rulebook" page="63" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Trained in giving orders, establishing chain of command and bolstering morale, the soldier has the ability to inspire troops. Leadership Skill level is added to SOC when determining INIT (already figured in).</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
@@ -247,7 +279,15 @@
     </selectionEntry>
     <selectionEntry id="52c5-7c2f-27e0-a516" name="Medicine" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="7d4b-1380-52b5-9b7e" name="Medicine" book="Rulebook" page="63" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>A badly injured trooper can often be saved by only quick application of battlefield medicine. Using this Skill requires that the medic begin his turn in base-to-base contact with the subject, and that the medic be assigned an Ambush Action Counter. Using Medicine requires a character’s entire turn, and results in a MEN + Medicine roll to heal the subject. Every two successes (rounded up) heal one Health level; one to two successes heal one Health level, three to four success heal two Health levels, and so on. This Skill may not be used to heal support troops.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
@@ -262,7 +302,15 @@
     </selectionEntry>
     <selectionEntry id="0049-d88a-f3b5-0abd" name="Meditation" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="6cee-b64a-6e0a-c67a" name="Meditation" book="Rulebook" page="64" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Though Zen sees little application in the heat of fire combat, a cool and collected head keeps a psion calm and able to center his thoughts. Meditation Skill grants additional dice equal to Skill level for all Psi Recovery rolls.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
@@ -277,7 +325,15 @@
     </selectionEntry>
     <selectionEntry id="f7d8-05cb-0fde-a67f" name="Melee" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="347b-c5d9-fb43-9548" name="Melee" book="Rulebook" page="64" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Training with knives, swords, axes, bottles, chairs and whatever else comes to hand is essential to Close Combat. Add Melee Skill to attack rolls in Close Combat (already figured in).</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
@@ -292,7 +348,15 @@
     </selectionEntry>
     <selectionEntry id="83c0-54d6-2d52-c6ec" name="Parry" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="23a6-9d66-0cbe-a5a0" name="Parry" book="Rulebook" page="64" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Quick reflexes and martial skill allow a combatant to turn aside blows in Close Combat. Subtract the character’s Parry Skill from the attack dice of any Close Combat Opponent. </description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
@@ -307,7 +371,15 @@
     </selectionEntry>
     <selectionEntry id="786c-d2b2-bb6c-dd5f" name="Might" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="8301-b0a4-886e-fce4" name="Might" book="Rulebook" page="64" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When it comes to down to it, the victory in Close Comat often goes to whomever hits hardest. Might rating is added directly to all damage rolls in Close Combat. </description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
@@ -322,7 +394,15 @@
     </selectionEntry>
     <selectionEntry id="7725-2587-89ed-d812" name="Sharpshooter" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="12cd-d29b-5f51-8771" name="Sharpshooter" book="Rulebook" page="64" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>While a skilled rifleman can hit targets under difficult circumstances, the true sharpshooter picks his targets and causes maximum damage. Sharpshooter Skill adds one die per Skill point to damage inflicted with all Ranged light weapons. </description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
@@ -337,7 +417,15 @@
     </selectionEntry>
     <selectionEntry id="5de2-e6ed-dc3c-ffcc" name="Toughness" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="f372-a511-b13f-1d7a" name="Toughness" book="Rulebook" page="64" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Raw courage counts for a lot, especially when you have to grit your teeth and keep fighting with a 9 mm hole in your spleen. Add Toughness to all Soak dice totals, allowing for more dice with which to absorb damage (allready figured in).</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
@@ -352,7 +440,15 @@
     </selectionEntry>
     <selectionEntry id="c1a4-3bfa-25fc-4c43" name="Blind Fire" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="fd73-182c-cf99-9a22" name="Blind Fire" book="Rulebook" page="63" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Characters with this Skill may take a single free Ranged weapon attack while Charging. At a Blind Fire ratin of 1, this suffers a two-die penalty; a one-die penalty at 2 Blind Fire; and no penalty at 3 Blind Fire</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
@@ -367,7 +463,15 @@
     </selectionEntry>
     <selectionEntry id="ca7c-c6b3-ef94-f93a" name="Engineering" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="52c5-3bb1-da18-6e42" name="Engineering" book="Rulebook" page="63" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Primarily the providence of Orgotek, Engineering Skill represents the ability to deal with machines and electronics. Add Engineering to MEN rolls when unjaming guns, repairing equipment or performing specialized technical tasks (perhaps as part of a mission goal).</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
@@ -382,7 +486,15 @@
     </selectionEntry>
     <selectionEntry id="3e8b-eca6-490f-5a44" name="Evasion" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="188a-0742-782f-49e5" name="Evasion" book="Rulebook" page="69" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>When all else fails, it&apos;s good to know how to get out of a bad situation. Evasion allows a character leaving Close Combat to escape opponents without suffering free strikes from those enemies. Each point of Evasion allows a player to choose one adversary in Close Combat who cannot make a free strike while the evading character leaves combat. Of course, the three AP cost for leaving Close Combat must still be paid.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
@@ -397,7 +509,15 @@
     </selectionEntry>
     <selectionEntry id="66db-911c-cf5a-9b8e" name="Fight Multiple Opponent" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="38bd-b9b1-9ba7-b9de" name="Fight Multiple Opponent" book="Rulebook" page="63" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Skilled martial artists develop maneuvers designed specifically to defend against groups of opponents. Enemies do not get the Multiple Opponent bonus until their number after the first is greater than the psion’s rating tin this Skill. When opponent numbers exceed the psion’s Skill rating, the normal full Multiple Opponent bonus takes effect.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
@@ -412,7 +532,15 @@
     </selectionEntry>
     <selectionEntry id="8bc0-174c-b3a9-1e37" name="Pack Horse" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="e4cb-60c0-4cef-91bc" name="Pack Horse" book="Rulebook" page="64" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Gotta save space! There’s not a lot of room aboard ship, so the seasoned soldier learns to carry everything he can! The character may carry an extra square of Items above and beyond normal equipment limits, for each point in Pack Horse (already figured in).</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
@@ -427,7 +555,15 @@
     </selectionEntry>
     <selectionEntry id="8106-f01f-ca8e-35d5" name="Shoot into Close Combat" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="a7c1-8345-9e16-8363" name="Shoot into Close Combat" book="Rulebook" page="64" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The character is guaranteed to not hit allies when shooting into Close Comat! A character shooting into melee normally suffers a three-die penalty to hit. A character with a Shoot int Close Comat score of q loses only two attack dice. A character with a score of 2 loses one die. No penalties are imposed on a character with a 3 Skill score. The Skill applies to Ranged attacks only, not to Heavy Weapons attacks</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
@@ -442,7 +578,15 @@
     </selectionEntry>
     <selectionEntry id="727c-57f5-48f1-3609" name="Sniper" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="88c3-3a25-ae40-2b96" name="Sniper" book="Rulebook" page="64" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Long-range shots are no problem for a character with good vision, a steady rigger finger and nerves of steel. Each point of Sniper adds two inches to the long range of any weapon used by the character. </description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
@@ -457,7 +601,15 @@
     </selectionEntry>
     <selectionEntry id="5214-c943-2418-69c3" name="Stealth" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="a7c1-f990-98cd-4aed" name="Stealth" book="Rulebook" page="64" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Any good trooper knows how to pop up, squeeze off a shot and evade again before suffering a counterstrike. Characters with Stealth dodge incoming attacks while taking Move and Shoot actions; subtract Stealth raging from all enemy Ranged attack rolls.</description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
@@ -472,7 +624,15 @@
     </selectionEntry>
     <selectionEntry id="cfa0-29e9-b051-dd65" name="Trick Shot" hidden="false" collective="false" type="upgrade">
       <profiles/>
-      <rules/>
+      <rules>
+        <rule id="107f-636e-dab5-1513" name="Trick Shot" book="Rulebook" page="64" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Bouncing bullets (or lasers, or plasma) off walls is a bit much, but a clever gunman learns to compensate for intervening cover and to watch for small openings Trick shot reduces penalties for fringing through cover; each Skill point removes one penalty die from cover, although the skill cannot actually grant additional dice to hit – the shooter simply takes the shot as if there were no cover modifiers. </description>
+        </rule>
+      </rules>
       <infoLinks/>
       <modifiers/>
       <constraints/>
