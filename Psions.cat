@@ -744,7 +744,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
           <costs>
-            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="5.0"/>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="75.0"/>
             <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="-1.0"/>
           </costs>
         </selectionEntry>
