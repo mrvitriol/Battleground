@@ -6,6 +6,7 @@
   <costTypes>
     <costType id="5837-a331-efab-0a68" name="Points" defaultCostLimit="-1.0"/>
     <costType id="16e5-4b41-e9c3-4f84" name="Skill Points" defaultCostLimit="-1.0"/>
+    <costType id="edd2-9999-c1d3-cffb" name="Carrying Capacity " defaultCostLimit="-1.0"/>
   </costTypes>
   <profileTypes>
     <profileType id="33c0-4b41-8772-5bb4" name="Abilities">
@@ -33,11 +34,6 @@
         <characteristicType id="9fc5-105a-3684-0efc" name="Damage"/>
         <characteristicType id="f4a8-2a39-c723-57b3" name="Attack"/>
         <characteristicType id="d1e1-5e6c-71dd-9b6a" name="Template"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="fb08-c467-c5e0-aeee" name="Capacity">
-      <characteristicTypes>
-        <characteristicType id="ee77-f6ba-eb39-b452" name="Spaces"/>
       </characteristicTypes>
     </profileType>
     <profileType id="25de-1bf8-ab80-d7e5" name="Combat Stats">
@@ -72,11 +68,6 @@
     <profileType id="5baf-05a0-0685-df3b" name="Armor">
       <characteristicTypes>
         <characteristicType id="c78b-5abb-7b5a-9edb" name="Armor Rating"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="f0dc-eeb8-4c3a-d493" name="Size">
-      <characteristicTypes>
-        <characteristicType id="9d66-b259-4e22-7afb" name="Slots Used"/>
       </characteristicTypes>
     </profileType>
   </profileTypes>
@@ -138,6 +129,7 @@
       <costs>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8c48-2777-4ea5-2157" name="Strength" hidden="false" collective="false" type="upgrade">
@@ -153,6 +145,7 @@
       <costs>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f806-f7e6-8b14-243b" name="Dexterity" hidden="false" collective="false" type="upgrade">
@@ -168,6 +161,7 @@
       <costs>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cec8-75b0-d9bc-3573" name="Mental" hidden="false" collective="false" type="upgrade">
@@ -183,6 +177,7 @@
       <costs>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0d52-59f5-943e-e67d" name="Social" hidden="false" collective="false" type="upgrade">
@@ -198,6 +193,7 @@
       <costs>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="110f-aae0-3c35-183a" name="Athletics" hidden="false" collective="false" type="upgrade">
@@ -221,6 +217,7 @@
       <costs>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="1.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="30d1-8e56-8098-2eeb" name="Firearms" hidden="false" collective="false" type="upgrade">
@@ -244,6 +241,7 @@
       <costs>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="1.0"/>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="a1da-4e46-18f6-e341" name="Heavy Weapons" hidden="false" collective="false" type="upgrade">
@@ -267,6 +265,7 @@
       <costs>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="1.0"/>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fe92-7b2c-45e4-a4d8" name="Leadership" hidden="false" collective="false" type="upgrade">
@@ -290,6 +289,7 @@
       <costs>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="1.0"/>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="52c5-7c2f-27e0-a516" name="Medicine" hidden="false" collective="false" type="upgrade">
@@ -313,6 +313,7 @@
       <costs>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="1.0"/>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0049-d88a-f3b5-0abd" name="Meditation" hidden="false" collective="false" type="upgrade">
@@ -336,6 +337,7 @@
       <costs>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="1.0"/>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f7d8-05cb-0fde-a67f" name="Melee" hidden="false" collective="false" type="upgrade">
@@ -359,6 +361,7 @@
       <costs>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="1.0"/>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="83c0-54d6-2d52-c6ec" name="Parry" hidden="false" collective="false" type="upgrade">
@@ -382,6 +385,7 @@
       <costs>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="1.0"/>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="786c-d2b2-bb6c-dd5f" name="Might" hidden="false" collective="false" type="upgrade">
@@ -405,6 +409,7 @@
       <costs>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="1.0"/>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="7725-2587-89ed-d812" name="Sharpshooter" hidden="false" collective="false" type="upgrade">
@@ -428,6 +433,7 @@
       <costs>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="1.0"/>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5de2-e6ed-dc3c-ffcc" name="Toughness" hidden="false" collective="false" type="upgrade">
@@ -451,6 +457,7 @@
       <costs>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="1.0"/>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c1a4-3bfa-25fc-4c43" name="Blind Fire" hidden="false" collective="false" type="upgrade">
@@ -474,6 +481,7 @@
       <costs>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.5"/>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ca7c-c6b3-ef94-f93a" name="Engineering" hidden="false" collective="false" type="upgrade">
@@ -497,6 +505,7 @@
       <costs>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.5"/>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3e8b-eca6-490f-5a44" name="Evasion" hidden="false" collective="false" type="upgrade">
@@ -520,6 +529,7 @@
       <costs>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.5"/>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="66db-911c-cf5a-9b8e" name="Fight Multiple Opponent" hidden="false" collective="false" type="upgrade">
@@ -543,6 +553,7 @@
       <costs>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.5"/>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8bc0-174c-b3a9-1e37" name="Pack Horse" hidden="false" collective="false" type="upgrade">
@@ -566,6 +577,7 @@
       <costs>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.5"/>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8106-f01f-ca8e-35d5" name="Shoot into Close Combat" hidden="false" collective="false" type="upgrade">
@@ -589,6 +601,7 @@
       <costs>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.5"/>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="727c-57f5-48f1-3609" name="Sniper" hidden="false" collective="false" type="upgrade">
@@ -612,6 +625,7 @@
       <costs>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.5"/>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="5214-c943-2418-69c3" name="Stealth" hidden="false" collective="false" type="upgrade">
@@ -635,6 +649,7 @@
       <costs>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.5"/>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cfa0-29e9-b051-dd65" name="Trick Shot" hidden="false" collective="false" type="upgrade">
@@ -658,6 +673,7 @@
       <costs>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -693,15 +709,6 @@
                     <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="3"/>
                   </characteristics>
                 </profile>
-                <profile id="222c-dd12-e165-adac" name="Banji Cyclone" hidden="false" profileTypeId="f0dc-eeb8-4c3a-d493" profileTypeName="Size">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Slots Used" characteristicTypeId="9d66-b259-4e22-7afb"/>
-                  </characteristics>
-                </profile>
               </profiles>
               <rules/>
               <infoLinks/>
@@ -714,6 +721,7 @@
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
                 <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="afa6-7efc-3359-8385" name="L-K Avanger" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
@@ -730,15 +738,6 @@
                     <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="6"/>
                   </characteristics>
                 </profile>
-                <profile id="fdd0-5b71-cfeb-50cb" name="L-K Avanger" hidden="false" profileTypeId="f0dc-eeb8-4c3a-d493" profileTypeName="Size">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Slots Used" characteristicTypeId="9d66-b259-4e22-7afb"/>
-                  </characteristics>
-                </profile>
               </profiles>
               <rules/>
               <infoLinks/>
@@ -748,7 +747,11 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="9d0c-c49e-557e-bbec" name="Banji Thunder Shotgun" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -764,15 +767,6 @@
                     <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="6"/>
                   </characteristics>
                 </profile>
-                <profile id="e458-bdd6-ac84-a3e3" name="Banji Thunder Shotgun" hidden="false" profileTypeId="f0dc-eeb8-4c3a-d493" profileTypeName="Size">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Slots Used" characteristicTypeId="9d66-b259-4e22-7afb"/>
-                  </characteristics>
-                </profile>
               </profiles>
               <rules/>
               <infoLinks/>
@@ -784,6 +778,8 @@
               <entryLinks/>
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="45.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="1ff3-db72-9cb2-09a2" name="Voss 63K Laser" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
@@ -800,15 +796,6 @@
                     <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="4"/>
                   </characteristics>
                 </profile>
-                <profile id="3428-21c7-29a5-6eac" name="Voss 63K Laser" hidden="false" profileTypeId="f0dc-eeb8-4c3a-d493" profileTypeName="Size">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Slots Used" characteristicTypeId="9d66-b259-4e22-7afb"/>
-                  </characteristics>
-                </profile>
               </profiles>
               <rules/>
               <infoLinks/>
@@ -818,7 +805,11 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="3912-0245-8c86-f443" name="Las-Gauntlet" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -834,15 +825,6 @@
                     <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="7"/>
                   </characteristics>
                 </profile>
-                <profile id="aab9-247c-7e99-68f6" name="Las-Gauntlet" hidden="false" profileTypeId="f0dc-eeb8-4c3a-d493" profileTypeName="Size">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Slots Used" characteristicTypeId="9d66-b259-4e22-7afb"/>
-                  </characteristics>
-                </profile>
               </profiles>
               <rules/>
               <infoLinks/>
@@ -854,6 +836,8 @@
               <entryLinks/>
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="75.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="bf6e-ab5b-15bc-67fa" name="Aris Sonic Carbine" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
@@ -868,15 +852,6 @@
                     <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="10"/>
                     <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="18"/>
                     <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="4"/>
-                  </characteristics>
-                </profile>
-                <profile id="401e-4091-039d-6b94" name="Aris Sonic Carbine" hidden="false" profileTypeId="f0dc-eeb8-4c3a-d493" profileTypeName="Size">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Slots Used" characteristicTypeId="9d66-b259-4e22-7afb"/>
                   </characteristics>
                 </profile>
               </profiles>
@@ -896,7 +871,11 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -922,15 +901,6 @@
                     <characteristic name="Damage" characteristicTypeId="3715-e37a-341b-4ff5" value="2"/>
                   </characteristics>
                 </profile>
-                <profile id="9d26-fda9-a9d6-03ca" name="Fighting Gloves" hidden="false" profileTypeId="f0dc-eeb8-4c3a-d493" profileTypeName="Size">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Slots Used" characteristicTypeId="9d66-b259-4e22-7afb"/>
-                  </characteristics>
-                </profile>
               </profiles>
               <rules/>
               <infoLinks/>
@@ -942,6 +912,8 @@
               <entryLinks/>
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9387-c691-ff26-12fc" name="Claws" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
@@ -956,15 +928,6 @@
                     <characteristic name="Damage" characteristicTypeId="3715-e37a-341b-4ff5" value="5"/>
                   </characteristics>
                 </profile>
-                <profile id="5c92-a353-02a1-4446" name="Claws" hidden="false" profileTypeId="f0dc-eeb8-4c3a-d493" profileTypeName="Size">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Slots Used" characteristicTypeId="9d66-b259-4e22-7afb"/>
-                  </characteristics>
-                </profile>
               </profiles>
               <rules/>
               <infoLinks/>
@@ -974,7 +937,11 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="7d14-6df4-96cb-d7fe" name="Vibro Sword" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
               <profiles>
@@ -988,15 +955,6 @@
                     <characteristic name="Damage" characteristicTypeId="3715-e37a-341b-4ff5" value="6"/>
                   </characteristics>
                 </profile>
-                <profile id="ecaf-1d6a-9c27-3187" name="Vibro Sword" hidden="false" profileTypeId="f0dc-eeb8-4c3a-d493" profileTypeName="Size">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Slots Used" characteristicTypeId="9d66-b259-4e22-7afb"/>
-                  </characteristics>
-                </profile>
               </profiles>
               <rules/>
               <infoLinks/>
@@ -1008,6 +966,8 @@
               <entryLinks/>
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="50.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d51a-c3a3-7494-fb5f" name="Spider Harness" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
@@ -1031,15 +991,6 @@
                     <characteristic name="Armor Rating" characteristicTypeId="c78b-5abb-7b5a-9edb" value="1"/>
                   </characteristics>
                 </profile>
-                <profile id="6b1e-4463-b006-2700" name="Spider Harness" hidden="false" profileTypeId="f0dc-eeb8-4c3a-d493" profileTypeName="Size">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Slots Used" characteristicTypeId="9d66-b259-4e22-7afb"/>
-                  </characteristics>
-                </profile>
               </profiles>
               <rules/>
               <infoLinks/>
@@ -1049,7 +1000,11 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>

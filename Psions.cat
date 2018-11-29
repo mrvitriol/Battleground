@@ -166,31 +166,6 @@
             <characteristic name="Soak" characteristicTypeId="f57a-432e-7c63-2f03" value="0"/>
           </characteristics>
         </profile>
-        <profile id="170e-abe4-9428-ed12" name="Carrying Limit" hidden="false" profileTypeId="fb08-c467-c5e0-aeee" profileTypeName="Capacity">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers>
-            <modifier type="increment" field="ee77-f6ba-eb39-b452" value="1">
-              <repeats>
-                <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d0b4-a200-ee73-0a41" repeats="1" roundUp="false"/>
-                <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e9c-17a2-29d7-8de2" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-            <modifier type="decrement" field="ee77-f6ba-eb39-b452" value="1">
-              <repeats>
-                <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cd5d-8920-ce1b-3547" repeats="1" roundUp="false"/>
-              </repeats>
-              <conditions/>
-              <conditionGroups/>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="Spaces" characteristicTypeId="ee77-f6ba-eb39-b452" value="0"/>
-          </characteristics>
-        </profile>
       </profiles>
       <rules/>
       <infoLinks/>
