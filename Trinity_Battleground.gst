@@ -1539,6 +1539,143 @@
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="fd01-d5ea-9755-4d24" name="Remote Bomb" book="Rulebook" page="71" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="6a75-949e-4b22-2a21" name="Remote Bomb" book="Rulebook" page="71" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="2/0"/>
+                    <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Damage: 8, Template: 5-inch"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="dd45-6f24-6ecf-0b42" name="Remote Bomb" book="Rulebook" page="71" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>A Remote Bomb Counter is placed and armed at a cost of two APs. The bomb may be detonated (as if using an Amush attack) any time therafter for no AP cost, inflicting its normal damage without deviation. The counter is removed from the sheet and placed on the battlefield when the item is positioned.</description>
+                </rule>
+              </rules>
+              <infoLinks>
+                <infoLink id="1e65-0d20-0c6e-253b" name="Single use" hidden="false" targetId="97d0-d6b8-99b4-be04" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9517-b825-9fce-1748" name="Stim-Kit" book="Rulebook" page="71" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="6c10-9f50-2a33-035b" name="Stim-Kit" book="Rulebook" page="71" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="0"/>
+                    <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Adds four APs in the turn it&apos;s used"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="d147-7bf2-b34d-767a" name="Single use" hidden="false" targetId="97d0-d6b8-99b4-be04" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="30.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="c363-1709-6d0d-8657" name="Large Medi-Kit" book="Rulebook" page="71" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="9c1f-e145-7a3f-1f7c" name="Large Medi-Kit" book="Rulebook" page="71" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="2"/>
+                    <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Restores two Health to the subject"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="fcdf-e828-a70d-4ed1" name="Single use" hidden="false" targetId="97d0-d6b8-99b4-be04" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="35.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="566c-f458-18ec-1a9c" name="Sentry Gun" book="Rulebook" page="71" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="62dd-e2d1-9016-3d2b" name="Sentry Gun" book="Rulebook" page="71" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="0"/>
+                    <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Ranged Attribute: 4, Range: 10/18, Damage: 4"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="d13b-2168-f788-d0a9" name="Sentry Gun" book="Rulebook" page="71" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>The sentry gun is deployed as a normal action; the character must drop the gun (at the normal two AP cost). The gun then acts independently, firing twice in any direction during the Move &amp; Shoot Segment if any legal targets are within range. The deploying player specifies target parameters, so a sentry gun generally doesn’t fire on friendly troops (IFF transponders and pattern-recognition programming keep the gun quiescent). A sentry gun doesn’t move once placed, and fires with its own Ranged score, as noted above. To destroy a sentry gun, one attack must be staged that inflicts seven damage. The gun continues to function normally if less than seven damage is inflicted.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="50.0"/>
+              </costs>
+            </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
           <entryLinks/>
