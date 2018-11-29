@@ -940,14 +940,27 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="increment" field="6c7e-d1f1-5f8f-4809" value="1">
+              <repeats>
+                <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e9c-17a2-29d7-8de2" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d0b4-a200-ee73-0a41" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="edd2-9999-c1d3-cffb" scope="b64d-7248-ace8-8253" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c7e-d1f1-5f8f-4809" type="max"/>
+            <constraint field="edd2-9999-c1d3-cffb" scope="b64d-7248-ace8-8253" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ceb3-4980-f040-4536" type="min"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
       <costs>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -976,6 +989,7 @@
           <costs>
             <cost name="Points" costTypeId="5837-a331-efab-0a68" value="100.0"/>
             <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="-2.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="35ae-33c4-35a7-bcf7" name="1st Tier Psion" hidden="false" collective="false" type="upgrade">
@@ -991,6 +1005,7 @@
           <costs>
             <cost name="Points" costTypeId="5837-a331-efab-0a68" value="75.0"/>
             <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="-1.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0c2a-0d98-fda5-95fb" name="3rd Tier Psion" hidden="false" collective="false" type="upgrade">
@@ -1006,6 +1021,7 @@
           <costs>
             <cost name="Points" costTypeId="5837-a331-efab-0a68" value="150.0"/>
             <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="-3.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="0af2-ba67-e6f8-021e" name="4th Tier Psion" hidden="false" collective="false" type="upgrade">
@@ -1021,6 +1037,7 @@
           <costs>
             <cost name="Points" costTypeId="5837-a331-efab-0a68" value="250.0"/>
             <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="-4.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="a447-e017-d02d-f4a4" name="5th Tier Psion" hidden="false" collective="false" type="upgrade">
@@ -1036,6 +1053,7 @@
           <costs>
             <cost name="Points" costTypeId="5837-a331-efab-0a68" value="400.0"/>
             <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="-5.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="4fb1-10f6-927c-2f30" name="6th Tier Psion" hidden="false" collective="false" type="upgrade">
@@ -1051,6 +1069,7 @@
           <costs>
             <cost name="Points" costTypeId="5837-a331-efab-0a68" value="625.0"/>
             <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="-6.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>

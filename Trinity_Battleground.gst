@@ -913,7 +913,7 @@
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
                 <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9387-c691-ff26-12fc" name="Claws" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
@@ -940,7 +940,7 @@
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
                 <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7d14-6df4-96cb-d7fe" name="Vibro Sword" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
@@ -967,7 +967,7 @@
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="50.0"/>
                 <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d51a-c3a3-7494-fb5f" name="Spider Harness" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
@@ -1003,7 +1003,7 @@
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
                 <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
