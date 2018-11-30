@@ -972,7 +972,7 @@
                   <constraints/>
                   <categoryLinks/>
                   <selectionEntries>
-                    <selectionEntry id="5f20-0955-8695-b377" name="Cold Immunity" book="Rulebook" page="57" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="5f20-0955-8695-b377" name="Heat Sink" book="Rulebook" page="57" hidden="false" collective="false" type="upgrade">
                       <profiles>
                         <profile id="4406-0629-ffbc-a4ac" name="Heat Sink" book="Rulebook" page="57" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
                           <profiles/>
@@ -980,7 +980,7 @@
                           <infoLinks/>
                           <modifiers/>
                           <characteristics>
-                            <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="1&quot;"/>
+                            <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="1"/>
                             <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="2"/>
                             <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
                             <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
@@ -1021,7 +1021,7 @@
                           <infoLinks/>
                           <modifiers/>
                           <characteristics>
-                            <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="12&quot;"/>
+                            <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="12"/>
                             <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="4"/>
                             <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="5"/>
                             <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="10"/>
@@ -1036,7 +1036,7 @@
                           <rules/>
                           <infoLinks/>
                           <modifiers/>
-                          <description>This psionic attack functions like a Heavy Weapons attack, using Psi to hit andn rolling for deviation as normal. Any model even partially under the template is subject to the full 10 damage dice.</description>
+                          <description>This psionic attack functions like a Heavy Weapons attack, using Psi to hit and rolling for deviation as normal. Any model even partially under the template is subject to the full 10 damage dice.</description>
                         </rule>
                       </rules>
                       <infoLinks/>
@@ -1062,7 +1062,7 @@
                           <infoLinks/>
                           <modifiers/>
                           <characteristics>
-                            <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="14&quot;"/>
+                            <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="14"/>
                             <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="3"/>
                             <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
                             <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
@@ -1095,7 +1095,7 @@
                         <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
                       </costs>
                     </selectionEntry>
-                    <selectionEntry id="3199-5fb5-d8ca-8d43" name="Heat Sink" book="Rulebook" page="57" hidden="false" collective="false" type="upgrade">
+                    <selectionEntry id="3199-5fb5-d8ca-8d43" name="Cold Immunity" book="Rulebook" page="57" hidden="false" collective="false" type="upgrade">
                       <profiles>
                         <profile id="376f-b222-e5dd-d92f" name="Cold Immunity" book="Rulebook" page="57" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
                           <profiles/>
@@ -1103,7 +1103,7 @@
                           <infoLinks/>
                           <modifiers/>
                           <characteristics>
-                            <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0&quot;"/>
+                            <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
                             <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
                             <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="1"/>
                             <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
@@ -1146,7 +1146,7 @@ If the psion is attacked again, the character must spend another Psi point to sc
                           <infoLinks/>
                           <modifiers/>
                           <characteristics>
-                            <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="18&quot;"/>
+                            <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="18"/>
                             <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="2"/>
                             <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
                             <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="4"/>
@@ -1168,6 +1168,225 @@ If the psion is attacked again, the character must spend another Psi point to sc
                       <modifiers/>
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e20d-512e-5abc-2fb6" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                        <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="6eb1-7384-1f9a-8b56" name="Mode: Pyrokinesis" book="Rulebook" page="58" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="2e84-55cc-bce2-63bf" name="Flame Immunity" book="Rulebook" page="58" hidden="false" collective="false" type="upgrade">
+                      <profiles>
+                        <profile id="f2ea-528a-4c42-89b3" name="Flame Immunity" book="Rulebook" page="58" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <characteristics>
+                            <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                            <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                            <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="1"/>
+                            <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                            <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                            <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="bc9b-c3d2-b07a-7fc2" name="Flame Immunity" book="Rulebook" page="58" hidden="false">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <description>This power activates automatically when the psion is truck by a heat-based attack (although the player can choose to not use it).
+One Psi point is spent and the screen is considered activated against that specific attack. The screen reduces the damage dice of any heat-based attack (including Heatburn, Ignition, Plasma Control, Plasma Storm and Plasma Blast) by two, with no roll required. This power protects the character’s equipment from damage as well.
+If the psion is attacked again, the character must spend another Psi point to screen himself. If the psion is out of Psi points, the screen does not activate. </description>
+                        </rule>
+                      </rules>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6c7b-b5a9-2198-3273" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                        <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="99d4-a621-3b49-5652" name="Heatburn" book="Rulebook" page="58" hidden="false" collective="false" type="upgrade">
+                      <profiles>
+                        <profile id="dd4d-62cb-7c50-dc82" name="Heatburn" book="Rulebook" page="58" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <characteristics>
+                            <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="20"/>
+                            <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="2"/>
+                            <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="2"/>
+                            <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="3"/>
+                            <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Psi"/>
+                            <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="d0a2-4d11-5f1f-6c1a" name="Heatburn" book="Rulebook" page="58" hidden="false">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <description>Resolve this action like a normal Ranged attack, using Psi. Since the blast is momentary, the target dosen&apos;t catch fire unless the psion is shooting some highly flammable substance.</description>
+                        </rule>
+                      </rules>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c630-910d-3980-ca0c" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                        <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="d798-4d43-f506-fe14" name="Ignition" book="Rulebook" page="58" hidden="false" collective="false" type="upgrade">
+                      <profiles>
+                        <profile id="89e8-cb2b-4749-b05b" name="Ignition" book="Rulebook" page="58" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <characteristics>
+                            <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="14"/>
+                            <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="3"/>
+                            <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                            <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="See Rules"/>
+                            <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Psi"/>
+                            <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="See Rules"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="765f-c913-3064-445e" name="Ignition" book="Rulebook" page="58" hidden="false">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <description>Roll Psi for the attack. If the roll succeeds, the subject’s hair, clothes and equipment burst into flame; place a Fire Counter next to the victim for each success scored on the Psi roll […]</description>
+                        </rule>
+                      </rules>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5b23-5bda-4bcf-218e" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                        <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="c560-1299-8bed-2401" name="Liquefy" book="Rulebook" page="58" hidden="false" collective="false" type="upgrade">
+                      <profiles>
+                        <profile id="6893-158e-af83-8744" name="Liquefy" book="Rulebook" page="58" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <characteristics>
+                            <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="16"/>
+                            <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="2"/>
+                            <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                            <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                            <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                            <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="See Rules"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="cb7b-d53f-8a6a-a561" name="Liquefy" book="Rulebook" page="58" hidden="false">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <description>Specify an inanimate object up to a maximum of two inches in height and roll Psi. If one or two successes are scored, the power liquefies any object that fits entirely under a three-inch template. With the or four successes, the psion melts an object that fits entirely under a five-inch template. At five or more successes, anything that fits entirely under a seven-inch template is slagged. </description>
+                        </rule>
+                      </rules>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7c75-3c58-c3de-746d" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                        <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="a335-ff52-25b1-d041" name="Plasma Control" book="Rulebook" page="58" hidden="false" collective="false" type="upgrade">
+                      <profiles>
+                        <profile id="cf3f-b5f0-f418-d3e1" name="Plasma Control" book="Rulebook" page="58" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <characteristics>
+                            <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="16"/>
+                            <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="4"/>
+                            <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="5"/>
+                            <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="8"/>
+                            <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Psi"/>
+                            <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="5-inch"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="ff30-9520-fe59-017a" name="Plasma Control" book="Rulebook" page="58" hidden="false">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <description>This psionic attack functions like a Heavy Weapons attack, using Psi to hit and rolling for deviation as normal. Any model even partially under the template is subject to the full 8 damage dice.</description>
+                        </rule>
+                      </rules>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f45-6907-6970-e07c" type="max"/>
                       </constraints>
                       <categoryLinks/>
                       <selectionEntries/>
