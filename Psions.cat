@@ -17,6 +17,14 @@
       <constraints/>
       <categoryLinks/>
     </entryLink>
+    <entryLink id="c0f2-85f8-be0d-b361" name="Support Squad Avenger" hidden="false" targetId="49e3-daa1-eb55-16f1" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="b64d-7248-ace8-8253" name="Psion" book="Rulebook" page="75" hidden="false" collective="false" type="model">
@@ -2269,6 +2277,143 @@ A psion may also choose to pick up a target and move it without inflicting damag
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
         <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="49e3-daa1-eb55-16f1" name="Support Squad Avenger" book="Rulebook" page="88" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="f2a4-1af3-4eb6-91f8" name="Abilities" book="Rulebook" page="43" hidden="false" profileTypeId="33c0-4b41-8772-5bb4" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="STR" characteristicTypeId="5347-6c55-6c62-1220" value="2"/>
+            <characteristic name="DEX" characteristicTypeId="dfea-027c-41a7-6dca" value="3"/>
+            <characteristic name="STA" characteristicTypeId="9062-ea58-07e6-2585" value="3"/>
+            <characteristic name="MEN" characteristicTypeId="4dda-30f2-a9cf-ecf4" value="2"/>
+            <characteristic name="SOC" characteristicTypeId="e185-e99d-e0b5-3de8" value="2"/>
+          </characteristics>
+        </profile>
+        <profile id="7d50-8e0d-e3ff-9d30" name="Combat Stats" book="Rulebook" page="76" hidden="false" profileTypeId="25de-1bf8-ab80-d7e5" profileTypeName="Combat Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Ranged" characteristicTypeId="cd14-fabb-551c-0b28" value="4"/>
+            <characteristic name="Heavy Weapons" characteristicTypeId="71fc-9bc1-89f3-f796" value="0"/>
+            <characteristic name="Close Combat" characteristicTypeId="a752-74f4-91f0-17e7" value="2"/>
+            <characteristic name="Soak" characteristicTypeId="f57a-432e-7c63-2f03" value="5"/>
+          </characteristics>
+        </profile>
+        <profile id="2cab-ce37-576d-19fb" name="Secondary Attributes" book="Rulebook" page="75" hidden="false" profileTypeId="5c1f-b21d-7cc7-bf5f" profileTypeName="Secondary Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Health" characteristicTypeId="4f50-7d5e-70d7-80cd" value="5"/>
+            <characteristic name="Init" characteristicTypeId="69c7-93fe-5e59-76d7" value="2"/>
+            <characteristic name="PSI/Taint" characteristicTypeId="76ba-63d0-814f-655f" value="0"/>
+            <characteristic name="APs" characteristicTypeId="b396-7827-5b33-4909" value="6"/>
+            <characteristic name="Command Radius" characteristicTypeId="68c0-a4fc-8906-8eda" value="0"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="7c75-2e02-2271-32c5" name="Support Troop" hidden="false" targetId="ccbb-f4a9-c8b3-4d44" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="56a6-66f3-cd97-d2b5" name="Equipment" book="Rulebook" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="ed5d-f2da-130a-c2f6" name="Armor Carapace  (AR:3)" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="5837-a331-efab-0a68" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed3e-ca61-cb3c-1566" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="18dd-aea6-38cd-e75a" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="25.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="a4f5-9ffb-44fd-e4ad" name="L-K Avanger" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="62c6-775c-f6cf-2194" name="L-K Avanger" book="Rulebook" page="69" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="2"/>
+                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="10"/>
+                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="14"/>
+                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="6"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="5837-a331-efab-0a68" value="0.0">
+                  <repeats/>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="150d-36c0-aab8-72b4" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffe8-cccb-96e5-1ff1" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="135.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>

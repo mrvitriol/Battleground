@@ -81,7 +81,7 @@
     </profileType>
   </profileTypes>
   <categoryEntries>
-    <categoryEntry id="7db3-5516-f4fa-9d29" name="Individual" hidden="false">
+    <categoryEntry id="7db3-5516-f4fa-9d29" name="Character" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
