@@ -2414,11 +2414,13 @@ A psion may also choose to pick up a target and move it without inflicting damag
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="135.0"/>
+        <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="e288-74d1-7217-70a2" name="1 - Tier" hidden="false" collective="false" defaultSelectionEntryId="35ae-33c4-35a7-bcf7">
+    <selectionEntryGroup id="e288-74d1-7217-70a2" name="1 - Tier" book="Rulebook" page="75" hidden="false" collective="false" defaultSelectionEntryId="35ae-33c4-35a7-bcf7">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -2566,7 +2568,11 @@ A psion may also choose to pick up a target and move it without inflicting damag
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="3402-37b0-eb50-b4f6" name="Clairsentience [ISRA]" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -2578,7 +2584,11 @@ A psion may also choose to pick up a target and move it without inflicting damag
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="5758-a32c-5447-e9a4" name="Electrokinesis [Orgotek]" book="Rulebook" page="61" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -2590,7 +2600,11 @@ A psion may also choose to pick up a target and move it without inflicting damag
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="befa-0388-0a39-b597" name="Telepathy [The Ministry]" book="Rulebook" page="62" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -2602,7 +2616,11 @@ A psion may also choose to pick up a target and move it without inflicting damag
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="eec1-2fe3-476a-c7ae" name="Vitakinesis [Aeskulapians]" book="Rulebook" page="63" hidden="false" collective="false" type="upgrade">
           <profiles/>
@@ -2614,7 +2632,11 @@ A psion may also choose to pick up a target and move it without inflicting damag
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>

@@ -1,0 +1,398 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="b3e8-c91c-252d-0ab2" name="Abberants" revision="1" battleScribeVersion="2.01" gameSystemId="50a9-cc7d-a2f9-64c9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <profiles/>
+  <rules/>
+  <infoLinks/>
+  <costTypes/>
+  <profileTypes/>
+  <categoryEntries/>
+  <forceEntries/>
+  <selectionEntries/>
+  <entryLinks/>
+  <sharedSelectionEntries>
+    <selectionEntry id="215e-8a57-f4b8-874b" name="Aberrant" book="Rulebook" page="75" hidden="false" collective="false" type="model">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="f0ed-f9ca-8af7-0526" name="New CategoryLink" hidden="false" targetId="7db3-5516-f4fa-9d29" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7ce3-dc1a-dbee-f080" name="2 - Abilities" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="f833-3cd1-e120-1524" value="3">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="156b-2ce0-f846-a6e1" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e072-d8b9-e178-6005" repeats="2" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3850-017d-eb6b-3e3f" repeats="4" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b61e-4337-b905-ab60" repeats="5" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54aa-2255-f10b-6a2e" repeats="6" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ccee-a908-64f7-5787" repeats="3" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="f8fa-e048-3bde-f0f7" value="3">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b61e-4337-b905-ab60" repeats="5" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54aa-2255-f10b-6a2e" repeats="6" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ccee-a908-64f7-5787" repeats="3" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="156b-2ce0-f846-a6e1" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e072-d8b9-e178-6005" repeats="2" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3850-017d-eb6b-3e3f" repeats="4" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="215e-8a57-f4b8-874b" value="13.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f833-3cd1-e120-1524" type="max"/>
+            <constraint field="selections" scope="215e-8a57-f4b8-874b" value="13.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8fa-e048-3bde-f0f7" type="min"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="7cc5-20aa-91a4-3fed" name="Dexterity" hidden="false" targetId="f806-f7e6-8b14-243b" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="a12e-bce0-f6ee-9b89" value="5">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="156b-2ce0-f846-a6e1" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="a12e-bce0-f6ee-9b89" value="6">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ccee-a908-64f7-5787" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e072-d8b9-e178-6005" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="a12e-bce0-f6ee-9b89" value="7">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3850-017d-eb6b-3e3f" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b61e-4337-b905-ab60" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="a12e-bce0-f6ee-9b89" value="8">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54aa-2255-f10b-6a2e" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="215e-8a57-f4b8-874b" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a12e-bce0-f6ee-9b89" type="max"/>
+                <constraint field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d822-3e35-3dcd-79c9" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="288c-9203-705b-7ffd" name="Mental" hidden="false" targetId="cec8-75b0-d9bc-3573" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="f9b7-e7ae-8909-a52c" value="5">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="156b-2ce0-f846-a6e1" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="f9b7-e7ae-8909-a52c" value="6">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e072-d8b9-e178-6005" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ccee-a908-64f7-5787" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="f9b7-e7ae-8909-a52c" value="7">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b61e-4337-b905-ab60" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3850-017d-eb6b-3e3f" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="f9b7-e7ae-8909-a52c" value="8">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54aa-2255-f10b-6a2e" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="215e-8a57-f4b8-874b" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f9b7-e7ae-8909-a52c" type="max"/>
+                <constraint field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c80-accd-4de3-64f7" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="e2f8-ca2e-b3f7-4a11" name="Social" hidden="false" targetId="0d52-59f5-943e-e67d" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="1241-7865-f3ed-4453" value="5">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="156b-2ce0-f846-a6e1" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="1241-7865-f3ed-4453" value="6">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ccee-a908-64f7-5787" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e072-d8b9-e178-6005" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="1241-7865-f3ed-4453" value="7">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b61e-4337-b905-ab60" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3850-017d-eb6b-3e3f" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="1241-7865-f3ed-4453" value="8">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54aa-2255-f10b-6a2e" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="215e-8a57-f4b8-874b" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1241-7865-f3ed-4453" type="max"/>
+                <constraint field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dcef-11fa-4be4-9c99" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="babc-e8a4-8c58-55ee" name="Stamina" hidden="false" targetId="171e-03e5-938d-7983" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="4ebf-0a4e-f0fc-7ae8" value="8">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54aa-2255-f10b-6a2e" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="4ebf-0a4e-f0fc-7ae8" value="6">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ccee-a908-64f7-5787" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e072-d8b9-e178-6005" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="4ebf-0a4e-f0fc-7ae8" value="7">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b61e-4337-b905-ab60" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3850-017d-eb6b-3e3f" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="4ebf-0a4e-f0fc-7ae8" value="5">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="156b-2ce0-f846-a6e1" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="215e-8a57-f4b8-874b" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ebf-0a4e-f0fc-7ae8" type="max"/>
+                <constraint field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e450-0e0d-52be-2cea" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="b60c-f168-9089-6442" name="Strength" hidden="false" targetId="8c48-2777-4ea5-2157" type="selectionEntry">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers>
+                <modifier type="set" field="5ec4-070a-b03f-a9ad" value="5">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="156b-2ce0-f846-a6e1" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="5ec4-070a-b03f-a9ad" value="6">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ccee-a908-64f7-5787" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e072-d8b9-e178-6005" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="5ec4-070a-b03f-a9ad" value="7">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3850-017d-eb6b-3e3f" repeats="1" roundUp="false"/>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b61e-4337-b905-ab60" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+                <modifier type="set" field="5ec4-070a-b03f-a9ad" value="8">
+                  <repeats>
+                    <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54aa-2255-f10b-6a2e" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions/>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="215e-8a57-f4b8-874b" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5ec4-070a-b03f-a9ad" type="max"/>
+                <constraint field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c354-41dc-f3f6-cde5" type="min"/>
+              </constraints>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="87bd-94d4-2a99-c45d" name="1 - Caste" book="Rulebook" page="75" hidden="false" collective="false" defaultSelectionEntryId="156b-2ce0-f846-a6e1">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8517-b404-e8c9-f448" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d907-7e5a-cb18-799c" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="e072-d8b9-e178-6005" name="2nd Caste Abberant" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="150.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="156b-2ce0-f846-a6e1" name="1st Caste Abberant" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="125.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ccee-a908-64f7-5787" name="3rd Caste Abberant" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="200.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3850-017d-eb6b-3e3f" name="4th Caste Abberant" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="320.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b61e-4337-b905-ab60" name="5th Caste Abberant" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="500.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="54aa-2255-f10b-6a2e" name="6th Caste Abberant" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="750.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedRules/>
+  <sharedProfiles/>
+</catalogue>
