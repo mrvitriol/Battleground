@@ -1056,6 +1056,47 @@ If the psion is attacked again, the character must spend another Psi point to sc
                         <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
                       </costs>
                     </selectionEntry>
+                    <selectionEntry id="dd51-184e-6053-c33b" name="Flash Freeze" book="Rulebook" page="57" hidden="false" collective="false" type="upgrade">
+                      <profiles>
+                        <profile id="95f4-35fd-e1bc-bc4d" name="Flash Freeze" book="Rulebook" page="57" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <characteristics>
+                            <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="14&quot;"/>
+                            <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="3"/>
+                            <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                            <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                            <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Psi"/>
+                            <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="none"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="832e-2696-bdb0-8436" name="Flash Freeze" book="Rulebook" page="57" hidden="false">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <description>Activating this power requires a Psi roll; the player must score more successes than the target’s STA. If the power succeeds, the target loses half of its APs for the remainder of the turn […].</description>
+                        </rule>
+                      </rules>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b45-54ef-647c-8daa" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                        <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
                   </selectionEntries>
                   <selectionEntryGroups/>
                   <entryLinks/>
