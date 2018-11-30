@@ -24,6 +24,7 @@
         <characteristicType id="69c7-93fe-5e59-76d7" name="Init"/>
         <characteristicType id="76ba-63d0-814f-655f" name="PSI/Taint"/>
         <characteristicType id="b396-7827-5b33-4909" name="APs"/>
+        <characteristicType id="68c0-a4fc-8906-8eda" name="Command Radius"/>
       </characteristicTypes>
     </profileType>
     <profileType id="1c0d-d92c-9d86-7ea4" name="Power Stats">
@@ -42,13 +43,6 @@
         <characteristicType id="71fc-9bc1-89f3-f796" name="Heavy Weapons"/>
         <characteristicType id="a752-74f4-91f0-17e7" name="Close Combat"/>
         <characteristicType id="f57a-432e-7c63-2f03" name="Soak"/>
-      </characteristicTypes>
-    </profileType>
-    <profileType id="3173-d72d-dbc5-e487" name="Charakter Profile">
-      <characteristicTypes>
-        <characteristicType id="07ea-0dc2-68e9-a007" name="Tier/Caste"/>
-        <characteristicType id="67d5-5bb0-7b4e-13f9" name="Experience"/>
-        <characteristicType id="759e-62d3-4594-0e05" name="Command Radius"/>
       </characteristicTypes>
     </profileType>
     <profileType id="ca80-b611-54a5-fbf2" name="Ranged Weapon">

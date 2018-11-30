@@ -4,7 +4,14 @@
   <rules/>
   <infoLinks/>
   <costTypes/>
-  <profileTypes/>
+  <profileTypes>
+    <profileType id="427d-1a5d-1b41-4ba8" name="Character Profile">
+      <characteristicTypes>
+        <characteristicType id="ba5d-1571-7d45-b224" name="Aptitude / Order"/>
+        <characteristicType id="7a1d-7b02-4f56-636c" name="Tier"/>
+      </characteristicTypes>
+    </profileType>
+  </profileTypes>
   <categoryEntries/>
   <forceEntries/>
   <selectionEntries/>
@@ -113,12 +120,24 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
+            <modifier type="increment" field="68c0-a4fc-8906-8eda" value="1">
+              <repeats>
+                <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6709-9b4e-f639-473b" repeats="4" roundUp="false"/>
+                <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0c2a-0d98-fda5-95fb" repeats="6" roundUp="false"/>
+                <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0af2-ba67-e6f8-021e" repeats="8" roundUp="false"/>
+                <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a447-e017-d02d-f4a4" repeats="10" roundUp="false"/>
+                <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4fb1-10f6-927c-2f30" repeats="12" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Health" characteristicTypeId="4f50-7d5e-70d7-80cd" value="0"/>
             <characteristic name="Init" characteristicTypeId="69c7-93fe-5e59-76d7" value="0"/>
             <characteristic name="PSI/Taint" characteristicTypeId="76ba-63d0-814f-655f" value="0"/>
             <characteristic name="APs" characteristicTypeId="b396-7827-5b33-4909" value="2"/>
+            <characteristic name="Command Radius" characteristicTypeId="68c0-a4fc-8906-8eda" value="0"/>
           </characteristics>
         </profile>
         <profile id="a206-ac0d-88e1-fc14" name="Combat Stats" book="Rulebook" page="76" hidden="false" profileTypeId="25de-1bf8-ab80-d7e5" profileTypeName="Combat Stats">
@@ -174,6 +193,16 @@
             <characteristic name="Heavy Weapons" characteristicTypeId="71fc-9bc1-89f3-f796" value="0"/>
             <characteristic name="Close Combat" characteristicTypeId="a752-74f4-91f0-17e7" value="0"/>
             <characteristic name="Soak" characteristicTypeId="f57a-432e-7c63-2f03" value="0"/>
+          </characteristics>
+        </profile>
+        <profile id="6a0f-bc2e-92a5-bf5c" name="Psion" hidden="false" profileTypeId="427d-1a5d-1b41-4ba8" profileTypeName="Character Profile">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Aptitude / Order" characteristicTypeId="ba5d-1571-7d45-b224" value="none"/>
+            <characteristic name="Tier" characteristicTypeId="7a1d-7b02-4f56-636c" value="none"/>
           </characteristics>
         </profile>
       </profiles>
@@ -1446,7 +1475,11 @@ This power may be activated in any segment of the Action Phase, not simply Move 
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks/>
-                      <costs/>
+                      <costs>
+                        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                        <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry id="caa8-49dc-7a60-60d4" name="Force Barrier" book="Rulebook" page="59" hidden="false" collective="false" type="upgrade">
                       <profiles>
@@ -1484,7 +1517,11 @@ In Close Combat, the Force Barrier protects the psion completely and requires fi
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks/>
-                      <costs/>
+                      <costs>
+                        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                        <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry id="4455-d555-8942-b0e5" name="Remote Manipulation" book="Rulebook" page="59" hidden="false" collective="false" type="upgrade">
                       <profiles>
@@ -1522,7 +1559,11 @@ Tripping an opponent requires a Psi roll. The psion must get successes equal to 
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks/>
-                      <costs/>
+                      <costs>
+                        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                        <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry id="1a50-ec16-6c4b-8854" name="Slingshot" book="Rulebook" page="59" hidden="false" collective="false" type="upgrade">
                       <profiles>
@@ -1560,7 +1601,11 @@ A psion may also choose to pick up a target and move it without inflicting damag
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks/>
-                      <costs/>
+                      <costs>
+                        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                        <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                     <selectionEntry id="d282-7a68-2214-2ba2" name="Tow" book="Rulebook" page="59" hidden="false" collective="false" type="upgrade">
                       <profiles>
@@ -1597,7 +1642,11 @@ A psion may also choose to pick up a target and move it without inflicting damag
                       <selectionEntries/>
                       <selectionEntryGroups/>
                       <entryLinks/>
-                      <costs/>
+                      <costs>
+                        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                        <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                      </costs>
                     </selectionEntry>
                   </selectionEntries>
                   <selectionEntryGroups/>
@@ -1649,7 +1698,11 @@ A psion may also choose to pick up a target and move it without inflicting damag
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                    <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                    <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="13aa-637b-ee5d-5315" name="Heightened Reflexes" book="Rulebook" page="60" hidden="false" collective="false" type="upgrade">
                   <profiles>
@@ -1686,7 +1739,11 @@ A psion may also choose to pick up a target and move it without inflicting damag
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                    <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                    <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
@@ -1735,7 +1792,11 @@ A psion may also choose to pick up a target and move it without inflicting damag
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                    <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                    <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="757b-5b03-094d-70f6" name="Sensory Projection" book="Rulebook" page="61" hidden="false" collective="false" type="upgrade">
                   <profiles>
@@ -1772,7 +1833,11 @@ A psion may also choose to pick up a target and move it without inflicting damag
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                    <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                    <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
@@ -1821,7 +1886,11 @@ A psion may also choose to pick up a target and move it without inflicting damag
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                    <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                    <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="1e10-8910-93e6-342e" name="Stun" book="Rulebook" page="62" hidden="false" collective="false" type="upgrade">
                   <profiles>
@@ -1858,7 +1927,11 @@ A psion may also choose to pick up a target and move it without inflicting damag
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                    <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                    <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
@@ -1907,7 +1980,11 @@ A psion may also choose to pick up a target and move it without inflicting damag
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                    <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                    <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="18b8-1258-2a02-d1ec" name="Shagg&apos;s Folly" book="Rulebook" page="62" hidden="false" collective="false" type="upgrade">
                   <profiles>
@@ -1944,7 +2021,11 @@ A psion may also choose to pick up a target and move it without inflicting damag
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                    <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                    <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
@@ -1993,7 +2074,11 @@ A psion may also choose to pick up a target and move it without inflicting damag
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                    <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                    <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                  </costs>
                 </selectionEntry>
                 <selectionEntry id="5f51-6a76-dcec-04c3" name="Mending" book="Rulebook" page="62" hidden="false" collective="false" type="upgrade">
                   <profiles>
@@ -2030,7 +2115,11 @@ A psion may also choose to pick up a target and move it without inflicting damag
                   <selectionEntries/>
                   <selectionEntryGroups/>
                   <entryLinks/>
-                  <costs/>
+                  <costs>
+                    <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                    <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                    <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <selectionEntryGroups/>
@@ -2041,7 +2130,7 @@ A psion may also choose to pick up a target and move it without inflicting damag
         </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
-        <entryLink id="0651-a9dd-3fd7-cc2e" name="Tier" book="Rulebook" page="75" hidden="false" targetId="e288-74d1-7217-70a2" type="selectionEntryGroup">
+        <entryLink id="0651-a9dd-3fd7-cc2e" name="1 - Tier" book="Rulebook" page="75" hidden="false" targetId="e288-74d1-7217-70a2" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
