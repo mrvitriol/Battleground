@@ -1606,6 +1606,436 @@ A psion may also choose to pick up a target and move it without inflicting damag
               </selectionEntryGroups>
               <entryLinks/>
             </selectionEntryGroup>
+            <selectionEntryGroup id="4428-0887-adbd-2cb3" name="Biokinesis" book="Rulebook" page="60" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="1cea-6983-1754-6edf" name="Gross Manipulation" book="Rulebook" page="60" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="4976-c2d9-05e1-75be" name="Gross Manipulation" book="Rulebook" page="60" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                        <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                        <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="2"/>
+                        <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                        <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                        <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule id="2d74-b09d-0f3e-0ccc" name="Gross Manipulation" book="Rulebook" page="60" hidden="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <description>In any given turn, the expenditure of two Psi points grants the psion Close Combat bonuses equivalent to Claws (AP: 3, D: 5).</description>
+                    </rule>
+                  </rules>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3273-0b0d-1b3a-b63b" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs/>
+                </selectionEntry>
+                <selectionEntry id="13aa-637b-ee5d-5315" name="Heightened Reflexes" book="Rulebook" page="60" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="0461-b518-f089-f6e4" name="Heightened Reflexes" book="Rulebook" page="60" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                        <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                        <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
+                        <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                        <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                        <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule id="2990-47c8-2f8a-4607" name="Heightened Reflexes" book="Rulebook" page="60" hidden="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <description>The user gains an additional two APs for the turn. This power may be activated more than once in a given turn if the psion has enough Psi points.</description>
+                    </rule>
+                  </rules>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d3d-5e45-7068-db08" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs/>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="7a57-0616-f406-86bd" name="Clairsentience" book="Rulebook" page="60" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="490e-a58e-4073-7d51" name="Danger Sense" book="Rulebook" page="60" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="85df-d82c-0dd7-93ee" name="Danger Sense" book="Rulebook" page="60" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                        <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                        <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                        <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                        <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                        <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule id="b53b-d9ae-2eaa-3f17" name="Danger Sense" book="Rulebook" page="60" hidden="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <description>This power activates automatically when the psion is about to be the target of any attack – if the player so desires, and the character has enough Psi points. The Psion changes his order to Take Cover and may play it immediately, moving and taking cover if possible. This power may be used if the psion has already taken actions this turn. </description>
+                    </rule>
+                  </rules>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b28f-24fa-9d50-8e15" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs/>
+                </selectionEntry>
+                <selectionEntry id="757b-5b03-094d-70f6" name="Sensory Projection" book="Rulebook" page="61" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="b144-d06b-e471-7f22" name="Sensory Projection" book="Rulebook" page="61" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                        <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="2"/>
+                        <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="2"/>
+                        <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                        <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                        <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule id="abad-ec33-e8bc-7c23" name="Sensory Projection" book="Rulebook" page="61" hidden="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <description>This power allows the clairsentient to make normal attacks against individuals using Take Cover, assuming that a target isn&apos;t obstructed completely.</description>
+                    </rule>
+                  </rules>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c73b-8725-bace-7a1d" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs/>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="bbf7-c8b3-ce3b-a49d" name="Elektrokinesis" book="Rulebook" page="61" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="b726-335a-31f5-165a" name="Controll Illumination" book="Rulebook" page="61" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="9896-25d8-d6f5-3881" name="Controll Illumination" book="Rulebook" page="61" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="8"/>
+                        <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="3"/>
+                        <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="2"/>
+                        <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="See Rules"/>
+                        <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="See Rules"/>
+                        <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="See Rules"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule id="28f5-9102-2ab9-d526" name="Controll Illumination" book="Rulebook" page="61" hidden="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <description>Roll Psi to target the beam; a failed roll means the bolt misses. If the beam hits, the target suffers blindness, losing two dice from all attack rolls for the remainder of the turn. Place a Blind Counter next to the model. The counter is removed at the end of the turn.</description>
+                    </rule>
+                  </rules>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7aee-e07a-3693-8008" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs/>
+                </selectionEntry>
+                <selectionEntry id="1e10-8910-93e6-342e" name="Stun" book="Rulebook" page="62" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="71d5-9e5a-6923-e8fe" name="Stun" book="Rulebook" page="62" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                        <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                        <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                        <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="See Rules"/>
+                        <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                        <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule id="360f-948a-cb3c-89eb" name="Stun" book="Rulebook" page="62" hidden="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <description>Stun kicks in automatically whenever the psion takes damage in Close Comat, unless the character is out of Psi points or the player chooses otherwise. The character must lose at least one Health level before the power activates. When it does, the psion’s attacker is electrocuted and suffers one die of damage that cannot be Soaked.</description>
+                    </rule>
+                  </rules>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8722-97ca-9046-b7b7" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs/>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="4621-e990-21b5-4cd0" name="Telepathy" book="Rulebook" page="62" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="a0f0-934e-bbce-fed6" name="Sense Emotion" book="Rulebook" page="62" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="0bb9-9db4-d47e-1127" name="Sense Emotion" book="Rulebook" page="62" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="16"/>
+                        <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                        <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="2"/>
+                        <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                        <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                        <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule id="ad3f-5a34-f243-be5e" name="Sense Emotion" book="Rulebook" page="62" hidden="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <description>At any point during the turn, the psion may simply spend the Psi necessary and look at the Action Counter of an enemy who’s in range.</description>
+                    </rule>
+                  </rules>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="912a-3a3d-e413-5cb4" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs/>
+                </selectionEntry>
+                <selectionEntry id="18b8-1258-2a02-d1ec" name="Shagg&apos;s Folly" book="Rulebook" page="62" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="3150-782f-137a-6a9e" name="Shagg&apos;s Folly" book="Rulebook" page="62" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                        <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                        <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="5"/>
+                        <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                        <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                        <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule id="0bdd-768e-07e3-c513" name="Shagg&apos;s Folly" book="Rulebook" page="62" hidden="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <description>There is no roll to activate this power, but the psion in question must have been assigned an Ambush Action Counter. With the expenditure of five Psi points, the psion may move during the Ambush Segment and with his full complement of APs rather than the usual half.</description>
+                    </rule>
+                  </rules>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="056b-fb29-0185-1d36" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs/>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
+            <selectionEntryGroup id="6bde-dc76-249f-bc2d" name="Vitakinesis" book="Rulebook" page="62" hidden="false" collective="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries>
+                <selectionEntry id="eecb-eb83-be92-a695" name="Contusion" book="Rulebook" page="62" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="26de-53a2-ce5c-5f2b" name="Contusion" book="Rulebook" page="62" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="14"/>
+                        <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="3"/>
+                        <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                        <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="2"/>
+                        <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Psi"/>
+                        <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule id="5bf4-4136-793d-e42d" name="Contusion" book="Rulebook" page="62" hidden="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <description>The vitakinetic channels his energy to cause blunt-force injury, inflicting two dice of damage automatically (no armor, only STA).</description>
+                    </rule>
+                  </rules>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e564-ef5c-b827-1b2a" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs/>
+                </selectionEntry>
+                <selectionEntry id="5f51-6a76-dcec-04c3" name="Mending" book="Rulebook" page="62" hidden="false" collective="false" type="upgrade">
+                  <profiles>
+                    <profile id="d536-7977-cd2f-1ed5" name="Mending" book="Mending" page="62" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <characteristics>
+                        <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                        <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="3"/>
+                        <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                        <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                        <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                        <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <rules>
+                    <rule id="abac-ba0b-8537-d376" name="Mending" book="Rulebook" page="62" hidden="false">
+                      <profiles/>
+                      <rules/>
+                      <infoLinks/>
+                      <modifiers/>
+                      <description>The target automatically heals one Health level when the power is activated. Furthermore, a dying character is stabilized automatically by this power, as if treated successfully with medical aid.</description>
+                    </rule>
+                  </rules>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e3f3-61e9-6a16-2cea" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                  <selectionEntries/>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                  <costs/>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups/>
+              <entryLinks/>
+            </selectionEntryGroup>
           </selectionEntryGroups>
           <entryLinks/>
         </selectionEntryGroup>
