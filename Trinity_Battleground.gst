@@ -97,7 +97,7 @@
     </categoryEntry>
   </categoryEntries>
   <forceEntries>
-    <forceEntry id="cd15-4b0a-ec9b-3167" name="Campaign Game" book="Rulebook" page="74" hidden="false">
+    <forceEntry id="cd15-4b0a-ec9b-3167" name="Standard Game" book="Rulebook" page="74" hidden="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -1616,12 +1616,6 @@
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
-    <rule id="3e7a-7ab5-491b-9884" name="Command Radius" book="Rulebook" page="47" hidden="false">
-      <profiles/>
-      <rules/>
-      <infoLinks/>
-      <modifiers/>
-    </rule>
     <rule id="97d0-d6b8-99b4-be04" name="Single use" book="Rulebook" page="70" hidden="false">
       <profiles/>
       <rules/>
