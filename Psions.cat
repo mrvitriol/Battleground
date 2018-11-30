@@ -974,30 +974,28 @@
                   <selectionEntries>
                     <selectionEntry id="5f20-0955-8695-b377" name="Cold Immunity" book="Rulebook" page="57" hidden="false" collective="false" type="upgrade">
                       <profiles>
-                        <profile id="4406-0629-ffbc-a4ac" name="Cold Immunity" book="Rulebook" page="57" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+                        <profile id="4406-0629-ffbc-a4ac" name="Heat Sink" book="Rulebook" page="57" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
                           <profiles/>
                           <rules/>
                           <infoLinks/>
                           <modifiers/>
                           <characteristics>
-                            <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0&quot;"/>
-                            <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
-                            <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="1"/>
+                            <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="1&quot;"/>
+                            <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="2"/>
+                            <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
                             <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
                             <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
-                            <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+                            <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="Ice Cover"/>
                           </characteristics>
                         </profile>
                       </profiles>
                       <rules>
-                        <rule id="9c43-532b-d99a-9e32" name="Cold Immunity" book="Rulebook" page="57" hidden="false">
+                        <rule id="9c43-532b-d99a-9e32" name="Heat Sink" book="Rulebook" page="57" hidden="false">
                           <profiles/>
                           <rules/>
                           <infoLinks/>
                           <modifiers/>
-                          <description>This power activates automatically when the psion is truck by a cold-based attack (although the player can choose to not use it).
-One Psi point is spent and the screen is considered activated against that specific attack. The screen reduces the damage dice of any cold-based attack (including Hypothermic Blast, Cryofreeze, Ice Storm and Icy Blast) by two, with no roll required. This power protects the character’s equipment from damage as well.
-If the psion is attacked again, the character must spend another Psi point to screen himself. If the psion is out of Psi points, the screen does not activate. </description>
+                          <description>The effect grants the psion a three-die bonus against attackers who must draw line of sight through the icy shield. Place the Ice Cover Counter in contact with the psion’s base, in any direction desired.</description>
                         </rule>
                       </rules>
                       <infoLinks/>
@@ -1086,6 +1084,90 @@ If the psion is attacked again, the character must spend another Psi point to sc
                       <modifiers/>
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b45-54ef-647c-8daa" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                        <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="3199-5fb5-d8ca-8d43" name="Heat Sink" book="Rulebook" page="57" hidden="false" collective="false" type="upgrade">
+                      <profiles>
+                        <profile id="376f-b222-e5dd-d92f" name="Cold Immunity" book="Rulebook" page="57" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <characteristics>
+                            <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0&quot;"/>
+                            <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                            <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="1"/>
+                            <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                            <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                            <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="0e8c-a82d-4632-e21c" name="Cold Immunity" book="Rulebook" page="57" hidden="false">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <description>This power activates automatically when the psion is truck by a cold-based attack (although the player can choose to not use it).
+One Psi point is spent and the screen is considered activated against that specific attack. The screen reduces the damage dice of any cold-based attack (including Hypothermic Blast, Cryofreeze, Ice Storm and Icy Blast) by two, with no roll required. This power protects the character’s equipment from damage as well.
+If the psion is attacked again, the character must spend another Psi point to screen himself. If the psion is out of Psi points, the screen does not activate. </description>
+                        </rule>
+                      </rules>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bdad-7234-a046-4c28" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                        <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="defc-da87-1ed0-9126" name="Hypothermic Blast" book="Rulebook" page="58" hidden="false" collective="false" type="upgrade">
+                      <profiles>
+                        <profile id="7e65-67cf-6b85-c253" name="Hypothermic Blast" book="Rulebook" page="58" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <characteristics>
+                            <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="18&quot;"/>
+                            <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="2"/>
+                            <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                            <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="4"/>
+                            <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Psi"/>
+                            <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="4be0-2729-1c57-e5e5" name="Hypothermic Blast" book="Rulebook" page="58" hidden="false">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <description>Resolve this action like a normal Ranged attack, using Psi.</description>
+                        </rule>
+                      </rules>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e20d-512e-5abc-2fb6" type="max"/>
                       </constraints>
                       <categoryLinks/>
                       <selectionEntries/>
