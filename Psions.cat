@@ -940,8 +940,18 @@
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="increment" field="964c-3210-161f-7133" value="1">
+              <repeats>
+                <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d03-c18f-5d28-a0f0" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="964c-3210-161f-7133" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups>
@@ -991,6 +1001,47 @@
                       <modifiers/>
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb70-d1f3-1b7f-a773" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs>
+                        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                        <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="aad7-43fe-4ff1-1542" name="Cryofreeze" book="Rulebook" page="57" hidden="false" collective="false" type="upgrade">
+                      <profiles>
+                        <profile id="66d5-2cfb-6e10-049f" name="Cryofreeze" book="Rulebook" page="57" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <characteristics>
+                            <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="12&quot;"/>
+                            <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="4"/>
+                            <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="5"/>
+                            <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="10"/>
+                            <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Psi"/>
+                            <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="3-inch"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="b7f4-6923-c6cd-a264" name="Cryofreeze" book="Rulebook" page="57" hidden="false">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <description>This psionic attack functions like a Heavy Weapons attack, using Psi to hit andn rolling for deviation as normal. Any model even partially under the template is subject to the full 10 damage dice.</description>
+                        </rule>
+                      </rules>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="497d-9300-4cff-2eb8" type="max"/>
                       </constraints>
                       <categoryLinks/>
                       <selectionEntries/>
