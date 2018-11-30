@@ -687,7 +687,7 @@
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
-    <selectionEntryGroup id="a59a-4017-c685-48c1" name="4 - Equipment" book="Rulebook" page="69" hidden="false" collective="false">
+    <selectionEntryGroup id="a59a-4017-c685-48c1" name="Equipment" book="Rulebook" page="69" hidden="false" collective="false">
       <profiles/>
       <rules/>
       <infoLinks/>
@@ -696,7 +696,7 @@
       <categoryLinks/>
       <selectionEntries/>
       <selectionEntryGroups>
-        <selectionEntryGroup id="feac-0351-afa8-066a" name="4.2 - Ranged Weapons" book="Rulebook" page="69" hidden="false" collective="false">
+        <selectionEntryGroup id="feac-0351-afa8-066a" name="II - Ranged Weapons" book="Rulebook" page="69" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -897,7 +897,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
-        <selectionEntryGroup id="ceaa-92f2-0c67-d7f0" name="4.4 - Melee Weapons" book="Rulebook" page="69" hidden="false" collective="false">
+        <selectionEntryGroup id="ceaa-92f2-0c67-d7f0" name="IV - Melee Weapons" book="Rulebook" page="69" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -997,7 +997,7 @@
             </selectionEntry>
             <selectionEntry id="d51a-c3a3-7494-fb5f" name="Spider Harness" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
               <profiles>
-                <profile id="90c0-87c7-f598-4a53" name="Spider Harness" hidden="false" profileTypeId="f0c1-28b4-93c2-eb79" profileTypeName="Melee Weapon">
+                <profile id="90c0-87c7-f598-4a53" name="Spider Harness" book="Rulebook" page="69" hidden="false" profileTypeId="f0c1-28b4-93c2-eb79" profileTypeName="Melee Weapon">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1014,11 +1014,11 @@
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <description>The Spider Harness counts as one point of armor, improving soak against most attacks.</description>
+                  <description>The Spider Harness counts as one point of armor, improving soak against most attacks (figured in).</description>
                 </rule>
               </rules>
               <infoLinks>
-                <infoLink id="f271-46f8-11b5-7fa1" name="Biotech Gear" hidden="false" targetId="7ea9-edf5-3ecf-45d9" type="rule">
+                <infoLink id="f271-46f8-11b5-7fa1" name="Biotech Gear" book="" hidden="false" targetId="7ea9-edf5-3ecf-45d9" type="rule">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
@@ -1041,7 +1041,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
-        <selectionEntryGroup id="1d09-59a2-f193-4d37" name="4.3 - Heavy Weapons" book="Rulebook" page="70" hidden="false" collective="false">
+        <selectionEntryGroup id="1d09-59a2-f193-4d37" name="III - Heavy Weapons" book="Rulebook" page="70" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1100,7 +1100,7 @@
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <description>The padded support harness oand heat sinks for the Plasma Gun provide one point of armor.</description>
+                  <description>The padded support harness oand heat sinks for the Plasma Gun provide one point of armor (figured in).</description>
                 </rule>
               </rules>
               <infoLinks/>
@@ -1136,7 +1136,7 @@
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <description>The support armature of the coilgun provides one point of armor.</description>
+                  <description>The support armature of the coilgun provides one point of armor (figured in).</description>
                 </rule>
               </rules>
               <infoLinks/>
@@ -1172,7 +1172,7 @@
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <description>The reinforced harness of the L-K Killjoy launcher provides one point of armor.</description>
+                  <description>The reinforced harness of the L-K Killjoy launcher provides one point of armor (figured in).</description>
                 </rule>
               </rules>
               <infoLinks/>
@@ -1190,7 +1190,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
-        <selectionEntryGroup id="2446-adf2-9935-73e8" name="4.1 - Armor" hidden="false" collective="false">
+        <selectionEntryGroup id="2446-adf2-9935-73e8" name="I - Armor" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -1295,7 +1295,7 @@
           <selectionEntryGroups/>
           <entryLinks/>
         </selectionEntryGroup>
-        <selectionEntryGroup id="3db2-bd0f-a4b3-04db" name="4.5 - Special Equipment" book="Rulebook" page="70" hidden="false" collective="false">
+        <selectionEntryGroup id="3db2-bd0f-a4b3-04db" name="V - Special Equipment" book="Rulebook" page="70" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>

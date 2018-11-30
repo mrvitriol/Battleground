@@ -195,20 +195,53 @@
             <characteristic name="Soak" characteristicTypeId="f57a-432e-7c63-2f03" value="0"/>
           </characteristics>
         </profile>
-        <profile id="6a0f-bc2e-92a5-bf5c" name="Psion" hidden="false" profileTypeId="427d-1a5d-1b41-4ba8" profileTypeName="Character Profile">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <characteristics>
-            <characteristic name="Aptitude / Order" characteristicTypeId="ba5d-1571-7d45-b224" value="none"/>
-            <characteristic name="Tier" characteristicTypeId="7a1d-7b02-4f56-636c" value="none"/>
-          </characteristics>
-        </profile>
       </profiles>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="name" value="1st Tier Psion">
+          <repeats>
+            <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="35ae-33c4-35a7-bcf7" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="name" value="2nd Tier Psion">
+          <repeats>
+            <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6709-9b4e-f639-473b" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="name" value="3rd Tier Psion">
+          <repeats>
+            <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0c2a-0d98-fda5-95fb" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="name" value="4th Tier Psion">
+          <repeats>
+            <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0af2-ba67-e6f8-021e" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="name" value="5th Tier Psion">
+          <repeats>
+            <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a447-e017-d02d-f4a4" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="name" value="6th Tier Psion">
+          <repeats>
+            <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4fb1-10f6-927c-2f30" repeats="1" roundUp="false"/>
+          </repeats>
+          <conditions/>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="45e4-7980-260f-7045" name="New CategoryLink" hidden="false" targetId="7db3-5516-f4fa-9d29" primary="true">
@@ -965,7 +998,7 @@
           </selectionEntryGroups>
           <entryLinks/>
         </selectionEntryGroup>
-        <selectionEntryGroup id="b86c-ba7b-a9ed-d09e" name="Psionic Aptitudes" book="Rulebook" page="56" hidden="false" collective="false">
+        <selectionEntryGroup id="b86c-ba7b-a9ed-d09e" name="5 - Psionic Aptitudes" book="Rulebook" page="56" hidden="false" collective="false">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -2158,6 +2191,14 @@ A psion may also choose to pick up a target and move it without inflicting damag
           </constraints>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="4c07-fc19-6178-e7d2" name="4 - Aptitude / Order" hidden="false" targetId="2406-cb7a-f41c-f318" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
@@ -2273,6 +2314,97 @@ A psion may also choose to pick up a target and move it without inflicting damag
             <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="-6.0"/>
             <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
           </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="2406-cb7a-f41c-f318" name="4 - Aptitude / Order" book="Rulebook" page="56" hidden="false" collective="false" defaultSelectionEntryId="0a67-14ff-4233-f054">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2296-4a90-ac86-b101" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da03-3494-a973-cb6c" type="min"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="0a67-14ff-4233-f054" name="Psychokinesis [The Legions]" book="Rulebook" page="56" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="6f8d-9e7a-78e8-21f3" name="Biokinesis [NORCA]" book="Rulebook" page="60" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="3402-37b0-eb50-b4f6" name="Clairsentience [ISRA]" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="5758-a32c-5447-e9a4" name="Electrokinesis [Orgotek]" book="Rulebook" page="61" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="befa-0388-0a39-b597" name="Telepathy [The Ministry]" book="Rulebook" page="62" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="eec1-2fe3-476a-c7ae" name="Vitakinesis [Aeskulapians]" book="Rulebook" page="63" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
