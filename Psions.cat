@@ -1402,6 +1402,207 @@ If the psion is attacked again, the character must spend another Psi point to sc
                   <selectionEntryGroups/>
                   <entryLinks/>
                 </selectionEntryGroup>
+                <selectionEntryGroup id="5bed-708d-5f00-69db" name="Mode: Telekinesis" book="Rulebook" page="59" hidden="false" collective="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <constraints/>
+                  <categoryLinks/>
+                  <selectionEntries>
+                    <selectionEntry id="b97f-e26f-5115-e2c6" name="Flight" book="Rulebook" page="59" hidden="false" collective="false" type="upgrade">
+                      <profiles>
+                        <profile id="2b0e-b119-ee38-28d2" name="Flight" book="Rulebook" page="59" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <characteristics>
+                            <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                            <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                            <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                            <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                            <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                            <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="c1cd-ebd1-fdc8-677d" name="Flight" book="Rulebooke" page="59" hidden="false">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <description>Each AP spent on movement grants one-and-a-half inches of travel, ignoring all normal terrain modifiers. However, the character may never move more than twice her total Action Points in inches, unless “Sprinting.”
+This power may be activated in any segment of the Action Phase, not simply Move and Shoot, without penalty.</description>
+                        </rule>
+                      </rules>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="04ff-8c33-0f72-6ad4" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs/>
+                    </selectionEntry>
+                    <selectionEntry id="caa8-49dc-7a60-60d4" name="Force Barrier" book="Rulebook" page="59" hidden="false" collective="false" type="upgrade">
+                      <profiles>
+                        <profile id="b369-bce2-73b6-0180" name="Force Barrier" book="Rulebook" page="59" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <characteristics>
+                            <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                            <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="3 (or 5; See Rules)"/>
+                            <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                            <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                            <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                            <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="2964-abeb-a30f-b69e" name="Force Barrier" book="Rulebooke" page="59" hidden="false">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <description>This defense grants the psion all the bonuses of hard cover (-3 dice to attack rolls) against shooting opponents. This effect stacks with other forms of cover.
+In Close Combat, the Force Barrier protects the psion completely and requires five APs instead of three.</description>
+                        </rule>
+                      </rules>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d833-ec6b-a052-fa27" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs/>
+                    </selectionEntry>
+                    <selectionEntry id="4455-d555-8942-b0e5" name="Remote Manipulation" book="Rulebook" page="59" hidden="false" collective="false" type="upgrade">
+                      <profiles>
+                        <profile id="8e67-0516-43cf-e7ca" name="Remote Manipulation" book="Rulebook" page="59" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <characteristics>
+                            <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="12"/>
+                            <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="2"/>
+                            <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="2"/>
+                            <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                            <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Psi"/>
+                            <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="90ee-5b0e-ab9d-b851" name="Remote Manipulation" book="Rulebooke" page="59" hidden="false">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <description>When manipulating an opponent’s weapon, a successful Psi activation roll causes the targeted weapon to jam (does not work against support troops and Aberrant mutations).
+Tripping an opponent requires a Psi roll. The psion must get successes equal to or in excess of his target’s DEX. An opponent knocked over must spend four APs to stand again in his next action. Place a Fallen Counter next to the victim to indicate his status. Remove the counter when he stands. </description>
+                        </rule>
+                      </rules>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5e37-941d-9ee1-3159" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs/>
+                    </selectionEntry>
+                    <selectionEntry id="1a50-ec16-6c4b-8854" name="Slingshot" book="Rulebook" page="59" hidden="false" collective="false" type="upgrade">
+                      <profiles>
+                        <profile id="3718-0d3c-8273-00cc" name="Slingshot" book="Rulebook" page="59" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <characteristics>
+                            <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="14"/>
+                            <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="4"/>
+                            <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="5"/>
+                            <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="6 (or None; See Rules)"/>
+                            <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Psi"/>
+                            <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="3ccb-9c7c-6231-81ff" name="Slingshot" book="Rulebooke" page="59" hidden="false">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <description>Resolve this action like a normal Ranged attack, using Psi.
+A psion may also choose to pick up a target and move it without inflicting damage. In this case, a Psi roll is required only if the subject is unwilling. The target may be lifted up to five inches and placed on a structure within two inches in any direction of his starting point.</description>
+                        </rule>
+                      </rules>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b69-0fb3-24af-f9fa" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs/>
+                    </selectionEntry>
+                    <selectionEntry id="d282-7a68-2214-2ba2" name="Tow" book="Rulebook" page="59" hidden="false" collective="false" type="upgrade">
+                      <profiles>
+                        <profile id="886f-1607-a16a-a3ca" name="Tow" book="Rulebook" page="59" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <characteristics>
+                            <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                            <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                            <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="2"/>
+                            <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                            <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                            <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+                          </characteristics>
+                        </profile>
+                      </profiles>
+                      <rules>
+                        <rule id="de06-2ca7-37c9-191f" name="Tow" book="Rulebooke" page="59" hidden="false">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                          <description>This ability activates automatically when a psion is under fire. Spend two Psi points whenever a Ranged or Heavy Weapons attack (including Aberrant mutations) is made against the character, and reduce the attack roll by one die.</description>
+                        </rule>
+                      </rules>
+                      <infoLinks/>
+                      <modifiers/>
+                      <constraints>
+                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="13bc-6816-707b-1bc2" type="max"/>
+                      </constraints>
+                      <categoryLinks/>
+                      <selectionEntries/>
+                      <selectionEntryGroups/>
+                      <entryLinks/>
+                      <costs/>
+                    </selectionEntry>
+                  </selectionEntries>
+                  <selectionEntryGroups/>
+                  <entryLinks/>
+                </selectionEntryGroup>
               </selectionEntryGroups>
               <entryLinks/>
             </selectionEntryGroup>
