@@ -995,6 +995,9 @@
                           <rules/>
                           <infoLinks/>
                           <modifiers/>
+                          <description>This power activates automatically when the psion is truck by a cold-based attack (although the player can choose to not use it).
+One Psi point is spent and the screen is considered activated against that specific attack. The screen reduces the damage dice of any cold-based attack (including Hypothermic Blast, Cryofreeze, Ice Storm and Icy Blast) by two, with no roll required. This power protects the character’s equipment from damage as well.
+If the psion is attacked again, the character must spend another Psi point to screen himself. If the psion is out of Psi points, the screen does not activate. </description>
                         </rule>
                       </rules>
                       <infoLinks/>
