@@ -4,14 +4,7 @@
   <rules/>
   <infoLinks/>
   <costTypes/>
-  <profileTypes>
-    <profileType id="427d-1a5d-1b41-4ba8" name="Character Profile">
-      <characteristicTypes>
-        <characteristicType id="ba5d-1571-7d45-b224" name="Aptitude / Order"/>
-        <characteristicType id="7a1d-7b02-4f56-636c" name="Tier"/>
-      </characteristicTypes>
-    </profileType>
-  </profileTypes>
+  <profileTypes/>
   <categoryEntries/>
   <forceEntries/>
   <selectionEntries/>
@@ -1021,8 +1014,20 @@
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
-              <constraints/>
+              <modifiers>
+                <modifier type="increment" field="a01c-325d-3a5e-f66f" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d03-c18f-5d28-a0f0" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions>
+                    <condition field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0a67-14ff-4233-f054" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a01c-325d-3a5e-f66f" type="max"/>
+              </constraints>
               <categoryLinks/>
               <selectionEntries/>
               <selectionEntryGroups>
@@ -1692,8 +1697,20 @@ A psion may also choose to pick up a target and move it without inflicting damag
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
-              <constraints/>
+              <modifiers>
+                <modifier type="increment" field="8f46-fff5-1d8e-de24" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d03-c18f-5d28-a0f0" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions>
+                    <condition field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6f8d-9e7a-78e8-21f3" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8f46-fff5-1d8e-de24" type="max"/>
+              </constraints>
               <categoryLinks/>
               <selectionEntries>
                 <selectionEntry id="1cea-6983-1754-6edf" name="Gross Manipulation" book="Rulebook" page="60" hidden="false" collective="false" type="upgrade">
@@ -1786,8 +1803,20 @@ A psion may also choose to pick up a target and move it without inflicting damag
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
-              <constraints/>
+              <modifiers>
+                <modifier type="increment" field="7b0f-c589-f953-b06c" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d03-c18f-5d28-a0f0" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions>
+                    <condition field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3402-37b0-eb50-b4f6" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b0f-c589-f953-b06c" type="max"/>
+              </constraints>
               <categoryLinks/>
               <selectionEntries>
                 <selectionEntry id="490e-a58e-4073-7d51" name="Danger Sense" book="Rulebook" page="60" hidden="false" collective="false" type="upgrade">
@@ -1880,8 +1909,20 @@ A psion may also choose to pick up a target and move it without inflicting damag
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
-              <constraints/>
+              <modifiers>
+                <modifier type="increment" field="b060-47ed-d092-3bec" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d03-c18f-5d28-a0f0" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions>
+                    <condition field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5758-a32c-5447-e9a4" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b060-47ed-d092-3bec" type="max"/>
+              </constraints>
               <categoryLinks/>
               <selectionEntries>
                 <selectionEntry id="b726-335a-31f5-165a" name="Controll Illumination" book="Rulebook" page="61" hidden="false" collective="false" type="upgrade">
@@ -1974,8 +2015,20 @@ A psion may also choose to pick up a target and move it without inflicting damag
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
-              <constraints/>
+              <modifiers>
+                <modifier type="increment" field="d217-a242-6d21-6272" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d03-c18f-5d28-a0f0" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions>
+                    <condition field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="befa-0388-0a39-b597" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d217-a242-6d21-6272" type="max"/>
+              </constraints>
               <categoryLinks/>
               <selectionEntries>
                 <selectionEntry id="a0f0-934e-bbce-fed6" name="Sense Emotion" book="Rulebook" page="62" hidden="false" collective="false" type="upgrade">
@@ -2068,8 +2121,20 @@ A psion may also choose to pick up a target and move it without inflicting damag
               <profiles/>
               <rules/>
               <infoLinks/>
-              <modifiers/>
-              <constraints/>
+              <modifiers>
+                <modifier type="increment" field="5089-3373-88dd-5f22" value="1">
+                  <repeats>
+                    <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1d03-c18f-5d28-a0f0" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <conditions>
+                    <condition field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eec1-2fe3-476a-c7ae" type="equalTo"/>
+                  </conditions>
+                  <conditionGroups/>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5089-3373-88dd-5f22" type="max"/>
+              </constraints>
               <categoryLinks/>
               <selectionEntries>
                 <selectionEntry id="eecb-eb83-be92-a695" name="Contusion" book="Rulebook" page="62" hidden="false" collective="false" type="upgrade">
