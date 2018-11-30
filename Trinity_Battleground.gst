@@ -65,11 +65,6 @@
         <characteristicType id="3715-e37a-341b-4ff5" name="Damage"/>
       </characteristicTypes>
     </profileType>
-    <profileType id="5baf-05a0-0685-df3b" name="Armor">
-      <characteristicTypes>
-        <characteristicType id="c78b-5abb-7b5a-9edb" name="Armor Rating"/>
-      </characteristicTypes>
-    </profileType>
     <profileType id="143c-c300-69ac-1a28" name="Area off Effect">
       <characteristicTypes>
         <characteristicType id="ec7e-dbb6-f299-0ba3" name="Template"/>
@@ -913,7 +908,9 @@
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f1b3-f3f1-70f5-b804" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries>
             <selectionEntry id="ab65-6282-0d47-51f7" name="Fighting Gloves" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
@@ -1016,17 +1013,16 @@
                     <characteristic name="Damage" characteristicTypeId="3715-e37a-341b-4ff5" value="7"/>
                   </characteristics>
                 </profile>
-                <profile id="70dd-0d95-07af-44a2" name="Spider Harness" book="Rulebook" page="69" hidden="false" profileTypeId="5baf-05a0-0685-df3b" profileTypeName="Armor">
+              </profiles>
+              <rules>
+                <rule id="e489-d414-dd31-a210" name="Spider Harness" book="Rulebook" page="70" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <characteristics>
-                    <characteristic name="Armor Rating" characteristicTypeId="c78b-5abb-7b5a-9edb" value="1"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
+                  <description>The Spider Harness counts as one point of armor, improving soak against most attacks.</description>
+                </rule>
+              </rules>
               <infoLinks>
                 <infoLink id="f271-46f8-11b5-7fa1" name="Biotech Gear" hidden="false" targetId="7ea9-edf5-3ecf-45d9" type="rule">
                   <profiles/>
@@ -1103,17 +1099,16 @@
                     <characteristic name="Template" characteristicTypeId="4974-8783-fd73-e809" value="3-inch"/>
                   </characteristics>
                 </profile>
-                <profile id="d165-f3a2-83f8-973b" name="Voss 88T Plasma Gun" book="Rulebook" page="70" hidden="false" profileTypeId="5baf-05a0-0685-df3b" profileTypeName="Armor">
+              </profiles>
+              <rules>
+                <rule id="5b31-5a6a-f417-f787" name="Voss 88T Plasma Gun" book="Rulebook" page="70" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <characteristics>
-                    <characteristic name="Armor Rating" characteristicTypeId="c78b-5abb-7b5a-9edb" value="1"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
+                  <description>The padded support harness oand heat sinks for the Plasma Gun provide one point of armor.</description>
+                </rule>
+              </rules>
               <infoLinks/>
               <modifiers/>
               <constraints/>
@@ -1127,15 +1122,6 @@
             </selectionEntry>
             <selectionEntry id="64ad-5b48-f886-197a" name="L-K Junior Light Coilgun" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
               <profiles>
-                <profile id="44db-2caf-2484-a5ec" name="L-K Junior Light Coilgun" book="Rulebook" page="70" hidden="false" profileTypeId="5baf-05a0-0685-df3b" profileTypeName="Armor">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Armor Rating" characteristicTypeId="c78b-5abb-7b5a-9edb" value="1"/>
-                  </characteristics>
-                </profile>
                 <profile id="16a4-11c0-4cd0-bcc9" name="L-K Junior Light Coilgun" book="Rulebook" page="70" hidden="false" profileTypeId="979b-aa11-d18f-36b7" profileTypeName="Heavy Weapon">
                   <profiles/>
                   <rules/>
@@ -1150,7 +1136,15 @@
                   </characteristics>
                 </profile>
               </profiles>
-              <rules/>
+              <rules>
+                <rule id="0a3c-1ee8-f334-efc0" name="L-K Junior Light Coilgun" book="Rulebook" page="70" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>The support armature of the coilgun provides one point of armor.</description>
+                </rule>
+              </rules>
               <infoLinks/>
               <modifiers/>
               <constraints/>
@@ -1177,17 +1171,16 @@
                     <characteristic name="Template" characteristicTypeId="4974-8783-fd73-e809" value="7-inch"/>
                   </characteristics>
                 </profile>
-                <profile id="790f-7dc8-754c-85df" name="L-K Killjoy Missile Launcher" book="Rulebook" page="70" hidden="false" profileTypeId="5baf-05a0-0685-df3b" profileTypeName="Armor">
+              </profiles>
+              <rules>
+                <rule id="edbd-8399-42ae-8696" name="L-K Killjoy Missile Launcher" book="Ruleboo" page="70" hidden="false">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <characteristics>
-                    <characteristic name="Armor Rating" characteristicTypeId="c78b-5abb-7b5a-9edb" value="1"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
+                  <description>The reinforced harness of the L-K Killjoy launcher provides one point of armor.</description>
+                </rule>
+              </rules>
               <infoLinks/>
               <modifiers/>
               <constraints/>
@@ -1213,18 +1206,8 @@
           </constraints>
           <categoryLinks/>
           <selectionEntries>
-            <selectionEntry id="6dea-5082-0e3c-ed6d" name="Armor Vest" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="f1ea-f9e8-eb7b-4fcd" name="Armor Vest" book="Rulebook" page="70" hidden="false" profileTypeId="5baf-05a0-0685-df3b" profileTypeName="Armor">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Armor Rating" characteristicTypeId="c78b-5abb-7b5a-9edb" value="2"/>
-                  </characteristics>
-                </profile>
-              </profiles>
+            <selectionEntry id="6dea-5082-0e3c-ed6d" name="Armor Vest (AR:2)" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+              <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
@@ -1237,18 +1220,8 @@
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="4a52-8c5b-dd9e-7bf3" name="Field Suit" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="c9fb-a93a-ad39-761e" name="Field Suit" book="Rulebook" page="70" hidden="false" profileTypeId="5baf-05a0-0685-df3b" profileTypeName="Armor">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Armor Rating" characteristicTypeId="c78b-5abb-7b5a-9edb" value="3"/>
-                  </characteristics>
-                </profile>
-              </profiles>
+            <selectionEntry id="4a52-8c5b-dd9e-7bf3" name="Field Suit (AR:3)" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+              <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
@@ -1261,18 +1234,8 @@
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="77c7-ea71-20da-e7bd" name="Armor Carapace" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="73db-5ee2-e6e3-2241" name="Armor Carapace" book="Rulebook" page="70" hidden="false" profileTypeId="5baf-05a0-0685-df3b" profileTypeName="Armor">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Armor Rating" characteristicTypeId="c78b-5abb-7b5a-9edb" value="3"/>
-                  </characteristics>
-                </profile>
-              </profiles>
+            <selectionEntry id="77c7-ea71-20da-e7bd" name="Armor Carapace  (AR:3)" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+              <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
@@ -1285,18 +1248,8 @@
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="25.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8d4f-0558-bb84-1329" name="Bioweave Vest" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="dec4-9570-2a42-38f0" name="Bioweave Vest" book="Rulebook" page="70" hidden="false" profileTypeId="5baf-05a0-0685-df3b" profileTypeName="Armor">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Armor Rating" characteristicTypeId="c78b-5abb-7b5a-9edb" value="4"/>
-                  </characteristics>
-                </profile>
-              </profiles>
+            <selectionEntry id="8d4f-0558-bb84-1329" name="Bioweave Vest (AR:4)" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+              <profiles/>
               <rules/>
               <infoLinks>
                 <infoLink id="c388-f5dd-34a2-fed1" name="Biotech Gear" hidden="false" targetId="7ea9-edf5-3ecf-45d9" type="rule">
@@ -1316,18 +1269,8 @@
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="40.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="8937-7f7a-ad9e-eda3" name="Combat Armor" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="73bf-b7b4-fa37-929c" name="Combat Armor" book="Rulebook" page="70" hidden="false" profileTypeId="5baf-05a0-0685-df3b" profileTypeName="Armor">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Armor Rating" characteristicTypeId="c78b-5abb-7b5a-9edb" value="5"/>
-                  </characteristics>
-                </profile>
-              </profiles>
+            <selectionEntry id="8937-7f7a-ad9e-eda3" name="Combat Armor (AR:5)" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+              <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
@@ -1340,18 +1283,8 @@
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="55.0"/>
               </costs>
             </selectionEntry>
-            <selectionEntry id="65c7-76cb-8a03-8310" name="Light BioVARG" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="c4f9-b502-85cd-474c" name="Light BioVARG" book="Rulebook" page="70" hidden="false" profileTypeId="5baf-05a0-0685-df3b" profileTypeName="Armor">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="Armor Rating" characteristicTypeId="c78b-5abb-7b5a-9edb" value="6"/>
-                  </characteristics>
-                </profile>
-              </profiles>
+            <selectionEntry id="65c7-76cb-8a03-8310" name="Light BioVARG (AR:6)" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+              <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
