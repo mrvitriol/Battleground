@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="b3e8-c91c-252d-0ab2" name="Abberants" revision="1" battleScribeVersion="2.01" gameSystemId="50a9-cc7d-a2f9-64c9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="b3e8-c91c-252d-0ab2" name="Aberrants" book="Rulebook" revision="1" battleScribeVersion="2.01" authorName="Mr. Vitrio" authorContact="mr.vitriol@web.de" gameSystemId="50a9-cc7d-a2f9-64c9" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profiles/>
   <rules/>
   <infoLinks/>
@@ -311,6 +311,7 @@
           <costs>
             <cost name="Points" costTypeId="5837-a331-efab-0a68" value="150.0"/>
             <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="156b-2ce0-f846-a6e1" name="1st Caste Abberant" hidden="false" collective="false" type="upgrade">
@@ -326,6 +327,7 @@
           <costs>
             <cost name="Points" costTypeId="5837-a331-efab-0a68" value="125.0"/>
             <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="ccee-a908-64f7-5787" name="3rd Caste Abberant" hidden="false" collective="false" type="upgrade">
@@ -341,6 +343,7 @@
           <costs>
             <cost name="Points" costTypeId="5837-a331-efab-0a68" value="200.0"/>
             <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="3850-017d-eb6b-3e3f" name="4th Caste Abberant" hidden="false" collective="false" type="upgrade">
@@ -356,6 +359,7 @@
           <costs>
             <cost name="Points" costTypeId="5837-a331-efab-0a68" value="320.0"/>
             <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="b61e-4337-b905-ab60" name="5th Caste Abberant" hidden="false" collective="false" type="upgrade">
@@ -371,6 +375,7 @@
           <costs>
             <cost name="Points" costTypeId="5837-a331-efab-0a68" value="500.0"/>
             <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="54aa-2255-f10b-6a2e" name="6th Caste Abberant" hidden="false" collective="false" type="upgrade">
@@ -386,6 +391,7 @@
           <costs>
             <cost name="Points" costTypeId="5837-a331-efab-0a68" value="750.0"/>
             <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
