@@ -57,6 +57,47 @@
             <characteristic name="SOC" characteristicTypeId="e185-e99d-e0b5-3de8" value="0"/>
           </characteristics>
         </profile>
+        <profile id="4331-964b-c95f-d8ef" name="Combat Stats" book="Rulebook" page="76" hidden="false" profileTypeId="25de-1bf8-ab80-d7e5" profileTypeName="Combat Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="cd14-fabb-551c-0b28" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cc5-20aa-91a4-3fed" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="71fc-9bc1-89f3-f796" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cc5-20aa-91a4-3fed" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="a752-74f4-91f0-17e7" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b60c-f168-9089-6442" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="f57a-432e-7c63-2f03" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="babc-e8a4-8c58-55ee" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Ranged" characteristicTypeId="cd14-fabb-551c-0b28" value="0"/>
+            <characteristic name="Heavy Weapons" characteristicTypeId="71fc-9bc1-89f3-f796" value="0"/>
+            <characteristic name="Close Combat" characteristicTypeId="a752-74f4-91f0-17e7" value="0"/>
+            <characteristic name="Soak" characteristicTypeId="f57a-432e-7c63-2f03" value="0"/>
+          </characteristics>
+        </profile>
       </profiles>
       <rules/>
       <infoLinks/>
