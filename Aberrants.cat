@@ -8,13 +8,73 @@
   <categoryEntries/>
   <forceEntries/>
   <selectionEntries/>
-  <entryLinks/>
+  <entryLinks>
+    <entryLink id="205f-f73b-4b14-d25f" name="Aberrant" hidden="false" targetId="215e-8a57-f4b8-874b" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks>
+        <categoryLink id="c626-099f-31ab-0473" name="Character" hidden="false" targetId="7db3-5516-f4fa-9d29" primary="true">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+        </categoryLink>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="215e-8a57-f4b8-874b" name="Aberrant" book="Rulebook" page="75" hidden="false" collective="false" type="model">
       <profiles/>
       <rules/>
       <infoLinks/>
-      <modifiers/>
+      <modifiers>
+        <modifier type="set" field="name" value="1st Caste Aberrant">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="156b-2ce0-f846-a6e1" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="name" value="2nd Caste Aberrant">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e072-d8b9-e178-6005" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="name" value="3rd Caste Aberrant">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ccee-a908-64f7-5787" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="name" value="4th Caste Aberrant">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3850-017d-eb6b-3e3f" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="name" value="5th Caste Aberrant">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b61e-4337-b905-ab60" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+        <modifier type="set" field="name" value="6th Caste Aberrant">
+          <repeats/>
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54aa-2255-f10b-6a2e" type="equalTo"/>
+          </conditions>
+          <conditionGroups/>
+        </modifier>
+      </modifiers>
       <constraints/>
       <categoryLinks>
         <categoryLink id="f0ed-f9ca-8af7-0526" name="New CategoryLink" hidden="false" targetId="7db3-5516-f4fa-9d29" primary="true">
@@ -278,7 +338,16 @@
           </entryLinks>
         </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks/>
+      <entryLinks>
+        <entryLink id="51b5-3ad2-64a8-058c" name="1 - Caste" hidden="false" targetId="87bd-94d4-2a99-c45d" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
       <costs>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
@@ -298,7 +367,7 @@
       </constraints>
       <categoryLinks/>
       <selectionEntries>
-        <selectionEntry id="e072-d8b9-e178-6005" name="2nd Caste Abberant" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="e072-d8b9-e178-6005" name="2nd Caste Aberrant" book="Rulebook" page="75" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -314,7 +383,7 @@
             <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="156b-2ce0-f846-a6e1" name="1st Caste Abberant" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="156b-2ce0-f846-a6e1" name="1st Caste Aberrant" book="Rulebook" page="75" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -330,7 +399,7 @@
             <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="ccee-a908-64f7-5787" name="3rd Caste Abberant" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="ccee-a908-64f7-5787" name="3rd Caste Aberrant" book="Ruleook" page="75" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -346,7 +415,7 @@
             <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="3850-017d-eb6b-3e3f" name="4th Caste Abberant" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="3850-017d-eb6b-3e3f" name="4th Caste Aberrant" book="Rulebook" page="75" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -362,7 +431,7 @@
             <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="b61e-4337-b905-ab60" name="5th Caste Abberant" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="b61e-4337-b905-ab60" name="5th Caste Aberrant" book="Rulebook" page="75" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
@@ -378,7 +447,7 @@
             <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="54aa-2255-f10b-6a2e" name="6th Caste Abberant" hidden="false" collective="false" type="upgrade">
+        <selectionEntry id="54aa-2255-f10b-6a2e" name="6th Caste Aberrant" book="Rulebook" page="75" hidden="false" collective="false" type="upgrade">
           <profiles/>
           <rules/>
           <infoLinks/>
