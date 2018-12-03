@@ -48,6 +48,27 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
+            <modifier type="increment" field="9062-ea58-07e6-2585" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="babc-e8a4-8c58-55ee" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="4dda-30f2-a9cf-ecf4" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="288c-9203-705b-7ffd" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="e185-e99d-e0b5-3de8" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e2f8-ca2e-b3f7-4a11" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="STR" characteristicTypeId="5347-6c55-6c62-1220" value="0"/>
@@ -96,6 +117,66 @@
             <characteristic name="Heavy Weapons" characteristicTypeId="71fc-9bc1-89f3-f796" value="0"/>
             <characteristic name="Close Combat" characteristicTypeId="a752-74f4-91f0-17e7" value="0"/>
             <characteristic name="Soak" characteristicTypeId="f57a-432e-7c63-2f03" value="0"/>
+          </characteristics>
+        </profile>
+        <profile id="4efc-da30-56e8-4200" name="Secondary Attributes" book="Rulebook" page="75" hidden="false" profileTypeId="5c1f-b21d-7cc7-bf5f" profileTypeName="Secondary Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="69c7-93fe-5e59-76d7" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e2f8-ca2e-b3f7-4a11" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="4f50-7d5e-70d7-80cd" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="babc-e8a4-8c58-55ee" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b60c-f168-9089-6442" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="b396-7827-5b33-4909" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="156b-2ce0-f846-a6e1" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e072-d8b9-e178-6005" repeats="2" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ccee-a908-64f7-5787" repeats="3" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3850-017d-eb6b-3e3f" repeats="4" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b61e-4337-b905-ab60" repeats="5" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54aa-2255-f10b-6a2e" repeats="6" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="68c0-a4fc-8906-8eda" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e072-d8b9-e178-6005" repeats="4" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ccee-a908-64f7-5787" repeats="6" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3850-017d-eb6b-3e3f" repeats="8" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b61e-4337-b905-ab60" repeats="10" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54aa-2255-f10b-6a2e" repeats="12" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="76ba-63d0-814f-655f" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="288c-9203-705b-7ffd" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e2f8-ca2e-b3f7-4a11" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Health" characteristicTypeId="4f50-7d5e-70d7-80cd" value="0"/>
+            <characteristic name="Init" characteristicTypeId="69c7-93fe-5e59-76d7" value="0"/>
+            <characteristic name="PSI/Taint" characteristicTypeId="76ba-63d0-814f-655f" value="0"/>
+            <characteristic name="APs" characteristicTypeId="b396-7827-5b33-4909" value="3"/>
+            <characteristic name="Command Radius" characteristicTypeId="68c0-a4fc-8906-8eda" value="0"/>
           </characteristics>
         </profile>
       </profiles>
@@ -417,6 +498,22 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="a755-c16c-9a20-565b" name="Mutations" hidden="false" targetId="e530-786c-f32c-75f8" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a875-3e36-9d66-d58d" name="3 - Powers" hidden="false" targetId="c656-7a58-bc74-e7e9" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
       <costs>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
@@ -534,6 +631,28 @@
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="e530-786c-f32c-75f8" name="4 - Mutations" book="Rulebook" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="c656-7a58-bc74-e7e9" name="3 - Powers" book="Rulebook" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
