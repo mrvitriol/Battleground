@@ -28,49 +28,78 @@
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="215e-8a57-f4b8-874b" name="Aberrant" book="Rulebook" page="75" hidden="false" collective="false" type="model">
-      <profiles/>
+      <profiles>
+        <profile id="19fe-609c-c2a8-159f" name="Abilities" book="Rulebook" page="43" hidden="false" profileTypeId="33c0-4b41-8772-5bb4" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="increment" field="5347-6c55-6c62-1220" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b60c-f168-9089-6442" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+            <modifier type="increment" field="dfea-027c-41a7-6dca" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="7cc5-20aa-91a4-3fed" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="STR" characteristicTypeId="5347-6c55-6c62-1220" value="0"/>
+            <characteristic name="DEX" characteristicTypeId="dfea-027c-41a7-6dca" value="0"/>
+            <characteristic name="STA" characteristicTypeId="9062-ea58-07e6-2585" value="0"/>
+            <characteristic name="MEN" characteristicTypeId="4dda-30f2-a9cf-ecf4" value="0"/>
+            <characteristic name="SOC" characteristicTypeId="e185-e99d-e0b5-3de8" value="0"/>
+          </characteristics>
+        </profile>
+      </profiles>
       <rules/>
       <infoLinks/>
       <modifiers>
         <modifier type="set" field="name" value="1st Caste Aberrant">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="156b-2ce0-f846-a6e1" type="equalTo"/>
+            <condition field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="156b-2ce0-f846-a6e1" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
         <modifier type="set" field="name" value="2nd Caste Aberrant">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e072-d8b9-e178-6005" type="equalTo"/>
+            <condition field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e072-d8b9-e178-6005" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
         <modifier type="set" field="name" value="3rd Caste Aberrant">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ccee-a908-64f7-5787" type="equalTo"/>
+            <condition field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ccee-a908-64f7-5787" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
         <modifier type="set" field="name" value="4th Caste Aberrant">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3850-017d-eb6b-3e3f" type="equalTo"/>
+            <condition field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3850-017d-eb6b-3e3f" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
         <modifier type="set" field="name" value="5th Caste Aberrant">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b61e-4337-b905-ab60" type="equalTo"/>
+            <condition field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b61e-4337-b905-ab60" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
         <modifier type="set" field="name" value="6th Caste Aberrant">
           <repeats/>
           <conditions>
-            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54aa-2255-f10b-6a2e" type="equalTo"/>
+            <condition field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="54aa-2255-f10b-6a2e" type="equalTo"/>
           </conditions>
           <conditionGroups/>
         </modifier>
