@@ -498,20 +498,41 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
-        <entryLink id="a755-c16c-9a20-565b" name="Mutations" hidden="false" targetId="e530-786c-f32c-75f8" type="selectionEntryGroup">
+        <entryLink id="a755-c16c-9a20-565b" name="4 - Mutations" hidden="false" targetId="e530-786c-f32c-75f8" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="increment" field="31c8-bfc4-a496-f205" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b60c-f168-9089-6442" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="edd2-9999-c1d3-cffb" scope="215e-8a57-f4b8-874b" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ddb0-5f39-8dcc-e63b" type="min"/>
+            <constraint field="edd2-9999-c1d3-cffb" scope="215e-8a57-f4b8-874b" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="31c8-bfc4-a496-f205" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
         <entryLink id="a875-3e36-9d66-d58d" name="3 - Powers" hidden="false" targetId="c656-7a58-bc74-e7e9" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
-          <modifiers/>
-          <constraints/>
+          <modifiers>
+            <modifier type="increment" field="58d3-d1ea-f5eb-a9d9" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e2f8-ca2e-b3f7-4a11" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="215e-8a57-f4b8-874b" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58d3-d1ea-f5eb-a9d9" type="max"/>
+          </constraints>
           <categoryLinks/>
         </entryLink>
       </entryLinks>
