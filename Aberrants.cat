@@ -673,7 +673,281 @@
       <modifiers/>
       <constraints/>
       <categoryLinks/>
-      <selectionEntries/>
+      <selectionEntries>
+        <selectionEntry id="0b08-fbc0-f9d0-582b" name="Acid Skin" book="Rulebook" page="65" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="ce99-e849-f966-8ce6" name="Acid Skin" book="Rulebook" page="65" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="See Rules"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="cf63-7a8b-ed55-45aa" name="Acid Skin" book="Rulebook" page="65" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The acid splashes opponents in Close Combat, adding one die of damage to all Close Combat attacks.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="5ed8-ea37-2364-ceee" name="Boil" book="Rulebook" page="65" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="d892-c0b3-3eb0-9203" name="Boil" book="Rulebook" page="65" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="12"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="3"/>
+                <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="1"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Taint"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="bc07-5bf7-598b-08af" name="Boil" book="Rulebook" page="65" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Armor is useless against this power, the target resists damage using STA instead of Soak.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="2ac4-2d98-c3b7-ad74" name="Crushing Blow" book="Rulebook" page="65" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="7bc4-25e8-b805-a3b0" name="Crushing Blow" book="Rulebook" page="65" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="3"/>
+                <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="5"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Close Combat"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="a0f2-3aa6-8c3d-10cd" name="Crushing Blow" book="Rulebook" page="65" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>This power substitutes for a normal Close Combat attack, inflicting quite a bit more damage than usual (no additional APs are expended for using it).</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="ea62-20cf-c7f9-f445" name="Double" book="Rulebook" page="65" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="5b90-9f61-e6b0-1d19" name="Double" book="Rulebook" page="65" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="10e2-e721-1dd4-68e9" name="Double" book="Rulebook" page="65" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>All attack rolls against the Aberrant are reduced by three dice. The image lasts for one attack only. The Aberrant must use this power before the enemy&apos;s attack dice are rolled.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="ac11-9713-de4d-08a7" name="Ego" book="Rulebook" page="65" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="e0fe-81b2-fe8b-3dac" name="Ego" book="Rulebook" page="65" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Taint"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="f8ab-410d-28d4-07ae" name="Ego" book="Rulebook" page="65" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Whenever a Rout roll is called for, the Aberrant may spend three Taint points to avoid having to roll.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="1914-334b-c5b3-fd01" name="Energy Tentacles" book="Rulebook" page="65" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="ed77-7ad9-adde-f316" name="Energy Tentacles" book="Rulebook" page="65" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="10"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="2"/>
+                <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="STR vs. STR"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="b6c8-20c4-5664-e97c" name="Energy Tentacles" book="Rulebook" page="65" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Both the Aberrant and the intended victim&apos;s player roll dice equal to the characters respective STR scores. If the Aberrant wins or ties, the enemy is immediately dragged into Close Combat (base-to-base) with the Aberrant, If the enemy wins, he remains where he is.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="1689-ea20-577e-8dde" name="Flight" book="Rulebook" page="65" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="0298-e59a-6622-a809" name="Flight" book="Rulebook" page="65" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value=""/>
+                <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="25b1-224a-74f1-4a18" name="Flight" book="Rulebook" page="65" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Each AP spent on movement grants one-and-a-half inches of travel, ignoring all normal terrain modifiers. However, the character may never move more than twice her total Action Points in inches, unless “Sprinting.”
+This power may be activated in any segment of the Action Phase, not simply Move and Shoot, without penalty.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="f60c-9011-798d-f668" name="Fury" book="Rulebook" page="66" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="5f09-5a13-e5a4-8843" name="Fury" book="Rulebook" page="65" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="0"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Taint"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+      </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
