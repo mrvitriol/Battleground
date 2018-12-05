@@ -684,7 +684,7 @@
               <characteristics>
                 <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
                 <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
-                <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
                 <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="See Rules"/>
                 <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
                 <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
@@ -707,7 +707,11 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="5ed8-ea37-2364-ceee" name="Boil" book="Rulebook" page="65" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -719,7 +723,7 @@
               <characteristics>
                 <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="12"/>
                 <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="3"/>
-                <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
                 <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="1"/>
                 <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Taint"/>
                 <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
@@ -742,7 +746,11 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="2ac4-2d98-c3b7-ad74" name="Crushing Blow" book="Rulebook" page="65" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -754,7 +762,7 @@
               <characteristics>
                 <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
                 <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="3"/>
-                <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
                 <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="5"/>
                 <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Close Combat"/>
                 <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
@@ -777,7 +785,11 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="ea62-20cf-c7f9-f445" name="Double" book="Rulebook" page="65" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -789,7 +801,7 @@
               <characteristics>
                 <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
                 <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
-                <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
                 <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
                 <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
                 <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
@@ -812,7 +824,11 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="ac11-9713-de4d-08a7" name="Ego" book="Rulebook" page="65" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -824,7 +840,7 @@
               <characteristics>
                 <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
                 <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
-                <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
                 <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
                 <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Taint"/>
                 <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
@@ -847,7 +863,11 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="1914-334b-c5b3-fd01" name="Energy Tentacles" book="Rulebook" page="65" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -859,7 +879,7 @@
               <characteristics>
                 <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="10"/>
                 <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="2"/>
-                <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
                 <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
                 <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="STR vs. STR"/>
                 <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
@@ -882,7 +902,11 @@
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="1689-ea20-577e-8dde" name="Flight" book="Rulebook" page="65" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -894,7 +918,7 @@
               <characteristics>
                 <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
                 <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value=""/>
-                <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
                 <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
                 <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
                 <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
@@ -918,11 +942,15 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="f60c-9011-798d-f668" name="Fury" book="Rulebook" page="66" hidden="false" collective="false" type="upgrade">
           <profiles>
-            <profile id="5f09-5a13-e5a4-8843" name="Fury" book="Rulebook" page="65" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+            <profile id="5f09-5a13-e5a4-8843" name="Fury" book="Rulebook" page="66" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -930,14 +958,271 @@ This power may be activated in any segment of the Action Phase, not simply Move 
               <characteristics>
                 <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
                 <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
-                <characteristic name="Psi Cost" characteristicTypeId="764b-9903-7944-b9ab" value="0"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="0"/>
                 <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
                 <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Taint"/>
                 <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
               </characteristics>
             </profile>
           </profiles>
-          <rules/>
+          <rules>
+            <rule id="aba4-9c51-9806-4937" name="Fury" book="Rulebook" page="66" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The Aberrant makes two free attacks against an enemy who tries to escape Close Combat. Each point of Evasion Skill allows a psion to escape one of a furious Aberrant&apos;s parting attacks. </description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5fc8-1465-0bd3-485e" name="Ground Strike" book="Rulebook" page="66" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="8c30-88c5-4392-8f7b" name="Ground Strike" book="Rulebook" page="66" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="16"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="4"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="STR vs. DEX"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="156d-9512-3550-ac2e" name="Ground Strike" book="Rulebook" page="66" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The Aberrant player rolls dice equal to the character&apos;s STR to determine the potency of the shock waves. Every model (friend and foe) within 16 inches in any direction makes a DEX roll. Those who fail to roll successes equal to or greater than the shock wave&apos;s strength fall over and must spend four APs to stand in their next action.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="9345-3403-8541-b6b6" name="Healing" book="Rulebook" page="66" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="8871-c052-dc50-ac61" name="Healing" book="Ruleook" page="66" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="4"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="3f20-0fe2-92ec-2eff" name="Healing" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The Aberrant regenerates one Health level himself or restores one to any allied character in base-to-base contact. This power does not function on support troops.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="f94d-673c-8663-827f" name="Human Form and Equipment" book="Rulebook" page="66" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="c475-3dac-cada-2769" name="Human Form and Equipment" book="Rulebook" page="66" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="0"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="a8d1-d666-c6ea-64f7" name="Human Form and Equipment" book="Rulebook" page="66" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The player may purchase normal psion equipment for the character, but each item costs an additional 10 points due to limited availability. The Aberrant may not use green equipment. </description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="78b1-f286-74fb-921c" name="Ice Storm" book="Ruleboo" page="66" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="efb9-d7cf-fb25-2a56" name="Ice Storm" book="Rulebook" page="66" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="24"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="4"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="6"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Taint"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="5-inch"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="bb39-0b1f-42d9-60f8" name="Ice Storm" book="Rulebook" page="66" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Treat this power as a Heavy Weapons attack, using Taint as the attack roll, and then check for deviation normally. The base damage of the power is not affected by attack successes. </description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="80e3-3cae-0de3-7e10" name="Ice Blast" book="Rulebook" page="66" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="edc2-200a-643e-0fd0" name="Ice Blast" book="Rulebook" page="66" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="16"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="5"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="5"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="6"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Taint"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="9c0e-e871-6760-928b" name="Ice Blast" book="Rulebook" page="66" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>This power functions like a normal Ranged attack. Roll Taint to strike and add successes rolled to the power&apos;s base damage of six dice. The target may Soak normally or defend with powers that resist cold (such as Cold Immunity). </description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="be49-ae06-390f-147f" name="Incredible Vision" book="Ruleboo" page="66" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="f86a-47a3-e6c9-0186" name="Incredible Vision" book="Rulebook" page="66" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value=""/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="57d5-f9de-349f-6a39" name="Incredible Vision" book="Rulebook" page="66" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Increase the Aberrant&apos;s next attack roll by two dice.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="97d7-74b3-cc59-01b9" name="Large Legs" book="Ruleboo" page="66" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="ad90-d00e-2cea-ba16" name="Large Legs" book="Rulebook" page="66" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value=""/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value=""/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="42d0-caed-bc0b-60b0" name="Large Legs" book="Rulebook" page="66" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The Aberrant may jump over any obstacle shorter than itself with no movement penalty, and may add one additional inch to the end of ay move. </description>
+            </rule>
+          </rules>
           <infoLinks/>
           <modifiers/>
           <constraints/>
