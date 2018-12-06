@@ -100,6 +100,7 @@
             <modifier type="increment" field="a752-74f4-91f0-17e7" value="1">
               <repeats>
                 <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b60c-f168-9089-6442" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="df8e-a2ac-0281-4442" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -113,7 +114,7 @@
                 <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="55b6-4bb1-e131-6ea1" repeats="2" roundUp="false"/>
                 <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cb93-a3d7-db25-4dcf" repeats="3" roundUp="false"/>
                 <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2065-f081-9cf6-091f" repeats="4" roundUp="false"/>
-                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8558-b5cb-f74b-67a8" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8558-b5cb-f74b-67a8" repeats="5" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -1118,6 +1119,104 @@
               <entryLinks/>
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="65.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="c7f2-e3c5-4945-c01b" name="V - Special Mutations" book="Rulebook" page="72" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="2fd9-9b54-69d2-2ba6" name="Adrenaline Sac" book="Rulebook" page="73" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="cd17-a9aa-faf9-c02e" name="Adrenaline Sac" book="Rulebook" page="73" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="0"/>
+                    <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="The Abberant gains two APs for the turn in which the sac is used."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="5343-01ea-e808-cf51" name="Single use" hidden="false" targetId="97d0-d6b8-99b4-be04" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="df8e-a2ac-0281-4442" name="Bulging Muscles" book="Rulebook" page="73" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules>
+                <rule id="d67a-eb95-d78c-6943" name="Bulging Muscles" book="Rulebook" page="73" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Add one to all Close Combat attacks (figured in). This mutation is considered permanent; it does not count as using your one green item per turn.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="fde7-e153-8560-3a0e" name="Regeneration" book="Rulebook" page="73" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="a475-f61a-1a7e-8769" name="Regeneration" book="Rulebook" page="73" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="2"/>
+                    <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Restores one Health to the user."/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks>
+                <infoLink id="b254-67db-f772-83fb" name="Single use" hidden="false" targetId="97d0-d6b8-99b4-be04" type="rule">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                </infoLink>
+              </infoLinks>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
