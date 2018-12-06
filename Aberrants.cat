@@ -504,19 +504,43 @@
             <modifier type="set" field="9ff8-f2dd-5a77-ca6d" value="-1">
               <repeats/>
               <conditions>
-                <condition field="selections" scope="215e-8a57-f4b8-874b" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f94d-673c-8663-827f" type="equalTo"/>
+                <condition field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f94d-673c-8663-827f" type="equalTo"/>
               </conditions>
               <conditionGroups/>
             </modifier>
           </modifiers>
           <constraints>
-            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ff8-f2dd-5a77-ca6d" type="max"/>
+            <constraint field="selections" scope="215e-8a57-f4b8-874b" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ff8-f2dd-5a77-ca6d" type="max"/>
           </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks>
-            <entryLink id="a875-48d5-8247-f695" name="Equipment" hidden="false" targetId="a59a-4017-c685-48c1" type="selectionEntryGroup">
+            <entryLink id="a875-48d5-8247-f695" name="II - Ranged Weapons" hidden="false" targetId="061f-7b79-7499-5803" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="6357-dad8-ac0b-2b39" name="I - Armor" hidden="false" targetId="8bb6-3b7b-1ff7-823f" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="945c-1fbd-d162-d6da" name="III - Heavy Weapons" hidden="false" targetId="171a-3c63-54bb-3612" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+            <entryLink id="8b1b-ef67-4398-a0e9" name="IV - Melee Weapons" hidden="false" targetId="8bed-a390-0056-82dd" type="selectionEntryGroup">
               <profiles/>
               <rules/>
               <infoLinks/>
@@ -745,6 +769,8 @@
               <entryLinks/>
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="60.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0f0e-df40-de4b-ca85" name="Sonic Scream" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
@@ -782,6 +808,8 @@
               <entryLinks/>
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="75.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2105-b425-45d5-b462" name="Laser Eyes" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
@@ -811,6 +839,8 @@
               <entryLinks/>
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="50.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -850,6 +880,8 @@
               <entryLinks/>
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7d2f-c688-d7ef-7f66" name="Arm Tentacles" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
@@ -877,6 +909,8 @@
               <entryLinks/>
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="25.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="bfde-e3ad-8ef0-c7eb" name="Extra Arms" book="Ruleboo" page="72" hidden="false" collective="false" type="upgrade">
@@ -904,6 +938,8 @@
               <entryLinks/>
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="40.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="78f7-e950-18e8-d284" name="Spined Body" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
@@ -939,6 +975,8 @@
               <entryLinks/>
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="50.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -981,6 +1019,8 @@
               <entryLinks/>
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="60.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9399-6e48-3057-3b2a" name="Hurl Earth" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
@@ -1011,6 +1051,8 @@
               <entryLinks/>
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="100.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d012-5128-ad7a-eee3" name="Warp Field" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
@@ -1039,7 +1081,11 @@
               <selectionEntries/>
               <selectionEntryGroups/>
               <entryLinks/>
-              <costs/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <selectionEntryGroups/>
@@ -1069,6 +1115,8 @@
               <entryLinks/>
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6bfd-8fa4-1175-a2dc" name="Flexible Skin (AR:2)" book="Rulebook " page="72" hidden="false" collective="false" type="upgrade">
@@ -1085,6 +1133,8 @@
               <entryLinks/>
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="55b6-4bb1-e131-6ea1" name="Carapace (AR:2" book="Ruleboo" page="72" hidden="false" collective="false" type="upgrade">
@@ -1101,6 +1151,8 @@
               <entryLinks/>
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="72.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="cb93-a3d7-db25-4dcf" name="Armored Plates (AR:3)" book="Rulebook" page="73" hidden="false" collective="false" type="upgrade">
@@ -1117,6 +1169,8 @@
               <entryLinks/>
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="40.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2065-f081-9cf6-091f" name="Tortoise Shell (AR:4)" book="Rulebook" page="73" hidden="false" collective="false" type="upgrade">
@@ -1133,6 +1187,8 @@
               <entryLinks/>
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="50.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8558-b5cb-f74b-67a8" name="Energy Field (AR:5)" book="Rulebook" page="73" hidden="false" collective="false" type="upgrade">
@@ -1149,6 +1205,8 @@
               <entryLinks/>
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="65.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1193,6 +1251,8 @@
               <entryLinks/>
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="df8e-a2ac-0281-4442" name="Bulging Muscles" book="Rulebook" page="73" hidden="false" collective="false" type="upgrade">
@@ -1215,6 +1275,8 @@
               <entryLinks/>
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fde7-e153-8560-3a0e" name="Regeneration" book="Rulebook" page="73" hidden="false" collective="false" type="upgrade">
@@ -1247,6 +1309,8 @@
               <entryLinks/>
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1628,7 +1692,11 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="9345-3403-8541-b6b6" name="Healing" book="Rulebook" page="66" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1665,7 +1733,11 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="f94d-673c-8663-827f" name="Human Form and Equipment" book="Rulebook" page="66" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1702,7 +1774,11 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="78b1-f286-74fb-921c" name="Ice Storm" book="Ruleboo" page="66" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1739,7 +1815,11 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="80e3-3cae-0de3-7e10" name="Ice Blast" book="Rulebook" page="66" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1776,7 +1856,11 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="be49-ae06-390f-147f" name="Incredible Vision" book="Ruleboo" page="66" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1813,7 +1897,11 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="97d7-74b3-cc59-01b9" name="Large Legs" book="Ruleboo" page="66" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1850,7 +1938,11 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="56bb-6289-6586-2ef9" name="Magnetic Pulse" book="Rulebook" page="66" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1887,7 +1979,11 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="dc4c-db6f-95a0-6f22" name="Mist" book="Rulebook" page="66" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1924,7 +2020,11 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="cce9-f8e5-5756-f338" name="Nova" book="Ruleboo" page="67" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1961,7 +2061,11 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="1f58-9677-19fa-950d" name="Phase" book="Rulebook" page="67" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -1998,7 +2102,11 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="98d6-37ff-ee8c-0921" name="Plasma Blast" book="Ruleboo" page="67" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -2035,7 +2143,11 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="a653-15a3-60d7-2c9e" name="Plasma Storm" book="Rulebook" page="67" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -2072,7 +2184,11 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="5962-3270-2a9d-40ac" name="Quicksand" book="Rulebook" page="67" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -2109,7 +2225,11 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="7b41-f0d5-af74-142e" name="Raise Ground" book="Rulebook" page="68" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -2146,7 +2266,11 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="f2c9-162c-fcfd-fb63" name="Ranged Healing" book="Ruleoo" page="68" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -2183,7 +2307,11 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="609b-b05c-6942-9a21" name="Resistance" book="Rulebook" page="68" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -2220,7 +2348,11 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="a0f1-27c3-8d19-6c22" name="Sense Psi" book="Rulebook" page="68" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -2257,7 +2389,11 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="9174-61d2-c308-b10c" name="Synaptic Disruption" book="Rulebook" page="68" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -2294,7 +2430,11 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="438b-e1d1-33e9-9fc6" name="Transmutation" book="Rulebook" page="68" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -2331,7 +2471,11 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="7271-0715-79c9-2138" name="Tumorous Appearance" book="Rulebook" page="68" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -2368,7 +2512,11 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="f05d-1467-c0f5-f043" name="Warp" book="Rulebook" page="68" hidden="false" collective="false" type="upgrade">
           <profiles>
@@ -2406,7 +2554,11 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-          <costs/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
