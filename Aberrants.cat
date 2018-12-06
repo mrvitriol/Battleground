@@ -496,6 +496,36 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="b5e6-005e-308f-334c" name="Human Equipment" book="Rulebook" page="69" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers>
+            <modifier type="set" field="9ff8-f2dd-5a77-ca6d" value="-1">
+              <repeats/>
+              <conditions>
+                <condition field="selections" scope="215e-8a57-f4b8-874b" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="f94d-673c-8663-827f" type="equalTo"/>
+              </conditions>
+              <conditionGroups/>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ff8-f2dd-5a77-ca6d" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks>
+            <entryLink id="a875-48d5-8247-f695" name="Equipment" hidden="false" targetId="a59a-4017-c685-48c1" type="selectionEntryGroup">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints/>
+              <categoryLinks/>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="51b5-3ad2-64a8-058c" name="1 - Caste" hidden="false" targetId="87bd-94d4-2a99-c45d" type="selectionEntryGroup">

@@ -695,960 +695,1000 @@
       <constraints/>
       <categoryLinks/>
       <selectionEntries/>
-      <selectionEntryGroups>
-        <selectionEntryGroup id="feac-0351-afa8-066a" name="II - Ranged Weapons" book="Rulebook" page="69" hidden="false" collective="false">
+      <selectionEntryGroups/>
+      <entryLinks>
+        <entryLink id="7df2-c5c1-d33a-7279" name="I - Armor" hidden="false" targetId="8bb6-3b7b-1ff7-823f" type="selectionEntryGroup">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints/>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="cd5d-8920-ce1b-3547" name="Banji Cyclone" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="8cb5-3892-5ec6-63fb" name="Banji Cyclone" book="Rulebook" page="69" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="2"/>
-                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="8"/>
-                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="18"/>
-                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="3"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="afa6-7efc-3359-8385" name="L-K Avanger" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="cd01-5661-2a77-1920" name="L-K Avanger" book="Rulebook" page="69" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="2"/>
-                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="10"/>
-                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="14"/>
-                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="6"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9d0c-c49e-557e-bbec" name="Banji Thunder Shotgun" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="6722-4d15-7ea9-f3db" name="Banji Thunder Shotgun" book="Rulebook" page="69" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="2"/>
-                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="10"/>
-                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="14"/>
-                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="6"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="45.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="1ff3-db72-9cb2-09a2" name="Voss 63K Laser" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="6a9a-17d9-108f-29eb" name="Voss 63K Laser" book="Rulebook" page="69" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="3"/>
-                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="10"/>
-                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="30"/>
-                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="4"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="3912-0245-8c86-f443" name="Las-Gauntlet" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="a6e5-9451-f9a9-0671" name="Las-Gauntlet" book="Rulebook" page="69" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="3"/>
-                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="14"/>
-                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="22"/>
-                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="7"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks>
-                <infoLink id="b5c3-a5cd-e06f-ccff" name="Biotech Gear" hidden="false" targetId="7ea9-edf5-3ecf-45d9" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="75.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="bf6e-ab5b-15bc-67fa" name="Aris Sonic Carbine" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="a5f2-162a-1684-70ed" name="Aris Sonic Carbine" book="Rulebook" page="69" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="3"/>
-                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="10"/>
-                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="18"/>
-                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="4"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules>
-                <rule id="55f1-b51c-9006-80b0" name="Aris Sonic Carbine" book="Rulebook" page="69" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>Damage from the Aris Sonic Carbine is Soaked with STA only.</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+        </entryLink>
+        <entryLink id="4e73-0e7d-978b-8423" name="II - Ranged Weapons" hidden="false" targetId="061f-7b79-7499-5803" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="e316-2729-3a5b-3bb3" name="II - Ranged Weapons" hidden="false" targetId="061f-7b79-7499-5803" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="a3f7-9159-fb11-59ef" name="II - Ranged Weapons" hidden="false" targetId="061f-7b79-7499-5803" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="84c5-65ab-fe71-74c9" name="II - Ranged Weapons" hidden="false" targetId="061f-7b79-7499-5803" type="selectionEntryGroup">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="8bb6-3b7b-1ff7-823f" name="I - Armor" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="83c4-7589-0d00-d3db" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="f0f0-e696-715c-524e" name="Armor Vest (AR:2)" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="ceaa-92f2-0c67-d7f0" name="IV - Melee Weapons" book="Rulebook" page="69" hidden="false" collective="false">
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b187-f0d1-ba19-eff9" name="Field Suit (AR:3)" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
           <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="aad8-833c-c742-85d3" name="Armor Carapace  (AR:3)" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="25.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="86af-ad63-9f42-c73b" name="Bioweave Vest (AR:4)" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks>
+            <infoLink id="6d3a-cd9a-2e7c-82b7" name="Biotech Gear" hidden="false" targetId="7ea9-edf5-3ecf-45d9" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="40.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5b93-918a-d25e-de75" name="Combat Armor (AR:5)" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="55.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="b732-a191-8070-eacf" name="Light BioVARG (AR:6)" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="70.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="061f-7b79-7499-5803" name="II - Ranged Weapons" book="Rulebook" page="69" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="c5a1-6679-1080-e671" name="Banji Cyclone" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="bafc-e0bd-0248-53c7" name="Banji Cyclone" book="Rulebook" page="69" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="2"/>
+                <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="8"/>
+                <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="18"/>
+                <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="3"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="841b-392f-a397-e1f0" name="L-K Avanger" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="9c4a-38f3-f597-843c" name="L-K Avanger" book="Rulebook" page="69" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="2"/>
+                <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="10"/>
+                <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="14"/>
+                <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="6"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="05cf-9665-8b01-4102" name="Banji Thunder Shotgun" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="ef8a-5382-c680-d2ee" name="Banji Thunder Shotgun" book="Rulebook" page="69" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="2"/>
+                <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="10"/>
+                <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="14"/>
+                <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="6"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="45.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2191-2cf1-37fb-23a7" name="Voss 63K Laser" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="ff8e-91f8-281a-9eb1" name="Voss 63K Laser" book="Rulebook" page="69" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="3"/>
+                <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="10"/>
+                <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="30"/>
+                <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="4"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="ab18-7997-6031-2768" name="Las-Gauntlet" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="99cf-0739-d632-ab4f" name="Las-Gauntlet" book="Rulebook" page="69" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="3"/>
+                <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="14"/>
+                <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="22"/>
+                <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="7"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="445c-de7d-bc8e-49af" name="Biotech Gear" hidden="false" targetId="7ea9-edf5-3ecf-45d9" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="75.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4b8c-63d9-3502-fdec" name="Aris Sonic Carbine" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="113d-eb5f-77e2-ba59" name="Aris Sonic Carbine" book="Rulebook" page="69" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="3"/>
+                <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="10"/>
+                <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="18"/>
+                <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="4"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="b242-09f7-1778-390b" name="Aris Sonic Carbine" book="Rulebook" page="69" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Damage from the Aris Sonic Carbine is Soaked with STA only.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="171a-3c63-54bb-3612" name="III - Heavy Weapons" book="Rulebook" page="70" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="6133-d445-787c-be60" name="Grenade" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="e42d-5ae0-4e34-2754" name="Grenade" book="Rulebook" page="70" hidden="false" profileTypeId="979b-aa11-d18f-36b7" profileTypeName="Heavy Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="APs" characteristicTypeId="12fc-aa59-5084-5b01" value="3"/>
+                <characteristic name="Short Range" characteristicTypeId="d06d-a4bb-d30c-869b" value="12"/>
+                <characteristic name="Long Range" characteristicTypeId="bcd4-800a-59dc-2e27" value="0"/>
+                <characteristic name="Damge" characteristicTypeId="a18b-e1e3-8e32-52ea" value="8"/>
+                <characteristic name="Template" characteristicTypeId="4974-8783-fd73-e809" value="5-inch"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="30.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="9409-3502-341d-b7cc" name="Voss 88T Plasma Gun" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="f4e1-787a-7ba9-1bf8" name="Voss 88T Plasma Gun" book="Rulebook" page="70" hidden="false" profileTypeId="979b-aa11-d18f-36b7" profileTypeName="Heavy Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="APs" characteristicTypeId="12fc-aa59-5084-5b01" value="4"/>
+                <characteristic name="Short Range" characteristicTypeId="d06d-a4bb-d30c-869b" value="14"/>
+                <characteristic name="Long Range" characteristicTypeId="bcd4-800a-59dc-2e27" value="30"/>
+                <characteristic name="Damge" characteristicTypeId="a18b-e1e3-8e32-52ea" value="8"/>
+                <characteristic name="Template" characteristicTypeId="4974-8783-fd73-e809" value="3-inch"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="24d0-530e-d5b5-2c45" name="Voss 88T Plasma Gun" book="Rulebook" page="70" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The padded support harness oand heat sinks for the Plasma Gun provide one point of armor (figured in).</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="60.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2f6f-b25b-4b77-14be" name="L-K Junior Light Coilgun" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="01c6-b467-6048-7077" name="L-K Junior Light Coilgun" book="Rulebook" page="70" hidden="false" profileTypeId="979b-aa11-d18f-36b7" profileTypeName="Heavy Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="APs" characteristicTypeId="12fc-aa59-5084-5b01" value="4"/>
+                <characteristic name="Short Range" characteristicTypeId="d06d-a4bb-d30c-869b" value="20"/>
+                <characteristic name="Long Range" characteristicTypeId="bcd4-800a-59dc-2e27" value="44"/>
+                <characteristic name="Damge" characteristicTypeId="a18b-e1e3-8e32-52ea" value="9"/>
+                <characteristic name="Template" characteristicTypeId="4974-8783-fd73-e809" value="5-inch"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="b877-c78a-bd48-d343" name="L-K Junior Light Coilgun" book="Rulebook" page="70" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The support armature of the coilgun provides one point of armor (figured in).</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="100.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="adcf-d6bd-8ec7-9665" name="L-K Killjoy Missile Launcher" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="556a-d27f-2095-9237" name="L-K Killjoy Missile Launcher" book="Rulebook" page="70" hidden="false" profileTypeId="979b-aa11-d18f-36b7" profileTypeName="Heavy Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="APs" characteristicTypeId="12fc-aa59-5084-5b01" value="4"/>
+                <characteristic name="Short Range" characteristicTypeId="d06d-a4bb-d30c-869b" value="16"/>
+                <characteristic name="Long Range" characteristicTypeId="bcd4-800a-59dc-2e27" value="40"/>
+                <characteristic name="Damge" characteristicTypeId="a18b-e1e3-8e32-52ea" value="10"/>
+                <characteristic name="Template" characteristicTypeId="4974-8783-fd73-e809" value="7-inch"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="2c80-cfd7-69f0-fa57" name="L-K Killjoy Missile Launcher" book="Ruleboo" page="70" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The reinforced harness of the L-K Killjoy launcher provides one point of armor (figured in).</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="125.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="8bed-a390-0056-82dd" name="IV - Melee Weapons" book="Rulebook" page="69" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="1912-b105-39f1-aedd" type="max"/>
+      </constraints>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="af96-ced4-5104-021d" name="Fighting Gloves" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="8db2-f1e0-ca14-54b4" name="Fighting Gloves" book="Rulebook" page="69" hidden="false" profileTypeId="f0c1-28b4-93c2-eb79" profileTypeName="Melee Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="APs" characteristicTypeId="0013-245a-d523-d947" value="2"/>
+                <characteristic name="Damage" characteristicTypeId="3715-e37a-341b-4ff5" value="2"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="19a3-5d8c-aa75-b6b3" name="Claws" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="eef9-9800-ad0b-ded2" name="Claws" book="Rulebook" page="69" hidden="false" profileTypeId="f0c1-28b4-93c2-eb79" profileTypeName="Melee Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="APs" characteristicTypeId="0013-245a-d523-d947" value="3"/>
+                <characteristic name="Damage" characteristicTypeId="3715-e37a-341b-4ff5" value="5"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="d88f-583a-5331-b147" name="Biotech Gear" hidden="false" targetId="7ea9-edf5-3ecf-45d9" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="a585-2a7a-b0b2-dde7" name="Vibro Sword" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="3faa-0bee-273a-366f" name="Vibro Sword" book="Rulebook" page="69" hidden="false" profileTypeId="f0c1-28b4-93c2-eb79" profileTypeName="Melee Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="APs" characteristicTypeId="0013-245a-d523-d947" value="3"/>
+                <characteristic name="Damage" characteristicTypeId="3715-e37a-341b-4ff5" value="6"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="50.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="4e03-c145-f847-321a" name="Spider Harness" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="e10b-027b-f07a-11f5" name="Spider Harness" book="Rulebook" page="69" hidden="false" profileTypeId="f0c1-28b4-93c2-eb79" profileTypeName="Melee Weapon">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="APs" characteristicTypeId="0013-245a-d523-d947" value="3"/>
+                <characteristic name="Damage" characteristicTypeId="3715-e37a-341b-4ff5" value="7"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="ee1f-a9e2-4489-6cd7" name="Spider Harness" book="Rulebook" page="70" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The Spider Harness counts as one point of armor, improving soak against most attacks (figured in).</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="a690-228f-9b45-31dc" name="Biotech Gear" book="" hidden="false" targetId="7ea9-edf5-3ecf-45d9" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
+      <entryLinks/>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="4b1d-2bd2-c92f-bfdc" name="V - Special Equipment" book="Rulebook" page="70" hidden="false" collective="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries>
+        <selectionEntry id="f0b6-51ee-cda6-cef3" name="Medi-Pak" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="9528-f0ce-8f9c-11f8" name="Medi-Pak" book="Rulebook" page="70" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="2"/>
+                <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Restores one Health to the subject (single use)"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="dc8a-4140-cc60-9805" name="Single use" hidden="false" targetId="97d0-d6b8-99b4-be04" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="388c-75c4-cee8-b51d" name="Stim-Pak" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="13f1-be35-44e4-2beb" name="Stim-Pak" book="Rulebook" page="70" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="0"/>
+                <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Adds two APs for one turn when used (single use)"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="cc65-b2f7-d175-44b0" name="Single use" hidden="false" targetId="97d0-d6b8-99b4-be04" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d60a-05f1-879b-ae04" name="Strength-Pak" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="c482-daee-f8c0-6648" name="Strength-Pak" book="Rulebook" page="70" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="0"/>
+                <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Adds two dice to Close Combat attack rolls for one turn (single use)"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="3774-1707-fa49-67f2" name="Single use" hidden="false" targetId="97d0-d6b8-99b4-be04" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c27d-a8ef-3030-823a" name="Laser Sight" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="f4ad-ef67-0e6f-3a87" name="Laser Sight" book="Rulebook" page="70" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="n/a"/>
+                <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Adds one to user&apos;s Ranged Score. This item is considered permanent; it does not count as using your one green item per turn."/>
+              </characteristics>
+            </profile>
+          </profiles>
           <rules/>
           <infoLinks/>
           <modifiers/>
           <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f1b3-f3f1-70f5-b804" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2050-393b-a7f5-0ca8" type="max"/>
           </constraints>
           <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="ab65-6282-0d47-51f7" name="Fighting Gloves" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="b3b7-1354-9adb-d814" name="Fighting Gloves" book="Rulebook" page="69" hidden="false" profileTypeId="f0c1-28b4-93c2-eb79" profileTypeName="Melee Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="APs" characteristicTypeId="0013-245a-d523-d947" value="2"/>
-                    <characteristic name="Damage" characteristicTypeId="3715-e37a-341b-4ff5" value="2"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9387-c691-ff26-12fc" name="Claws" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="e87b-0897-6c39-2592" name="Claws" book="Rulebook" page="69" hidden="false" profileTypeId="f0c1-28b4-93c2-eb79" profileTypeName="Melee Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="APs" characteristicTypeId="0013-245a-d523-d947" value="3"/>
-                    <characteristic name="Damage" characteristicTypeId="3715-e37a-341b-4ff5" value="5"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks>
-                <infoLink id="1a0d-a6f6-1359-2ac4" name="Biotech Gear" hidden="false" targetId="7ea9-edf5-3ecf-45d9" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="7d14-6df4-96cb-d7fe" name="Vibro Sword" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="507f-6110-1a47-4217" name="Vibro Sword" book="Rulebook" page="69" hidden="false" profileTypeId="f0c1-28b4-93c2-eb79" profileTypeName="Melee Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="APs" characteristicTypeId="0013-245a-d523-d947" value="3"/>
-                    <characteristic name="Damage" characteristicTypeId="3715-e37a-341b-4ff5" value="6"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="50.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="d51a-c3a3-7494-fb5f" name="Spider Harness" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="90c0-87c7-f598-4a53" name="Spider Harness" book="Rulebook" page="69" hidden="false" profileTypeId="f0c1-28b4-93c2-eb79" profileTypeName="Melee Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="APs" characteristicTypeId="0013-245a-d523-d947" value="3"/>
-                    <characteristic name="Damage" characteristicTypeId="3715-e37a-341b-4ff5" value="7"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules>
-                <rule id="e489-d414-dd31-a210" name="Spider Harness" book="Rulebook" page="70" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>The Spider Harness counts as one point of armor, improving soak against most attacks (figured in).</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="f271-46f8-11b5-7fa1" name="Biotech Gear" book="" hidden="false" targetId="7ea9-edf5-3ecf-45d9" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+          <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="1d09-59a2-f193-4d37" name="III - Heavy Weapons" book="Rulebook" page="70" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="85b4-aa87-ccde-039f" name="Grenade" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="3001-8ba8-0c32-6687" name="Grenade" book="Rulebook" page="70" hidden="false" profileTypeId="979b-aa11-d18f-36b7" profileTypeName="Heavy Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="APs" characteristicTypeId="12fc-aa59-5084-5b01" value="3"/>
-                    <characteristic name="Short Range" characteristicTypeId="d06d-a4bb-d30c-869b" value="12"/>
-                    <characteristic name="Long Range" characteristicTypeId="bcd4-800a-59dc-2e27" value="0"/>
-                    <characteristic name="Damge" characteristicTypeId="a18b-e1e3-8e32-52ea" value="8"/>
-                    <characteristic name="Template" characteristicTypeId="4974-8783-fd73-e809" value="5-inch"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="30.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="cd8b-dbc6-1e4c-2375" name="Voss 88T Plasma Gun" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="8a69-526b-83a6-8f29" name="Voss 88T Plasma Gun" book="Rulebook" page="70" hidden="false" profileTypeId="979b-aa11-d18f-36b7" profileTypeName="Heavy Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="APs" characteristicTypeId="12fc-aa59-5084-5b01" value="4"/>
-                    <characteristic name="Short Range" characteristicTypeId="d06d-a4bb-d30c-869b" value="14"/>
-                    <characteristic name="Long Range" characteristicTypeId="bcd4-800a-59dc-2e27" value="30"/>
-                    <characteristic name="Damge" characteristicTypeId="a18b-e1e3-8e32-52ea" value="8"/>
-                    <characteristic name="Template" characteristicTypeId="4974-8783-fd73-e809" value="3-inch"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules>
-                <rule id="5b31-5a6a-f417-f787" name="Voss 88T Plasma Gun" book="Rulebook" page="70" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>The padded support harness oand heat sinks for the Plasma Gun provide one point of armor (figured in).</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="60.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="64ad-5b48-f886-197a" name="L-K Junior Light Coilgun" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="16a4-11c0-4cd0-bcc9" name="L-K Junior Light Coilgun" book="Rulebook" page="70" hidden="false" profileTypeId="979b-aa11-d18f-36b7" profileTypeName="Heavy Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="APs" characteristicTypeId="12fc-aa59-5084-5b01" value="4"/>
-                    <characteristic name="Short Range" characteristicTypeId="d06d-a4bb-d30c-869b" value="20"/>
-                    <characteristic name="Long Range" characteristicTypeId="bcd4-800a-59dc-2e27" value="44"/>
-                    <characteristic name="Damge" characteristicTypeId="a18b-e1e3-8e32-52ea" value="9"/>
-                    <characteristic name="Template" characteristicTypeId="4974-8783-fd73-e809" value="5-inch"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules>
-                <rule id="0a3c-1ee8-f334-efc0" name="L-K Junior Light Coilgun" book="Rulebook" page="70" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>The support armature of the coilgun provides one point of armor (figured in).</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="100.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8c23-9d89-f2fc-6223" name="L-K Killjoy Missile Launcher" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="3add-a301-59ae-a1e1" name="L-K Killjoy Missile Launcher" book="Rulebook" page="70" hidden="false" profileTypeId="979b-aa11-d18f-36b7" profileTypeName="Heavy Weapon">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="APs" characteristicTypeId="12fc-aa59-5084-5b01" value="4"/>
-                    <characteristic name="Short Range" characteristicTypeId="d06d-a4bb-d30c-869b" value="16"/>
-                    <characteristic name="Long Range" characteristicTypeId="bcd4-800a-59dc-2e27" value="40"/>
-                    <characteristic name="Damge" characteristicTypeId="a18b-e1e3-8e32-52ea" value="10"/>
-                    <characteristic name="Template" characteristicTypeId="4974-8783-fd73-e809" value="7-inch"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules>
-                <rule id="edbd-8399-42ae-8696" name="L-K Killjoy Missile Launcher" book="Ruleboo" page="70" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>The reinforced harness of the L-K Killjoy launcher provides one point of armor (figured in).</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="125.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="2446-adf2-9935-73e8" name="I - Armor" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4451-762b-073d-b6af" type="max"/>
-          </constraints>
-          <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="6dea-5082-0e3c-ed6d" name="Armor Vest (AR:2)" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="92d6-f814-d3dc-174a" name="Psi-Format" book="Rulebook" page="51" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="94e0-ce52-014f-a2f7" name="Psi-Format" book="Rulebook" page="71" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="4a52-8c5b-dd9e-7bf3" name="Field Suit (AR:3)" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+              <characteristics>
+                <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="n/a"/>
+                <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Spend Psi to improve the characteristic of the formated piece of equipment"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="f59a-9d86-53eb-db08" name="Psi-Format" book="Rulebook" page="71" hidden="false">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="77c7-ea71-20da-e7bd" name="Armor Carapace  (AR:3)" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
+              <description>A Psi-Format Counter grants a piece of bioware formatting bonuses. Psi-Format Counters cannot be transferred to other pieces of equipment or to other biotech owners.</description>
+            </rule>
+            <rule id="a146-37e6-2dc9-14d3" name="Formated Biotech Gear" book="Rulebook" page="51" hidden="false">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="25.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8d4f-0558-bb84-1329" name="Bioweave Vest (AR:4)" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks>
-                <infoLink id="c388-f5dd-34a2-fed1" name="Biotech Gear" hidden="false" targetId="7ea9-edf5-3ecf-45d9" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="40.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="8937-7f7a-ad9e-eda3" name="Combat Armor (AR:5)" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="55.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="65c7-76cb-8a03-8310" name="Light BioVARG (AR:6)" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="70.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
-          <selectionEntryGroups/>
-          <entryLinks/>
-        </selectionEntryGroup>
-        <selectionEntryGroup id="3db2-bd0f-a4b3-04db" name="V - Special Equipment" book="Rulebook" page="70" hidden="false" collective="false">
-          <profiles/>
-          <rules/>
-          <infoLinks/>
-          <modifiers/>
-          <constraints/>
-          <categoryLinks/>
-          <selectionEntries>
-            <selectionEntry id="6f26-9ed0-d920-b466" name="Medi-Pak" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="ec18-a241-5161-a0d0" name="Medi-Pak" book="Rulebook" page="70" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="2"/>
-                    <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Restores one Health to the subject (single use)"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks>
-                <infoLink id="6dde-8dba-b0ee-1d23" name="Single use" hidden="false" targetId="97d0-d6b8-99b4-be04" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9e5d-b56f-2a9e-f85c" name="Stim-Pak" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="c1fb-547f-bf09-89f1" name="Stim-Pak" book="Rulebook" page="70" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="0"/>
-                    <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Adds two APs for one turn when used (single use)"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks>
-                <infoLink id="f702-dc4b-4745-0b77" name="Single use" hidden="false" targetId="97d0-d6b8-99b4-be04" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="aea7-e6da-8884-004e" name="Strength-Pak" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="f4c0-8752-8d35-4c2a" name="Strength-Pak" book="Rulebook" page="70" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="0"/>
-                    <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Adds two dice to Close Combat attack rolls for one turn (single use)"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks>
-                <infoLink id="96ad-db8e-3f12-13fb" name="Single use" hidden="false" targetId="97d0-d6b8-99b4-be04" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="745d-8f4c-04a9-76cb" name="Laser Sight" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="651b-ecdd-91f8-3a39" name="Laser Sight" book="Rulebook" page="70" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="n/a"/>
-                    <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Adds one to user&apos;s Ranged Score. This item is considered permanent; it does not count as using your one green item per turn."/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <constraints>
-                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="414f-0dae-0758-74bb" type="max"/>
-              </constraints>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="2dcf-932a-81a8-7bcc" name="Psi-Format" book="Rulebook" page="51" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="d91b-7836-26d4-47bc" name="Psi-Format" book="Rulebook" page="71" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="n/a"/>
-                    <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Spend Psi to improve the characteristic of the formated piece of equipment"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules>
-                <rule id="92fb-00be-7a5a-897e" name="Psi-Format" book="Rulebook" page="71" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>A Psi-Format Counter grants a piece of bioware formatting bonuses. Psi-Format Counters cannot be transferred to other pieces of equipment or to other biotech owners.</description>
-                </rule>
-                <rule id="ee78-f33a-a8b8-da09" name="Formated Biotech Gear" book="Rulebook" page="51" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>Anounce the spending of Psi before making any rolls with the piece of equipment. For every three points of Psi spent increase:
+              <description>Anounce the spending of Psi before making any rolls with the piece of equipment. For every three points of Psi spent increase:
 - Red (Ranged) Items: Increase Ranged by one die
 - Orange (Heavy Weapons) Items: Reduce Deviation by one 
 - Purple (Close Combat) Items: Increse Close Combat by one die
 - Blue (Armor) Items: Adds one die to Soak</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="fd01-d5ea-9755-4d24" name="Remote Bomb" book="Rulebook" page="71" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="6a75-949e-4b22-2a21" name="Remote Bomb" book="Rulebook" page="71" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="2/0"/>
-                    <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Damage: 8, Template: 5-inch"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules>
-                <rule id="dd45-6f24-6ecf-0b42" name="Remote Bomb" book="Rulebook" page="71" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>A Remote Bomb Counter is placed and armed at a cost of two APs. The bomb may be detonated (as if using an Amush attack) any time therafter for no AP cost, inflicting its normal damage without deviation. The counter is removed from the sheet and placed on the battlefield when the item is positioned.</description>
-                </rule>
-              </rules>
-              <infoLinks>
-                <infoLink id="1e65-0d20-0c6e-253b" name="Single use" hidden="false" targetId="97d0-d6b8-99b4-be04" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="25.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="9517-b825-9fce-1748" name="Stim-Kit" book="Rulebook" page="71" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="6c10-9f50-2a33-035b" name="Stim-Kit" book="Rulebook" page="71" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="0"/>
-                    <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Adds four APs in the turn it&apos;s used"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks>
-                <infoLink id="d147-7bf2-b34d-767a" name="Single use" hidden="false" targetId="97d0-d6b8-99b4-be04" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="30.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="c363-1709-6d0d-8657" name="Large Medi-Kit" book="Rulebook" page="71" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="9c1f-e145-7a3f-1f7c" name="Large Medi-Kit" book="Rulebook" page="71" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="2"/>
-                    <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Restores two Health to the subject"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules/>
-              <infoLinks>
-                <infoLink id="fcdf-e828-a70d-4ed1" name="Single use" hidden="false" targetId="97d0-d6b8-99b4-be04" type="rule">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                </infoLink>
-              </infoLinks>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="35.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
-              </costs>
-            </selectionEntry>
-            <selectionEntry id="566c-f458-18ec-1a9c" name="Sentry Gun" book="Rulebook" page="71" hidden="false" collective="false" type="upgrade">
-              <profiles>
-                <profile id="62dd-e2d1-9016-3d2b" name="Sentry Gun" book="Rulebook" page="71" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <characteristics>
-                    <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="0"/>
-                    <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Ranged Attribute: 4, Range: 10/18, Damage: 4"/>
-                  </characteristics>
-                </profile>
-              </profiles>
-              <rules>
-                <rule id="d13b-2168-f788-d0a9" name="Sentry Gun" book="Rulebook" page="71" hidden="false">
-                  <profiles/>
-                  <rules/>
-                  <infoLinks/>
-                  <modifiers/>
-                  <description>The sentry gun is deployed as a normal action; the character must drop the gun (at the normal two AP cost). The gun then acts independently, firing twice in any direction during the Move &amp; Shoot Segment if any legal targets are within range. The deploying player specifies target parameters, so a sentry gun generally doesn’t fire on friendly troops (IFF transponders and pattern-recognition programming keep the gun quiescent). A sentry gun doesn’t move once placed, and fires with its own Ranged score, as noted above. To destroy a sentry gun, one attack must be staged that inflicts seven damage. The gun continues to function normally if less than seven damage is inflicted.</description>
-                </rule>
-              </rules>
-              <infoLinks/>
-              <modifiers/>
-              <constraints/>
-              <categoryLinks/>
-              <selectionEntries/>
-              <selectionEntryGroups/>
-              <entryLinks/>
-              <costs>
-                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="50.0"/>
-                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
-              </costs>
-            </selectionEntry>
-          </selectionEntries>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
           <selectionEntryGroups/>
           <entryLinks/>
-        </selectionEntryGroup>
-      </selectionEntryGroups>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="02f9-38fb-3e17-a94b" name="Remote Bomb" book="Rulebook" page="71" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="cbd6-c94b-2345-6b36" name="Remote Bomb" book="Rulebook" page="71" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="2/0"/>
+                <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Damage: 8, Template: 5-inch"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="683d-fc34-12d8-57b7" name="Remote Bomb" book="Rulebook" page="71" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>A Remote Bomb Counter is placed and armed at a cost of two APs. The bomb may be detonated (as if using an Amush attack) any time therafter for no AP cost, inflicting its normal damage without deviation. The counter is removed from the sheet and placed on the battlefield when the item is positioned.</description>
+            </rule>
+          </rules>
+          <infoLinks>
+            <infoLink id="8c2b-ee89-2ed5-230d" name="Single use" hidden="false" targetId="97d0-d6b8-99b4-be04" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="25.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="1557-8651-e5fc-8f95" name="Stim-Kit" book="Rulebook" page="71" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="31ae-7866-20d2-1c72" name="Stim-Kit" book="Rulebook" page="71" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="0"/>
+                <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Adds four APs in the turn it&apos;s used"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="8e66-25cb-05f0-0b20" name="Single use" hidden="false" targetId="97d0-d6b8-99b4-be04" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="30.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="fc65-a8fb-c4a2-329d" name="Large Medi-Kit" book="Rulebook" page="71" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="c535-90c3-51a4-bb5e" name="Large Medi-Kit" book="Rulebook" page="71" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="2"/>
+                <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Restores two Health to the subject"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules/>
+          <infoLinks>
+            <infoLink id="160e-e3be-171c-0bfc" name="Single use" hidden="false" targetId="97d0-d6b8-99b4-be04" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="35.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="c6d4-0a23-cb0b-b27b" name="Sentry Gun" book="Rulebook" page="71" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="17b9-a507-7685-7515" name="Sentry Gun" book="Rulebook" page="71" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="0"/>
+                <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Ranged Attribute: 4, Range: 10/18, Damage: 4"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="2bbd-7f45-0052-660c" name="Sentry Gun" book="Rulebook" page="71" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The sentry gun is deployed as a normal action; the character must drop the gun (at the normal two AP cost). The gun then acts independently, firing twice in any direction during the Move &amp; Shoot Segment if any legal targets are within range. The deploying player specifies target parameters, so a sentry gun generally doesn’t fire on friendly troops (IFF transponders and pattern-recognition programming keep the gun quiescent). A sentry gun doesn’t move once placed, and fires with its own Ranged score, as noted above. To destroy a sentry gun, one attack must be staged that inflicts seven damage. The gun continues to function normally if less than seven damage is inflicted.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs>
+            <cost name="Points" costTypeId="5837-a331-efab-0a68" value="50.0"/>
+            <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups/>
       <entryLinks/>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
