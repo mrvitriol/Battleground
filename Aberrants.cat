@@ -1477,6 +1477,286 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           <entryLinks/>
           <costs/>
         </selectionEntry>
+        <selectionEntry id="7b41-f0d5-af74-142e" name="Raise Ground" book="Rulebook" page="68" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="ee80-3252-8232-abae" name="Raise Ground" book="Rulebook" page="68" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="2"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="dce8-5d4a-3c4b-12e1" name="Raise Ground" book="Ruleboo" page="68" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The Aberrant commands the very rock at its feet to rise and interject itself between the character and his enemies, providing hard cover. Place a Raised Ground counter anywhere touching the model&apos;s base.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="f2c9-162c-fcfd-fb63" name="Ranged Healing" book="Ruleoo" page="68" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="29c9-c87e-f1e1-034f" name="Ranged Healing" book="Ruleboo" page="68" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="8"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="4"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="5"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="f7bb-83d5-f7fa-e613" name="Ranged Healing" book="Ruleboo" page="68" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Any single model within the eight-inch range of this power recovers one Health level of damage. This power does not function upon support troops. </description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="609b-b05c-6942-9a21" name="Resistance" book="Rulebook" page="68" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="8f64-0adc-2fa3-222e" name="Resistance" book="Rulebook" page="68" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="284a-5bd2-22a0-76c1" name="Resistance" book="Rulebook" page="68" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The character continues to act even after it is reduced to 0 Health. If the character takes subsequent damage, it must make a successful STA roll at a one-die penalty for each point of damage taken in the attack. If the roll succeeds, the Aberrant remains on its feet and active. When a STA roll fails, the character is considered dead automatically and is taken out of play. The character must spend four Taint per turn to stay active. If he runs out of Taint, he falls to the ground an may not recover unless healed as normal.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="a0f1-27c3-8d19-6c22" name="Sense Psi" book="Rulebook" page="68" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="06db-6e24-e5d0-29ab" name="Sense Psi" book="Rulebook" page="68" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value=""/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="2"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="654e-dad2-04cc-be15" name="Sense Psi" book="Rulebook" page="68" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>This power activates automatically whenever the character is attacked with a psi power. The psion attacker loses one die from the attack roll.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="9174-61d2-c308-b10c" name="Synaptic Disruption" book="Rulebook" page="68" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="586b-88ad-1d99-813a" name="Synaptic Disruption" book="Rulebook" page="68" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="18"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="3"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="2"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="MEN"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="a757-fa0a-e3a8-a771" name="Synaptic Disruption" book="Ruleboo" page="68" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>This power may be used on only one model within 18 inches. No roll to hit is required; simply announce the target and spend the Action Points and Taint Points. Both the Aberrant and the target roll dice equal to their respective MEN ratings. If the results are equal or the Aberrant gets more successes, place a Confused Counter next to the target. If the target scores more successes, there is no effect. Upon the victim&apos;s next opportunity to spend Action Points, the Confused Counter is removed in lieu of taking any actions. </description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="438b-e1d1-33e9-9fc6" name="Transmutation" book="Rulebook" page="68" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="78d2-d7ea-bc31-48af" name="Transmutation" book="Rulebook" page="68" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="8"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="5"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Taint"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="e847-5060-c17e-8ab3" name="Transmutation" book="Rulebook" page="68" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Roll Taint to activate this power. The player must roll successes equal to or in excess of the target&apos;s Armor Rating to destroy his protection. This power works only on psion armor (blue counters). A piece of armor destroyed this way is removed from play permanently.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="7271-0715-79c9-2138" name="Tumorous Appearance" book="Rulebook" page="68" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="5f37-35cd-8fea-baba" name="Tumorous Appearance" book="Ruleboo" page="68" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="0"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="2400-835e-b6db-b48c" name="Tumorous Appearance" book="Ruleboo" page="68" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The Aberrant alters its appearance prior to battle to be so hideous that any human character engaging it in Close Combat loses one die from attack rolls.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="f05d-1467-c0f5-f043" name="Warp" book="Rulebook" page="68" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="e220-6f8b-9bb5-a783" name="Warp" book="Rulebook" page="68" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="5"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="06ca-9ac0-0556-7a36" name="Warp" book="Rulebook" page="68" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>This power allows the character to take a free four-inch move at the moment that the power is activated. The figure ignores any objects such as walls or trees within those four inches. The distance warped may also be extended by spending additional Taint points equal to the power&apos;s normal cost - doubling the power&apos;s Taint cost to 10 allows the Aberrant to travel eight inches, and so on. The Aberrant may warp in any direction desired.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups/>
       <entryLinks/>
