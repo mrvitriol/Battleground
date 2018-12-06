@@ -820,7 +820,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="75.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
         <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
@@ -943,7 +943,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="60.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
         <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
@@ -1121,7 +1121,7 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="25.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
         <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
       </costs>
@@ -1217,9 +1217,67 @@
       <selectionEntryGroups/>
       <entryLinks/>
       <costs>
-        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="50.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
         <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="51d0-1ac4-ffa5-ab62" name="L-K Avenger" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="0266-d195-e786-b13e" name="L-K Avenger" book="Rulebook" page="69" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="2"/>
+            <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="8"/>
+            <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="18"/>
+            <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="4"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="35.0"/>
+        <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1918-497d-da1f-6b31" name="L-K MAC-803 Auto" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="05cd-f2e3-0c6f-3f06" name="L-K MAC-803 Auto" book="Rulebook" page="69" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="2"/>
+            <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="12"/>
+            <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="22"/>
+            <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="4"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="45.0"/>
+        <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1381,6 +1439,22 @@
           <categoryLinks/>
         </entryLink>
         <entryLink id="fc8c-6b33-a448-0dd5" name="Voss 63K Laser" hidden="false" targetId="b762-52b1-36ec-8956" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="84d5-bad9-e114-ef4b" name="L-K MAC-803 Auto" hidden="false" targetId="1918-497d-da1f-6b31" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
+        <entryLink id="fe43-e9b0-aeb0-3e1f" name="L-K Avenger" hidden="false" targetId="51d0-1ac4-ffa5-ab62" type="selectionEntry">
           <profiles/>
           <rules/>
           <infoLinks/>
