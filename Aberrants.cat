@@ -529,9 +529,17 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
+            <modifier type="increment" field="15e7-0ff0-403f-243e" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e2f8-ca2e-b3f7-4a11" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="215e-8a57-f4b8-874b" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58d3-d1ea-f5eb-a9d9" type="max"/>
+            <constraint field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="15e7-0ff0-403f-243e" type="min"/>
           </constraints>
           <categoryLinks/>
         </entryLink>
@@ -702,7 +710,9 @@
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3086-f367-913b-0390" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -741,7 +751,9 @@
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e41b-6976-2f94-17df" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -780,7 +792,9 @@
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="fa14-7dbe-9504-f844" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -819,7 +833,9 @@
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d0ed-b76c-4149-ac11" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -858,7 +874,9 @@
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="eb21-889b-49a0-e9ee" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -897,7 +915,9 @@
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="42e3-718b-183d-9d8f" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -937,7 +957,9 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="521e-771c-8585-22e1" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -976,7 +998,9 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b34a-fde6-e2ab-70cd" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1015,7 +1039,9 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8e8b-0a3c-9f96-98f9" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1050,7 +1076,9 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="6887-fa38-2ced-958c" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1085,7 +1113,9 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4bb3-d8bb-8383-e617" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1120,7 +1150,9 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b94b-28d1-6369-da94" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1155,7 +1187,9 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="904c-1292-bc74-77a5" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1190,7 +1224,9 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dd40-ec21-ffa6-5b20" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1225,7 +1261,9 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d41d-edca-fe44-2bc7" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1260,7 +1298,9 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="25e4-932b-2156-2b40" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1295,7 +1335,9 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4510-a185-b9da-9e93" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1330,7 +1372,9 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="91e2-103f-c701-6bcc" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1365,7 +1409,9 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9c7a-7a05-10fb-6654" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1400,7 +1446,9 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0a3e-fedb-1a2e-3bea" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1435,7 +1483,9 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e2c0-cd6a-5c11-acc0" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1470,7 +1520,9 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="2022-ae02-6e9d-5249" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1505,7 +1557,9 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="82a9-c0f1-1747-2b76" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1540,7 +1594,9 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7536-797c-a02b-0a87" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1575,7 +1631,9 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="74ee-a1d9-7ecf-6c5f" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1610,7 +1668,9 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dfc2-a8c8-248a-03f9" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1645,7 +1705,9 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4fe4-814e-a70e-aa1e" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1680,7 +1742,9 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0c03-36f4-c643-724d" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1715,7 +1779,9 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7150-deb0-1bb2-662b" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
@@ -1750,7 +1816,10 @@ This power may be activated in any segment of the Action Phase, not simply Move 
           </rules>
           <infoLinks/>
           <modifiers/>
-          <constraints/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e3c6-55e4-8df3-9e58" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3b79-74e6-0f8e-18aa" type="max"/>
+          </constraints>
           <categoryLinks/>
           <selectionEntries/>
           <selectionEntryGroups/>
