@@ -1185,7 +1185,7 @@ This power may be activated in any segment of the Action Phase, not simply Move 
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>Increase the Aberrant&apos;s next attack roll by two dice.</description>
+              <description>Increase the Aberrant&apos;s next attack (taint powers included) roll by two dice.</description>
             </rule>
           </rules>
           <infoLinks/>
@@ -1206,8 +1206,8 @@ This power may be activated in any segment of the Action Phase, not simply Move 
               <modifiers/>
               <characteristics>
                 <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
-                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value=""/>
-                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value=""/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="0"/>
                 <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
                 <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
                 <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
@@ -1221,6 +1221,251 @@ This power may be activated in any segment of the Action Phase, not simply Move 
               <infoLinks/>
               <modifiers/>
               <description>The Aberrant may jump over any obstacle shorter than itself with no movement penalty, and may add one additional inch to the end of ay move. </description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="56bb-6289-6586-2ef9" name="Magnetic Pulse" book="Rulebook" page="66" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="a453-ae14-2a5e-c03f" name="Magnetic Pulse" book="Rulebook" page="66" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="10"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="5"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="6"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="dd87-b13e-2330-d756" name="Magnetic Pulse" book="Rulebook" page="66" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The Aberrant jams all Ranged and Heavy Weapons in a 10-inch radius. Place a Jammed Counter next to each eligible model within 10 inches of the Aberrant. This power does not affect Aberrant mutations. Enemies must then unjam as normal.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="dc4c-db6f-95a0-6f22" name="Mist" book="Rulebook" page="66" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="f5ec-1c49-7a3b-9375" name="Mist" book="Rulebook" page="66" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="1"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="e654-af41-e7ba-d488" name="Mist" book="Ruleboo" page="66" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>A mist-shrouded Aberrant gains the benefit of soft cover (or hard cover if already under soft cover). The mist protects the Aberrant for the duration of the turn, dispensing at the turn&apos;s end.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="cce9-f8e5-5756-f338" name="Nova" book="Ruleboo" page="67" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="61bf-67f5-3d82-ceb9" name="Nova" book="Ruleboo" page="67" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="12"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="3"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="5"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="See Rules"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="83de-448e-7764-128d" name="Nova" book="Rulebook" page="67" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>All characters within a 12-inch radius of the Aberrant suffer five dice of damage automatically; this damage may be Soaked normally, but the Aberrant does not choose who&apos;s affected. Friend and foe alike suffer. Cover offers no protection against this attack.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="1f58-9677-19fa-950d" name="Phase" book="Rulebook" page="67" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="f6e2-dbe9-2062-77f4" name="Phase" book="Rulebook" page="67" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="2046-ed5f-f290-34e3" name="Phase" book="Ruleboo" page="67" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>This power may be activated after the Aberrant has been hit by an attack, but before damage is rolled. A phasing Aberrant suffers only half damage (rounded up) from any one attack. Multiple incoming attacks each require separate use of Phase.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="98d6-37ff-ee8c-0921" name="Plasma Blast" book="Ruleboo" page="67" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="c6aa-b981-165f-0be2" name="Plasma Blast" book="Ruleboo" page="67" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="16"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="3"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="3"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Taint"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="3974-2c59-0ffa-b908" name="Plasma Blast" book="Rulebook" page="67" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Roll Taint as a normal Ranged attack. As usual, add attack roll successes to the power&apos;s base damage of three.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="a653-15a3-60d7-2c9e" name="Plasma Storm" book="Rulebook" page="67" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="b6b6-b9e0-afa8-5183" name="Plasma Storm" book="Ruleboo" page="67" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="24"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="3"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="5"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Taint"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="5-inch"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="f1a0-8f49-c56f-2a64" name="Plasma Storm" book="Ruleboo" page="67" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>Treat Plasma Storm as a Heavy Weapons attack, using Taint for the attack roll and deviating normally. The five dice of damage are not augmented by successes on the attack roll.</description>
+            </rule>
+          </rules>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries/>
+          <selectionEntryGroups/>
+          <entryLinks/>
+          <costs/>
+        </selectionEntry>
+        <selectionEntry id="5962-3270-2a9d-40ac" name="Quicksand" book="Rulebook" page="67" hidden="false" collective="false" type="upgrade">
+          <profiles>
+            <profile id="d7dc-8147-9196-2db1" name="Quicksand" book="Ruleboo" page="67" hidden="false" profileTypeId="1c0d-d92c-9d86-7ea4" profileTypeName="Power Stats">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <characteristics>
+                <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="18"/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="3"/>
+                <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
+                <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
+                <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="Taint"/>
+                <characteristic name="Template" characteristicTypeId="d1e1-5e6c-71dd-9b6a" value="None"/>
+              </characteristics>
+            </profile>
+          </profiles>
+          <rules>
+            <rule id="6608-a9a4-2298-91aa" name="Quicksand" book="Rulebook" page="67" hidden="false">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <description>The Aberrant rolls Taint score and his intended victim rolls DEX. If the enemy gets more successes, he avoids the attack. If the Aberrant ties or gets more successes, the target is stuck - place a Stuck Counter next to the figure. An immobilized character must spend four APs to free himself in his next action, and cannot perform any other actions before freeing himself.</description>
             </rule>
           </rules>
           <infoLinks/>
