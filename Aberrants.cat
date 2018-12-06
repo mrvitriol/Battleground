@@ -107,6 +107,13 @@
             <modifier type="increment" field="f57a-432e-7c63-2f03" value="1">
               <repeats>
                 <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="babc-e8a4-8c58-55ee" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="78f7-e950-18e8-d284" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3fb9-f944-e52d-8fa3" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6bfd-8fa4-1175-a2dc" repeats="2" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="55b6-4bb1-e131-6ea1" repeats="2" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cb93-a3d7-db25-4dcf" repeats="3" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="2065-f081-9cf6-091f" repeats="4" roundUp="false"/>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="8558-b5cb-f74b-67a8" repeats="1" roundUp="false"/>
               </repeats>
               <conditions/>
               <conditionGroups/>
@@ -671,7 +678,453 @@
       <constraints/>
       <categoryLinks/>
       <selectionEntries/>
-      <selectionEntryGroups/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="65ac-8c9f-fa77-e9f8" name="II - Ranged Attacks" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="26ac-df62-9aee-b983" name="Energy Wave" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="8a83-da6a-0932-090b" name="Energy Wave" book="Rulebook" page="72" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="3"/>
+                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="8"/>
+                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="28"/>
+                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="3"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b398-767c-bc2f-3345" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="60.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="0f0e-df40-de4b-ca85" name="Sonic Scream" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="db87-7877-851d-4347" name="Sonic Scream" book="Rulebook" page="72" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="3"/>
+                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="8"/>
+                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="16"/>
+                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="3"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="f5c1-010f-0078-fbb5" name="Sonic Scream" book="Rulebook" page="72" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>Damage from a Sonic Scream is Soaked with the target&apos;s STA only.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1b1-4b0c-08ee-9d71" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="75.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2105-b425-45d5-b462" name="Laser Eyes" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="3241-0762-abeb-7d59" name="Laser Eyes" book="Rulebook" page="72" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="2"/>
+                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="10"/>
+                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="20"/>
+                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="4"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="54b1-0a8c-d0b9-41bc" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="80b5-2c9c-0932-b697" name="IV - Close Combat Attacks" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="98af-7384-24f8-6dc3" name="Claws" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="f047-68f5-c877-632d" name="Claws" book="Rulebook" page="72" hidden="false" profileTypeId="f0c1-28b4-93c2-eb79" profileTypeName="Melee Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="0013-245a-d523-d947" value="2"/>
+                    <characteristic name="Damage" characteristicTypeId="3715-e37a-341b-4ff5" value="2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0ff-6ed8-6410-c15e" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="7d2f-c688-d7ef-7f66" name="Arm Tentacles" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="7123-8b04-719c-bf5f" name="Arm Tentacles" book="Rulebook" page="72" hidden="false" profileTypeId="f0c1-28b4-93c2-eb79" profileTypeName="Melee Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="0013-245a-d523-d947" value="2"/>
+                    <characteristic name="Damage" characteristicTypeId="3715-e37a-341b-4ff5" value="4"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c970-3a4e-7004-64f8" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="25.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="bfde-e3ad-8ef0-c7eb" name="Extra Arms" book="Ruleboo" page="72" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="b0b5-7f11-5186-7ecb" name="Extra Arms" book="Rulebook" page="72" hidden="false" profileTypeId="f0c1-28b4-93c2-eb79" profileTypeName="Melee Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="0013-245a-d523-d947" value="3"/>
+                    <characteristic name="Damage" characteristicTypeId="3715-e37a-341b-4ff5" value="5"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f7cb-118b-62d2-827e" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="40.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="78f7-e950-18e8-d284" name="Spined Body" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="9665-1694-f080-ea97" name="Spined Body" book="Rulebook" page="72" hidden="false" profileTypeId="f0c1-28b4-93c2-eb79" profileTypeName="Melee Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="0013-245a-d523-d947" value="3"/>
+                    <characteristic name="Damage" characteristicTypeId="3715-e37a-341b-4ff5" value="6"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules>
+                <rule id="4639-3d64-715b-5310" name="Spined Body" book="Rulebook" page="72" hidden="false">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <description>The Spines on the Aberrant&apos;s body make it difficult to hit the mutant, and they also absorb some shock, providing one point of armor.</description>
+                </rule>
+              </rules>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2c15-41d8-5a0a-2690" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="50.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="e936-9b87-579a-c5da" name="III - Heavy Weapons" book="" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="0d0a-0fed-9199-0262" name="Ground Control" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="e4ec-31f8-5ba7-2f0b" name="Ground Control" book="Ruleboo" page="72" hidden="false" profileTypeId="979b-aa11-d18f-36b7" profileTypeName="Heavy Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="12fc-aa59-5084-5b01" value="4"/>
+                    <characteristic name="Short Range" characteristicTypeId="d06d-a4bb-d30c-869b" value="14"/>
+                    <characteristic name="Long Range" characteristicTypeId="bcd4-800a-59dc-2e27" value="30"/>
+                    <characteristic name="Damge" characteristicTypeId="a18b-e1e3-8e32-52ea" value="7"/>
+                    <characteristic name="Template" characteristicTypeId="4974-8783-fd73-e809" value="5-inch"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5405-0342-a4b5-5667" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="60.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9399-6e48-3057-3b2a" name="Hurl Earth" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="5281-f4f7-cb45-a642" name="Hurl Earth" book="Rulebook" page="72" hidden="false" profileTypeId="979b-aa11-d18f-36b7" profileTypeName="Heavy Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="12fc-aa59-5084-5b01" value="4"/>
+                    <characteristic name="Short Range" characteristicTypeId="d06d-a4bb-d30c-869b" value="20"/>
+                    <characteristic name="Long Range" characteristicTypeId="bcd4-800a-59dc-2e27" value="44"/>
+                    <characteristic name="Damge" characteristicTypeId="a18b-e1e3-8e32-52ea" value="8"/>
+                    <characteristic name="Template" characteristicTypeId="4974-8783-fd73-e809" value="5-inch"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c73-9a83-c9ec-d59f" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="100.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="d012-5128-ad7a-eee3" name="Warp Field" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="9d20-3e27-1979-e900" name="Warp Field" book="Rulebook" page="72" hidden="false" profileTypeId="979b-aa11-d18f-36b7" profileTypeName="Heavy Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="12fc-aa59-5084-5b01" value="4"/>
+                    <characteristic name="Short Range" characteristicTypeId="d06d-a4bb-d30c-869b" value="16"/>
+                    <characteristic name="Long Range" characteristicTypeId="bcd4-800a-59dc-2e27" value="40"/>
+                    <characteristic name="Damge" characteristicTypeId="a18b-e1e3-8e32-52ea" value="9"/>
+                    <characteristic name="Template" characteristicTypeId="4974-8783-fd73-e809" value="7-inch"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="dffc-bd24-fe6f-3ce5" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs/>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+        <selectionEntryGroup id="64bb-8457-d2cc-4f80" name="I - Armor" book="Ruleboo" page="72" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d91c-b995-f85e-4d79" type="max"/>
+          </constraints>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="3fb9-f944-e52d-8fa3" name="Tough Skin (AR:1)" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2077-40e6-350b-e580" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="6bfd-8fa4-1175-a2dc" name="Flexible Skin (AR:2)" book="Rulebook " page="72" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d38c-4e09-e489-feda" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="55b6-4bb1-e131-6ea1" name="Carapace (AR:2" book="Ruleboo" page="72" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="77fa-b68e-5226-d9d1" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="72.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="cb93-a3d7-db25-4dcf" name="Armored Plates (AR:3)" book="Rulebook" page="73" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94c9-f0ff-99bd-8f60" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="40.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2065-f081-9cf6-091f" name="Tortoise Shell (AR:4)" book="Rulebook" page="73" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ee03-7ada-f1ef-63ef" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="50.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8558-b5cb-f74b-67a8" name="Energy Field (AR:5)" book="Rulebook" page="73" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3ee-6b82-a16e-2505" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="65.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks/>
     </selectionEntryGroup>
     <selectionEntryGroup id="c656-7a58-bc74-e7e9" name="3 - Powers" book="Rulebook" hidden="false" collective="false">
