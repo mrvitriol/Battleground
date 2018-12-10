@@ -132,6 +132,14 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
+            <modifier type="increment" field="2dcc-748a-9e6c-f032" value="1">
+              <repeats>
+                <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0e9c-17a2-29d7-8de2" repeats="1" roundUp="false"/>
+                <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="d0b4-a200-ee73-0a41" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Health" characteristicTypeId="4f50-7d5e-70d7-80cd" value="0"/>
@@ -139,6 +147,7 @@
             <characteristic name="PSI/Taint" characteristicTypeId="76ba-63d0-814f-655f" value="0"/>
             <characteristic name="APs" characteristicTypeId="b396-7827-5b33-4909" value="2"/>
             <characteristic name="Command Radius" characteristicTypeId="68c0-a4fc-8906-8eda" value="0"/>
+            <characteristic name="Carrying Capacity" characteristicTypeId="2dcc-748a-9e6c-f032" value="0"/>
           </characteristics>
         </profile>
         <profile id="a206-ac0d-88e1-fc14" name="Combat Stats" book="Rulebook" page="76" hidden="false" profileTypeId="25de-1bf8-ab80-d7e5" profileTypeName="Combat Stats">
@@ -2318,6 +2327,7 @@ A psion may also choose to pick up a target and move it without inflicting damag
             <characteristic name="PSI/Taint" characteristicTypeId="76ba-63d0-814f-655f" value="0"/>
             <characteristic name="APs" characteristicTypeId="b396-7827-5b33-4909" value="6"/>
             <characteristic name="Command Radius" characteristicTypeId="68c0-a4fc-8906-8eda" value="0"/>
+            <characteristic name="Carrying Capacity" characteristicTypeId="2dcc-748a-9e6c-f032"/>
           </characteristics>
         </profile>
       </profiles>

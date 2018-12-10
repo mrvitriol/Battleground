@@ -25,6 +25,7 @@
         <characteristicType id="76ba-63d0-814f-655f" name="PSI/Taint"/>
         <characteristicType id="b396-7827-5b33-4909" name="APs"/>
         <characteristicType id="68c0-a4fc-8906-8eda" name="Command Radius"/>
+        <characteristicType id="2dcc-748a-9e6c-f032" name="Carrying Capacity"/>
       </characteristicTypes>
     </profileType>
     <profileType id="1c0d-d92c-9d86-7ea4" name="Power Stats">
