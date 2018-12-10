@@ -1034,7 +1034,7 @@
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="60.0"/>
                 <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="0f0e-df40-de4b-ca85" name="Sonic Scream" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
@@ -1073,7 +1073,7 @@
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="75.0"/>
                 <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2105-b425-45d5-b462" name="Laser Eyes" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
@@ -1104,7 +1104,126 @@
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="50.0"/>
                 <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="191d-ef05-7cfc-6f27" name="Energy Blast" book="Ruleboo" page="71" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="5abd-f0fa-07f6-72fd" name="Energy Blast" book="Rulebook" page="71" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="2"/>
+                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="8"/>
+                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="16"/>
+                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="2"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80a4-5996-a636-dae6" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4ecb-e565-9a79-6e29" name="Matter Acceleration" book="Rulebook" page="71" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="4f7e-4daf-613f-9368" name="Matter Acceleration" book="Rulebook" page="71" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="2"/>
+                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="8"/>
+                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="16"/>
+                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="3"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aebe-82f4-af3c-f93b" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="30.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="00a7-512f-b70e-8972" name="Electric Arc" book="Ruleboo" page="71" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="a6bf-a6c7-f2bd-e085" name="Electric Arc" book="Rulebook" page="71" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="2"/>
+                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="12"/>
+                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="24"/>
+                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="3"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f67d-85ed-76da-6ccf" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="40.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="b567-75c6-ee0e-4887" name="Shooting Spines" book="Ruleboo" page="71" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="f194-97bd-fd95-48ad" name="Shooting Spines" book="Ruleboo" page="71" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="2"/>
+                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="8"/>
+                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="16"/>
+                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="4"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2365-76f9-24dc-b1e5" type="max"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="45.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1145,7 +1264,7 @@
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
                 <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="7d2f-c688-d7ef-7f66" name="Arm Tentacles" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
@@ -1174,7 +1293,7 @@
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="25.0"/>
                 <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="bfde-e3ad-8ef0-c7eb" name="Extra Arms" book="Ruleboo" page="72" hidden="false" collective="false" type="upgrade">
@@ -1203,7 +1322,7 @@
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="40.0"/>
                 <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="78f7-e950-18e8-d284" name="Spined Body" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
@@ -1240,7 +1359,7 @@
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="50.0"/>
                 <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1284,7 +1403,7 @@
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="60.0"/>
                 <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="4.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9399-6e48-3057-3b2a" name="Hurl Earth" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
@@ -1316,7 +1435,7 @@
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="100.0"/>
                 <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="3.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="d012-5128-ad7a-eee3" name="Warp Field" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
@@ -1348,7 +1467,7 @@
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
                 <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1380,7 +1499,7 @@
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
                 <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="6bfd-8fa4-1175-a2dc" name="Flexible Skin (AR:2)" book="Rulebook " page="72" hidden="false" collective="false" type="upgrade">
@@ -1398,7 +1517,7 @@
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
                 <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="55b6-4bb1-e131-6ea1" name="Carapace (AR:2" book="Ruleboo" page="72" hidden="false" collective="false" type="upgrade">
@@ -1416,7 +1535,7 @@
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="72.0"/>
                 <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="cb93-a3d7-db25-4dcf" name="Armored Plates (AR:3)" book="Rulebook" page="73" hidden="false" collective="false" type="upgrade">
@@ -1434,7 +1553,7 @@
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="40.0"/>
                 <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="2065-f081-9cf6-091f" name="Tortoise Shell (AR:4)" book="Rulebook" page="73" hidden="false" collective="false" type="upgrade">
@@ -1452,7 +1571,7 @@
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="50.0"/>
                 <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="8558-b5cb-f74b-67a8" name="Energy Field (AR:5)" book="Rulebook" page="73" hidden="false" collective="false" type="upgrade">
@@ -1470,7 +1589,7 @@
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="65.0"/>
                 <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1516,7 +1635,7 @@
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
                 <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="df8e-a2ac-0281-4442" name="Bulging Muscles" book="Rulebook" page="73" hidden="false" collective="false" type="upgrade">
@@ -1540,7 +1659,7 @@
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
                 <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="fde7-e153-8560-3a0e" name="Regeneration" book="Rulebook" page="73" hidden="false" collective="false" type="upgrade">
@@ -1574,7 +1693,7 @@
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
                 <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
