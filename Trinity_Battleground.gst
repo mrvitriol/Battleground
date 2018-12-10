@@ -698,7 +698,7 @@
       <costs>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="25.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="06d8-5c24-8f52-0760" name="Armor Vest (AR:2)" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
@@ -714,7 +714,7 @@
       <costs>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1d4a-fcdc-61c3-a5ce" name="Combat Armor (AR:5)" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
@@ -730,7 +730,7 @@
       <costs>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="55.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="cd04-6824-31b9-f8f3" name="Bioweave Vest (AR:4)" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
@@ -753,7 +753,7 @@
       <costs>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="40.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="3324-da68-5206-c2f5" name="Field Suit (AR:3)" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
@@ -769,7 +769,7 @@
       <costs>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="d6a6-2467-69e2-b7a3" name="Light BioVARG (AR:6)" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
@@ -785,7 +785,7 @@
       <costs>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="70.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ca05-1016-bf45-9261" name="Aris Sonic Carbine" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
@@ -822,7 +822,7 @@
       <costs>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="75.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="2965-04d2-e1d7-cd15" name="Banji Cyclone" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
@@ -851,7 +851,7 @@
       <costs>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="32f4-b6bd-9c92-476d" name="Banji Thunder Shotgun" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
@@ -880,7 +880,7 @@
       <costs>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="45.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="73f3-a657-c089-2e6d" name="Las-Gauntlet" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
@@ -916,7 +916,7 @@
       <costs>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="75.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="b762-52b1-36ec-8956" name="Voss 63K Laser" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
@@ -945,7 +945,7 @@
       <costs>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="60.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c540-eca8-7ebd-2af6" name="Grenade" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
@@ -1013,7 +1013,7 @@
       <costs>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="100.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="3.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="fe8e-1368-bf23-05d8" name="L-K Killjoy Missile Launcher" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
@@ -1051,7 +1051,7 @@
       <costs>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="125.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="ae60-d280-ac47-fddd" name="Voss 88T Plasma Gun" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
@@ -1089,7 +1089,7 @@
       <costs>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="60.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="4.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="008e-d9a7-8824-56b0" name="Claws" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
@@ -1177,7 +1177,7 @@
       <costs>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="50.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="716e-3b7c-90af-4897" name="Spider Harness" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
@@ -1248,7 +1248,7 @@
       <costs>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="35.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1918-497d-da1f-6b31" name="L-K MAC-803 Auto" book="Rulebook" page="69" hidden="false" collective="false" type="upgrade">
@@ -1277,7 +1277,50 @@
       <costs>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="45.0"/>
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8514-540e-751d-ecdb" name="ESS Battlesuit" book="Dr. Sager Miniature Pack" page="#9408" hidden="false" collective="false" type="upgrade">
+      <profiles>
+        <profile id="f3c4-d854-b84c-1cb6" name="ESS Battlesuit" book="Dr. Sager Miniature Pack" page="#9408" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="3"/>
+            <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="10"/>
+            <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="22"/>
+            <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="5867-8eb1-9b85-455d" name="ESS Battlesuit" book="Dr. Sager Miniature Pack" page="#9408" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>The ESS Battlesuit grants it&apos;s wearer two points of armor (figured in).</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="5003-c8a2-15cf-2de9" name="Biotech Gear" hidden="false" targetId="7ea9-edf5-3ecf-45d9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="75.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1462,6 +1505,14 @@
           <constraints/>
           <categoryLinks/>
         </entryLink>
+        <entryLink id="edff-8ce7-e80e-e24c" name="ESS Battlesuit" hidden="false" targetId="8514-540e-751d-ecdb" type="selectionEntry">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+        </entryLink>
       </entryLinks>
     </selectionEntryGroup>
     <selectionEntryGroup id="171a-3c63-54bb-3612" name="III - Heavy Weapons" book="Rulebook" page="70" hidden="false" collective="false">
@@ -1593,7 +1644,7 @@
           <costs>
             <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
             <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="388c-75c4-cee8-b51d" name="Stim-Pak" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
@@ -1627,7 +1678,7 @@
           <costs>
             <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
             <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d60a-05f1-879b-ae04" name="Strength-Pak" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
@@ -1661,7 +1712,7 @@
           <costs>
             <cost name="Points" costTypeId="5837-a331-efab-0a68" value="15.0"/>
             <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c27d-a8ef-3030-823a" name="Laser Sight" book="Rulebook" page="70" hidden="false" collective="false" type="upgrade">
@@ -1690,7 +1741,7 @@
           <costs>
             <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
             <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="92d6-f814-d3dc-174a" name="Psi-Format" book="Rulebook" page="51" hidden="false" collective="false" type="upgrade">
@@ -1736,7 +1787,7 @@
           <costs>
             <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
             <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="02f9-38fb-3e17-a94b" name="Remote Bomb" book="Rulebook" page="71" hidden="false" collective="false" type="upgrade">
@@ -1778,7 +1829,7 @@
           <costs>
             <cost name="Points" costTypeId="5837-a331-efab-0a68" value="25.0"/>
             <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="1557-8651-e5fc-8f95" name="Stim-Kit" book="Rulebook" page="71" hidden="false" collective="false" type="upgrade">
@@ -1812,7 +1863,7 @@
           <costs>
             <cost name="Points" costTypeId="5837-a331-efab-0a68" value="30.0"/>
             <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="fc65-a8fb-c4a2-329d" name="Large Medi-Kit" book="Rulebook" page="71" hidden="false" collective="false" type="upgrade">
@@ -1846,7 +1897,7 @@
           <costs>
             <cost name="Points" costTypeId="5837-a331-efab-0a68" value="35.0"/>
             <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="c6d4-0a23-cb0b-b27b" name="Sentry Gun" book="Rulebook" page="71" hidden="false" collective="false" type="upgrade">
@@ -1881,7 +1932,7 @@
           <costs>
             <cost name="Points" costTypeId="5837-a331-efab-0a68" value="50.0"/>
             <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
-            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+            <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
