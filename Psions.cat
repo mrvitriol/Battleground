@@ -2332,7 +2332,14 @@ A psion may also choose to pick up a target and move it without inflicting damag
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="444f-809e-9530-8133" name="Support Troops" hidden="false" targetId="9547-f927-a04d-6de9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks>

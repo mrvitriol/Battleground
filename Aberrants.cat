@@ -33,6 +33,14 @@
       <constraints/>
       <categoryLinks/>
     </entryLink>
+    <entryLink id="a3a0-1b00-c5a2-f9c1" name="Support Group Trog" hidden="false" targetId="da1a-408d-3268-b76d" type="selectionEntry">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="215e-8a57-f4b8-874b" name="Aberrant" book="Rulebook" page="75" hidden="false" collective="false" type="model">
@@ -927,7 +935,14 @@
         </profile>
       </profiles>
       <rules/>
-      <infoLinks/>
+      <infoLinks>
+        <infoLink id="241d-64aa-9c19-3e4d" name="Support Troops" hidden="false" targetId="9547-f927-a04d-6de9" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
@@ -969,6 +984,8 @@
               <entryLinks/>
               <costs>
                 <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -979,6 +996,124 @@
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="175.0"/>
+        <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="da1a-408d-3268-b76d" name="Support Group Trog" book="Miniature Pack" page="#9411" hidden="false" collective="false" type="unit">
+      <profiles>
+        <profile id="5d19-fae2-14e5-dc47" name="Combat Stats" book="Rulebook" page="76" hidden="false" profileTypeId="25de-1bf8-ab80-d7e5" profileTypeName="Combat Stats">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Ranged" characteristicTypeId="cd14-fabb-551c-0b28" value="6"/>
+            <characteristic name="Heavy Weapons" characteristicTypeId="71fc-9bc1-89f3-f796" value="0"/>
+            <characteristic name="Close Combat" characteristicTypeId="a752-74f4-91f0-17e7" value="5"/>
+            <characteristic name="Soak" characteristicTypeId="f57a-432e-7c63-2f03" value="7"/>
+          </characteristics>
+        </profile>
+        <profile id="48aa-78e4-3d70-a838" name="Abilities" book="Rulebook" page="43" hidden="false" profileTypeId="33c0-4b41-8772-5bb4" profileTypeName="Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="STR" characteristicTypeId="5347-6c55-6c62-1220" value="5"/>
+            <characteristic name="DEX" characteristicTypeId="dfea-027c-41a7-6dca" value="6"/>
+            <characteristic name="STA" characteristicTypeId="9062-ea58-07e6-2585" value="6"/>
+            <characteristic name="MEN" characteristicTypeId="4dda-30f2-a9cf-ecf4" value="4"/>
+            <characteristic name="SOC" characteristicTypeId="e185-e99d-e0b5-3de8" value="1"/>
+          </characteristics>
+        </profile>
+        <profile id="c6cd-1dd4-ab99-49d1" name="Secondary Attributes" book="Rulebook" page="75" hidden="false" profileTypeId="5c1f-b21d-7cc7-bf5f" profileTypeName="Secondary Abilities">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <characteristics>
+            <characteristic name="Health" characteristicTypeId="4f50-7d5e-70d7-80cd" value="6"/>
+            <characteristic name="Init" characteristicTypeId="69c7-93fe-5e59-76d7" value="1"/>
+            <characteristic name="PSI/Taint" characteristicTypeId="76ba-63d0-814f-655f" value="5"/>
+            <characteristic name="APs" characteristicTypeId="b396-7827-5b33-4909" value="10"/>
+            <characteristic name="Command Radius" characteristicTypeId="68c0-a4fc-8906-8eda" value="0"/>
+            <characteristic name="Carrying Capacity" characteristicTypeId="2dcc-748a-9e6c-f032" value="5"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4d62-980a-0e29-de8c" name="Mutations" hidden="false" collective="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <constraints/>
+          <categoryLinks/>
+          <selectionEntries>
+            <selectionEntry id="a58e-512c-5422-d37a" name="Matter Acceleration" book="Rulebook" page="71" hidden="false" collective="false" type="upgrade">
+              <profiles>
+                <profile id="97b3-17a3-3b91-e87b" name="Matter Acceleration" book="Rulebook" page="71" hidden="false" profileTypeId="ca80-b611-54a5-fbf2" profileTypeName="Ranged Weapon">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers/>
+                  <characteristics>
+                    <characteristic name="APs" characteristicTypeId="3c0a-fe11-d445-0c4f" value="2"/>
+                    <characteristic name="Short Range" characteristicTypeId="ef03-c22a-d909-9299" value="8"/>
+                    <characteristic name="Long Range" characteristicTypeId="8212-3e35-fc57-aeb7" value="16"/>
+                    <characteristic name="Damage" characteristicTypeId="c345-c828-2990-c666" value="3"/>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b52b-9b79-96fb-0a4d" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a6c9-19e0-b54e-dbb8" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9010-a768-0231-61b9" name="Tough Skin (AR:1)" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6b98-bd36-9f99-b609" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="794d-3fde-d41f-58bc" type="min"/>
+              </constraints>
+              <categoryLinks/>
+              <selectionEntries/>
+              <selectionEntryGroups/>
+              <entryLinks/>
+              <costs>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+          <selectionEntryGroups/>
+          <entryLinks/>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks/>
+      <costs>
+        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="200.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1240,6 +1375,7 @@
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="20.0"/>
                 <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="4ecb-e565-9a79-6e29" name="Matter Acceleration" book="Rulebook" page="71" hidden="false" collective="false" type="upgrade">
@@ -1270,6 +1406,7 @@
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="30.0"/>
                 <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="00a7-512f-b70e-8972" name="Electric Arc" book="Ruleboo" page="71" hidden="false" collective="false" type="upgrade">
@@ -1299,6 +1436,8 @@
               <entryLinks/>
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="40.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="b567-75c6-ee0e-4887" name="Shooting Spines" book="Ruleboo" page="71" hidden="false" collective="false" type="upgrade">
@@ -1329,6 +1468,7 @@
               <costs>
                 <cost name="Points" costTypeId="5837-a331-efab-0a68" value="45.0"/>
                 <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+                <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>

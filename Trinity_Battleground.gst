@@ -1322,6 +1322,7 @@
       <costs>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="75.0"/>
         <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="2.0"/>
+        <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1955,6 +1956,12 @@
       <infoLinks/>
       <modifiers/>
       <description>Biotech equipment may be formated to its user for various benefits (see Psi-Format under Special Equipment)</description>
+    </rule>
+    <rule id="9547-f927-a04d-6de9" name="Support Troops" book="Rulebook" page="54" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
     </rule>
   </sharedRules>
   <sharedProfiles/>
