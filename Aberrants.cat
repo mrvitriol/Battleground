@@ -185,6 +185,13 @@
               <conditions/>
               <conditionGroups/>
             </modifier>
+            <modifier type="increment" field="2dcc-748a-9e6c-f032" value="1">
+              <repeats>
+                <repeat field="selections" scope="215e-8a57-f4b8-874b" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b60c-f168-9089-6442" repeats="1" roundUp="false"/>
+              </repeats>
+              <conditions/>
+              <conditionGroups/>
+            </modifier>
           </modifiers>
           <characteristics>
             <characteristic name="Health" characteristicTypeId="4f50-7d5e-70d7-80cd" value="0"/>
@@ -192,6 +199,7 @@
             <characteristic name="PSI/Taint" characteristicTypeId="76ba-63d0-814f-655f" value="0"/>
             <characteristic name="APs" characteristicTypeId="b396-7827-5b33-4909" value="3"/>
             <characteristic name="Command Radius" characteristicTypeId="68c0-a4fc-8906-8eda" value="0"/>
+            <characteristic name="Carrying Capacity" characteristicTypeId="2dcc-748a-9e6c-f032" value="0"/>
           </characteristics>
         </profile>
       </profiles>
