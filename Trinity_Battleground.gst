@@ -804,16 +804,15 @@
           </characteristics>
         </profile>
       </profiles>
-      <rules>
-        <rule id="cd44-9b97-1541-5e11" name="Aris Sonic Carbine" book="Rulebook" page="69" hidden="false">
+      <rules/>
+      <infoLinks>
+        <infoLink id="cbd2-cdde-9ff0-e486" name="Sonic Attack" hidden="false" targetId="2620-5af3-c79e-5e29" type="rule">
           <profiles/>
           <rules/>
           <infoLinks/>
           <modifiers/>
-          <description>Damage from the Aris Sonic Carbine is Soaked with STA only.</description>
-        </rule>
-      </rules>
-      <infoLinks/>
+        </infoLink>
+      </infoLinks>
       <modifiers/>
       <constraints/>
       <categoryLinks/>
@@ -1325,6 +1324,37 @@
         <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="b42b-009a-c394-efc4" name="Switch Targets" book="rrata" hidden="false" collective="false" type="upgrade">
+      <profiles/>
+      <rules>
+        <rule id="47cd-d39c-758d-9082" name="Switch Targets" book="" hidden="false">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+          <description>Psions with this Skill may reduce the AP cost for switching targets by one for each point of Skill possessed. Example: A character with Switch Targets 2 pays only one AP to change targets. Switch Targets is a Primary Skill and must be purchased as a beginning skill, you cannot roll using experience to aquire this skill.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="7fc9-0589-23d4-70d4" name="Errata" hidden="false" targetId="4b0e-1228-6808-beeb" type="rule">
+          <profiles/>
+          <rules/>
+          <infoLinks/>
+          <modifiers/>
+        </infoLink>
+      </infoLinks>
+      <modifiers/>
+      <constraints/>
+      <categoryLinks/>
+      <selectionEntries/>
+      <selectionEntryGroups/>
+      <entryLinks/>
+      <costs>
+        <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="1.0"/>
+        <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="a59a-4017-c685-48c1" name="Equipment" book="Rulebook" page="69" hidden="false" collective="false">
@@ -1747,18 +1777,7 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="92d6-f814-d3dc-174a" name="Psi-Format" book="Rulebook" page="51" hidden="false" collective="false" type="upgrade">
-          <profiles>
-            <profile id="94e0-ce52-014f-a2f7" name="Psi-Format" book="Rulebook" page="71" hidden="false" profileTypeId="75c3-d3be-b93b-85d4" profileTypeName="Special Eqipment">
-              <profiles/>
-              <rules/>
-              <infoLinks/>
-              <modifiers/>
-              <characteristics>
-                <characteristic name="APs" characteristicTypeId="2818-1f30-5991-7aaf" value="n/a"/>
-                <characteristic name="Effect" characteristicTypeId="c5fe-a184-4b5b-e81d" value="Spend Psi to improve the characteristic of the formated piece of equipment"/>
-              </characteristics>
-            </profile>
-          </profiles>
+          <profiles/>
           <rules>
             <rule id="f59a-9d86-53eb-db08" name="Psi-Format" book="Rulebook" page="71" hidden="false">
               <profiles/>
@@ -1772,14 +1791,21 @@
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>Anounce the spending of Psi before making any rolls with the piece of equipment. For every three points of Psi spent increase:
+              <description>Anounce the spending of Psi before making any rolls with the piece of equipment. For every two points of Psi spent increase:
 - Red (Ranged) Items: Increase Ranged by one die
 - Orange (Heavy Weapons) Items: Reduce Deviation by one 
 - Purple (Close Combat) Items: Increse Close Combat by one die
 - Blue (Armor) Items: Adds one die to Soak</description>
             </rule>
           </rules>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="2879-f449-ca7d-1cac" name="Errata" hidden="false" targetId="4b0e-1228-6808-beeb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints/>
           <categoryLinks/>
@@ -1924,7 +1950,14 @@
               <description>The sentry gun is deployed as a normal action; the character must drop the gun (at the normal two AP cost). The gun then acts independently, firing twice in any direction during the Move &amp; Shoot Segment if any legal targets are within range. The deploying player specifies target parameters, so a sentry gun generally doesn’t fire on friendly troops (IFF transponders and pattern-recognition programming keep the gun quiescent). A sentry gun doesn’t move once placed, and fires with its own Ranged score, as noted above. To destroy a sentry gun, one attack must be staged that inflicts seven damage. The gun continues to function normally if less than seven damage is inflicted.</description>
             </rule>
           </rules>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="c53e-5951-cc2c-cdfc" name="Errata" hidden="false" targetId="4b0e-1228-6808-beeb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints/>
           <categoryLinks/>
@@ -1962,6 +1995,19 @@
       <rules/>
       <infoLinks/>
       <modifiers/>
+    </rule>
+    <rule id="4b0e-1228-6808-beeb" name="Errata" book="Errata Document by Chris McDonough" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+    </rule>
+    <rule id="2620-5af3-c79e-5e29" name="Armor Defeating Attack" hidden="false">
+      <profiles/>
+      <rules/>
+      <infoLinks/>
+      <modifiers/>
+      <description>Damage from armor defeating attacks (such as sonic attacks) ignore armor and are Soaked with STA (+ Toughness) only.</description>
     </rule>
   </sharedRules>
   <sharedProfiles/>

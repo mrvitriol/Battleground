@@ -1086,6 +1086,7 @@
               <costs>
                 <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
                 <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="9010-a768-0231-61b9" name="Tough Skin (AR:1)" book="Rulebook" page="72" hidden="false" collective="false" type="upgrade">
@@ -1104,6 +1105,7 @@
               <costs>
                 <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
                 <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="1.0"/>
+                <cost name="Points" costTypeId="5837-a331-efab-0a68" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -1114,6 +1116,8 @@
       <entryLinks/>
       <costs>
         <cost name="Points" costTypeId="5837-a331-efab-0a68" value="200.0"/>
+        <cost name="Skill Points" costTypeId="16e5-4b41-e9c3-4f84" value="0.0"/>
+        <cost name="Carrying Capacity " costTypeId="edd2-9999-c1d3-cffb" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -1292,16 +1296,15 @@
                   </characteristics>
                 </profile>
               </profiles>
-              <rules>
-                <rule id="f5c1-010f-0078-fbb5" name="Sonic Scream" book="Rulebook" page="72" hidden="false">
+              <rules/>
+              <infoLinks>
+                <infoLink id="f2a9-18b0-adf2-7711" name="Sonic Attack" hidden="false" targetId="2620-5af3-c79e-5e29" type="rule">
                   <profiles/>
                   <rules/>
                   <infoLinks/>
                   <modifiers/>
-                  <description>Damage from a Sonic Scream is Soaked with the target&apos;s STA only.</description>
-                </rule>
-              </rules>
-              <infoLinks/>
+                </infoLink>
+              </infoLinks>
               <modifiers/>
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1b1-4b0c-08ee-9d71" type="max"/>
@@ -2014,16 +2017,15 @@
               </characteristics>
             </profile>
           </profiles>
-          <rules>
-            <rule id="bc07-5bf7-598b-08af" name="Boil" book="Rulebook" page="65" hidden="false">
+          <rules/>
+          <infoLinks>
+            <infoLink id="0431-8961-52f0-4fcc" name="Sonic Attack" hidden="false" targetId="2620-5af3-c79e-5e29" type="rule">
               <profiles/>
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>Armor is useless against this power, the target resists damage using STA instead of Soak.</description>
-            </rule>
-          </rules>
-          <infoLinks/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e41b-6976-2f94-17df" type="max"/>
@@ -2499,7 +2501,7 @@ This power may be activated in any segment of the Action Phase, not simply Move 
               <modifiers/>
               <characteristics>
                 <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="0"/>
-                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value=""/>
+                <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="0"/>
                 <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="4"/>
                 <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
                 <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
@@ -2513,10 +2515,17 @@ This power may be activated in any segment of the Action Phase, not simply Move 
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>Increase the Aberrant&apos;s next attack (taint powers included) roll by two dice.</description>
+              <description>Increase the Aberrant&apos;s next attack (Ranged, Heavy Weapons or taint powers, but not Close Combat) roll by two dice.</description>
             </rule>
           </rules>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="53b0-0aca-3fd4-10a6" name="Errata" hidden="false" targetId="4b0e-1228-6808-beeb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dd40-ec21-ffa6-5b20" type="max"/>
@@ -3046,10 +3055,17 @@ This power may be activated in any segment of the Action Phase, not simply Move 
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>This power may be used on only one model within 18 inches. No roll to hit is required; simply announce the target and spend the Action Points and Taint Points. Both the Aberrant and the target roll dice equal to their respective MEN ratings. If the results are equal or the Aberrant gets more successes, place a Confused Counter next to the target. If the target scores more successes, there is no effect. Upon the victim&apos;s next opportunity to spend Action Points, the Confused Counter is removed in lieu of taking any actions. </description>
+              <description>This power may be used on only one model within 18 inches (cover does not apply, line-of-sight does however). No roll to hit is required; simply announce the target and spend the Action Points and Taint Points. The Aberrant rolls dice equal to the MEN rating. If the result is equal or greater then the MEN score of the target, place a Confused Counter next to the target. Upon the victim&apos;s next opportunity to spend Action Points, the Confused Counter is removed in lieu of taking any actions. </description>
             </rule>
           </rules>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="8fa7-8939-5248-4e3d" name="Errata" hidden="false" targetId="4b0e-1228-6808-beeb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="4fe4-814e-a70e-aa1e" type="max"/>
@@ -3087,10 +3103,18 @@ This power may be activated in any segment of the Action Phase, not simply Move 
               <rules/>
               <infoLinks/>
               <modifiers/>
-              <description>Roll Taint to activate this power. The player must roll successes equal to or in excess of the target&apos;s Armor Rating to destroy his protection. This power works only on psion armor (blue counters). A piece of armor destroyed this way is removed from play permanently.</description>
+              <description>Roll Taint to activate this power. The player must roll successes in excess of the target&apos;s Armor Rating to destroy his protection. This power works only on psion armor (blue counters). A piece of armor destroyed this way is removed from play permanently.
+Armor destroyed by use of this power may be repaired in campaign games. Roll a number of dice equal to the rating of the Armor. If you score any successes, the Armor is repaired after the battle and may be used again in the next game. Psi-formatting may be used to increase the rating of Armor when it is attacked with this power.</description>
             </rule>
           </rules>
-          <infoLinks/>
+          <infoLinks>
+            <infoLink id="bebc-19c3-19cb-cb0f" name="Errata" hidden="false" targetId="4b0e-1228-6808-beeb" type="rule">
+              <profiles/>
+              <rules/>
+              <infoLinks/>
+              <modifiers/>
+            </infoLink>
+          </infoLinks>
           <modifiers/>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="0c03-36f4-c643-724d" type="max"/>

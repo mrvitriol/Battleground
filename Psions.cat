@@ -785,6 +785,29 @@
                   </constraints>
                   <categoryLinks/>
                 </entryLink>
+                <entryLink id="c4e1-892d-51b6-8af9" name="Switch Targets" hidden="false" targetId="b42b-009a-c394-efc4" type="selectionEntry">
+                  <profiles/>
+                  <rules/>
+                  <infoLinks/>
+                  <modifiers>
+                    <modifier type="increment" field="9cba-34cd-ec77-c42c" value="1">
+                      <repeats>
+                        <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="35ae-33c4-35a7-bcf7" repeats="1" roundUp="false"/>
+                        <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="6709-9b4e-f639-473b" repeats="1" roundUp="false"/>
+                        <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0c2a-0d98-fda5-95fb" repeats="2" roundUp="false"/>
+                        <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0af2-ba67-e6f8-021e" repeats="2" roundUp="false"/>
+                        <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="a447-e017-d02d-f4a4" repeats="3" roundUp="false"/>
+                        <repeat field="selections" scope="b64d-7248-ace8-8253" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="4fb1-10f6-927c-2f30" repeats="3" roundUp="false"/>
+                      </repeats>
+                      <conditions/>
+                      <conditionGroups/>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="b64d-7248-ace8-8253" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9cba-34cd-ec77-c42c" type="max"/>
+                  </constraints>
+                  <categoryLinks/>
+                </entryLink>
               </entryLinks>
             </selectionEntryGroup>
             <selectionEntryGroup id="8408-3229-652e-6ffa" name="Secondary Skills" book="Rulebook" page="75" hidden="false" collective="false">
@@ -1066,7 +1089,7 @@
                           <modifiers/>
                           <characteristics>
                             <characteristic name="Range" characteristicTypeId="754b-bc3b-d746-4614" value="1"/>
-                            <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="2"/>
+                            <characteristic name="APs" characteristicTypeId="03c6-1a83-b7dd-2b45" value="1"/>
                             <characteristic name="Psi/Taint Cost" characteristicTypeId="764b-9903-7944-b9ab" value="3"/>
                             <characteristic name="Damage" characteristicTypeId="9fc5-105a-3684-0efc" value="None"/>
                             <characteristic name="Attack" characteristicTypeId="f4a8-2a39-c723-57b3" value="None"/>
@@ -1083,7 +1106,14 @@
                           <description>The effect grants the psion a three-die bonus against attackers who must draw line of sight through the icy shield. Place the Ice Cover Counter in contact with the psion’s base, in any direction desired.</description>
                         </rule>
                       </rules>
-                      <infoLinks/>
+                      <infoLinks>
+                        <infoLink id="f4d6-9b4e-bb95-9430" name="Errata" hidden="false" targetId="4b0e-1228-6808-beeb" type="rule">
+                          <profiles/>
+                          <rules/>
+                          <infoLinks/>
+                          <modifiers/>
+                        </infoLink>
+                      </infoLinks>
                       <modifiers/>
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb70-d1f3-1b7f-a773" type="max"/>
